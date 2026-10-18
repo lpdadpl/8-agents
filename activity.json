@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-001",
+      "action": "escaneado",
+      "detail": "GHOSTI añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-002",
+      "action": "escaneado",
+      "detail": "HeyGrok añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-003",
+      "action": "escaneado",
+      "detail": "RSGP añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-004",
+      "action": "escaneado",
+      "detail": "FABLES añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-005",
+      "action": "escaneado",
+      "detail": "ALLOX añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-006",
+      "action": "escaneado",
+      "detail": "索拉纳 añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-007",
+      "action": "escaneado",
+      "detail": "TRUMP añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-008",
+      "action": "escaneado",
+      "detail": "PUMP añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-009",
+      "action": "escaneado",
+      "detail": "ZEC añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-17T21:46:10.806529+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261017-010",
+      "action": "escaneado",
+      "detail": "WETH añadido desde top10 (GeckoTerminal)"
+    },
+    {
+      "ts": "2026-10-18T11:30:47.394918+02:00",
+      "agent": "BOT DESK",
+      "lead_id": null,
+      "action": "info",
+      "detail": "Panel oficina desplegado"
+    }
+  ]
+}

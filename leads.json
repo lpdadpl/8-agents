@@ -1,0 +1,174 @@
+{
+  "leads": [
+    {
+      "lead_id": "L-20261017-001",
+      "symbol": "GHOSTI",
+      "contract": "9JxPFZ68WQBQR8JwMStZfeqxhSm1X79i3rpyHHbbe8B9",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-002",
+      "symbol": "HeyGrok",
+      "contract": "A3SKFX3HMcQ9yprreoS6BuUcqpYDhnceTFNjTsZV1uMZ",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-003",
+      "symbol": "RSGP",
+      "contract": "EjPr9rQuavUaSMs2HHsbPdAi5KWfvwwF2r1AdW9kRkLR",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-004",
+      "symbol": "FABLES",
+      "contract": "H73g7ybHwtY4A4U4pxMS9xv9s3BQMPrtz82Ugd8VQskN",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-005",
+      "symbol": "ALLOX",
+      "contract": "DneSmn3NenxC8CMm4vTJUpTYfigZZKWWbyymq8MjFkw3",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-006",
+      "symbol": "索拉纳",
+      "contract": "CDKjFrKZSgmRGDa157P5YBaiJKS7mbWibP1VxWiRxvWC",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-007",
+      "symbol": "TRUMP",
+      "contract": "333KtCBGCYMoTgjbwVwVXAQSw6A5RyExg9tt1H3oesF7",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-008",
+      "symbol": "PUMP",
+      "contract": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-009",
+      "symbol": "ZEC",
+      "contract": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-010",
+      "symbol": "WETH",
+      "contract": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:46:10.806529+02:00",
+          "by": "SEARCH"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-10-17T21:45:46.048524+02:00",
+  "source": "GeckoTerminal API, top 60 pools by 24h vol, aggregated 1h vol per base token (excl. SOL/USDC/USDT)",
+  "tokens": [
+    {
+      "symbol": "GHOSTI",
+      "name": "ghostyxspace",
+      "mint": "9JxPFZ68WQBQR8JwMStZfeqxhSm1X79i3rpyHHbbe8B9",
+      "volume_1h_usd": 8322333.03,
+      "top_pool": "2UF2WgMaqzXFuqRVZgCtzsXfi3qiEssLuRYiqY4hnRLm",
+      "rank": 1,
+      "source_url": "https://www.geckoterminal.com/solana/pools/2UF2WgMaqzXFuqRVZgCtzsXfi3qiEssLuRYiqY4hnRLm",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/9JxPFZ68WQBQR8JwMStZfeqxhSm1X79i3rpyHHbbe8B9"
+    },
+    {
+      "symbol": "HeyGrok",
+      "name": "HeyGrok",
+      "mint": "A3SKFX3HMcQ9yprreoS6BuUcqpYDhnceTFNjTsZV1uMZ",
+      "volume_1h_usd": 5268251.58,
+      "top_pool": "G3uVmcVEkZELbP89RvgBpVAEKx7u5yrQ5CMmUwDueDNP",
+      "rank": 2,
+      "source_url": "https://www.geckoterminal.com/solana/pools/G3uVmcVEkZELbP89RvgBpVAEKx7u5yrQ5CMmUwDueDNP",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/A3SKFX3HMcQ9yprreoS6BuUcqpYDhnceTFNjTsZV1uMZ"
+    },
+    {
+      "symbol": "RSGP",
+      "name": "Cambria",
+      "mint": "EjPr9rQuavUaSMs2HHsbPdAi5KWfvwwF2r1AdW9kRkLR",
+      "volume_1h_usd": 4454986.32,
+      "top_pool": "8dvFN9YTbWW3Lo6zV9Uxs6Mzkgg6fyuA6vAYDN94twvN",
+      "rank": 3,
+      "source_url": "https://www.geckoterminal.com/solana/pools/8dvFN9YTbWW3Lo6zV9Uxs6Mzkgg6fyuA6vAYDN94twvN",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/EjPr9rQuavUaSMs2HHsbPdAi5KWfvwwF2r1AdW9kRkLR"
+    },
+    {
+      "symbol": "FABLES",
+      "name": "FABLES",
+      "mint": "H73g7ybHwtY4A4U4pxMS9xv9s3BQMPrtz82Ugd8VQskN",
+      "volume_1h_usd": 4427688.82,
+      "top_pool": "AXxbAPUvZKcqi6LVTctq4qWRrhVYwosUDmVsgb4t7xgg",
+      "rank": 4,
+      "source_url": "https://www.geckoterminal.com/solana/pools/AXxbAPUvZKcqi6LVTctq4qWRrhVYwosUDmVsgb4t7xgg",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/H73g7ybHwtY4A4U4pxMS9xv9s3BQMPrtz82Ugd8VQskN"
+    },
+    {
+      "symbol": "ALLOX",
+      "name": "AlloX",
+      "mint": "DneSmn3NenxC8CMm4vTJUpTYfigZZKWWbyymq8MjFkw3",
+      "volume_1h_usd": 3887040.86,
+      "top_pool": "Ds2fyB2fnz8F1KjZ8WycHMh2u6aRpjy81errtEtY5nEw",
+      "rank": 5,
+      "source_url": "https://www.geckoterminal.com/solana/pools/Ds2fyB2fnz8F1KjZ8WycHMh2u6aRpjy81errtEtY5nEw",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/DneSmn3NenxC8CMm4vTJUpTYfigZZKWWbyymq8MjFkw3"
+    },
+    {
+      "symbol": "索拉纳",
+      "name": "索拉纳",
+      "mint": "CDKjFrKZSgmRGDa157P5YBaiJKS7mbWibP1VxWiRxvWC",
+      "volume_1h_usd": 2195970.03,
+      "top_pool": "331mdGiFiTna85znH9ck2qF8uvxKXHjYLiQPbcqSt4Bu",
+      "rank": 6,
+      "source_url": "https://www.geckoterminal.com/solana/pools/331mdGiFiTna85znH9ck2qF8uvxKXHjYLiQPbcqSt4Bu",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/CDKjFrKZSgmRGDa157P5YBaiJKS7mbWibP1VxWiRxvWC"
+    },
+    {
+      "symbol": "TRUMP",
+      "name": "Trump Coin",
+      "mint": "333KtCBGCYMoTgjbwVwVXAQSw6A5RyExg9tt1H3oesF7",
+      "volume_1h_usd": 2172962.93,
+      "top_pool": "hSUPSogTVotzEPdFphb2pV1Sxf6TGqd18YBKvCx3dSU",
+      "rank": 7,
+      "source_url": "https://www.geckoterminal.com/solana/pools/hSUPSogTVotzEPdFphb2pV1Sxf6TGqd18YBKvCx3dSU",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/333KtCBGCYMoTgjbwVwVXAQSw6A5RyExg9tt1H3oesF7"
+    },
+    {
+      "symbol": "PUMP",
+      "name": "Pump",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "volume_1h_usd": 418287.98,
+      "top_pool": "BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW",
+      "rank": 8,
+      "source_url": "https://www.geckoterminal.com/solana/pools/BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"
+    },
+    {
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+      "volume_1h_usd": 378279.51,
+      "top_pool": "2TAgfogn8JRwwTnsGKUa6WUT5Xdv1iMEzfEDMor68X9C",
+      "rank": 9,
+      "source_url": "https://www.geckoterminal.com/solana/pools/2TAgfogn8JRwwTnsGKUa6WUT5Xdv1iMEzfEDMor68X9C",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS"
+    },
+    {
+      "symbol": "WETH",
+      "name": "Wrapped Ether (Wormhole)",
+      "mint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "volume_1h_usd": 194725.81,
+      "top_pool": "HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF",
+      "rank": 10,
+      "source_url": "https://www.geckoterminal.com/solana/pools/HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF",
+      "api_url": "https://api.geckoterminal.com/api/v2/networks/solana/tokens/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
+    }
+  ],
+  "verification": [
+    {
+      "symbol": "GHOSTI",
+      "mint": "9JxPFZ68WQBQR8JwMStZfeqxhSm1X79i3rpyHHbbe8B9",
+      "checked_against": "DexScreener API tokens/v1",
+      "exact_match": true
+    },
+    {
+      "symbol": "HeyGrok",
+      "mint": "A3SKFX3HMcQ9yprreoS6BuUcqpYDhnceTFNjTsZV1uMZ",
+      "checked_against": "DexScreener API tokens/v1",
+      "exact_match": true
+    }
+  ],
+  "warnings": [
+    "TRUMP 333Kt... NO es el mint oficial de $TRUMP (6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN): posible imitación."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "floor": "RUNNING",
+  "updated_at": "2026-10-18T11:32:39.374924+02:00",
+  "agents": {
+    "BOT DESK": {
+      "role": "Jefe de Mesa",
+      "status": "RUNNING",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00"
+    },
+    "SEARCH": {
+      "role": "Descubrimiento",
+      "status": "RUNNING",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00"
+    },
+    "RISK": {
+      "role": "Auditoría de contratos",
+      "status": "RUNNING",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00"
+    },
+    "WHALE": {
+      "role": "Flujo de ballenas",
+      "status": "RUNNING",
+      "updated_at": "2026-10-18T07:49:10.723672+00:00"
+    },
+    "SHILL": {
+      "role": "Sentimiento social",
+      "status": "RUNNING",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00"
+    },
+    "SNIPER": {
+      "role": "Ejecución (requiere APPROVE)",
+      "status": "RUNNING",
+      "updated_at": "2026-10-17T21:46:35.488525+02:00"
+    },
+    "EXIT": {
+      "role": "Salidas",
+      "status": "RUNNING",
+      "updated_at": "2026-10-17T21:46:10.806529+02:00"
+    },
+    "RUG": {
+      "role": "Vigilancia de rugs",
+      "status": "RUNNING",
+      "updated_at": "2026-10-18T11:32:39.374740+02:00"
+    }
+  }
+}

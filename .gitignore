@@ -1,0 +1,11 @@
+.auth
+.sync
+.render_url
+.env
+*.log
+*.lock
+*.tmp
+*.bak
+__pycache__/
+pools*.json
+office.png
