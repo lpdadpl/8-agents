@@ -1,6 +1,6 @@
 {
   "floor": "RUNNING",
-  "updated_at": "2026-10-18T11:32:39.374924+02:00",
+  "updated_at": "2026-10-18T09:39:05.085173+00:00",
   "agents": {
     "BOT DESK": {
       "role": "Jefe de Mesa",
@@ -25,7 +25,7 @@
     "SHILL": {
       "role": "Sentimiento social",
       "status": "RUNNING",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00"
+      "updated_at": "2026-10-18T09:39:04.836496+00:00"
     },
     "SNIPER": {
       "role": "Ejecución (requiere APPROVE)",

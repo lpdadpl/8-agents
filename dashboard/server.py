@@ -8,6 +8,9 @@ def rd(f):
     if MEM: return json.loads(json.dumps(STORE.get(f,{})))
     try: return json.load(open(f"{D}/{f}"))
     except Exception: return {}
+def _ts(x):
+    try: return datetime.datetime.fromisoformat(x.get("updated_at","")).timestamp()
+    except Exception: return 0
 def wr_state(fn):
     if MEM:
         with LK:
@@ -167,7 +170,7 @@ class H(BaseHTTPRequestHandler):
         with LK:
             for k in ("state.json","leads.json","top10.json","activity.json"):
                 if k in b and b[k]:
-                    if k=="state.json" and MEM and STORE.get(k,{}).get("updated_at","")>b[k].get("updated_at",""): continue
+                    if k=="state.json" and MEM and _ts(STORE.get(k,{}))>_ts(b[k]): continue
                     STORE[k]=b[k]
         self.snd(200,json.dumps({k:STORE.get(k) for k in ("state.json",)}),"application/json")
     def do_GET(self):
