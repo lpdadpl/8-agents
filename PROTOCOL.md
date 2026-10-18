@@ -29,3 +29,10 @@ Ningún agente guarda claves ni frases semilla. Ninguna firma sin APPROVE litera
 - Si Render se reinicia (pierde memoria), el siguiente ciclo lo vuelve a poblar desde el box.
 - Los agentes SIEMPRE leen el state.json local del box; una pausa desde la web llega en ≤30-60 s.
 - Para actualizar el código en Render: volver a poner `APP_B64=$(base64 -w0 server.py)` en las env vars y redeployar.
+
+## activity.json (log por agente, opcional)
+`{"entries":[{"ts":ISO,"agent":"SEARCH|RISK|...|BOT DESK","lead_id":"L-...|null","action":"escaneado|aprobado|rechazado|confirmado|ejecutado|cerrado|alerta|info","detail":str}]}`
+Los agentes AÑADEN al final (leer, append, escritura atómica tmp+rename); nunca borran. Se sincroniza a Render igual que leads/top10 (el box manda). El panel muestra las últimas 30 por agente en "Ver últimas operaciones".
+
+## UI oficina
+`/` = oficina animada (clic en bot: ver operaciones / parar-reanudar; clic en jefe: histórico / parar-reanudar todo con confirmación). `/clasico` = tabla antigua. APIs: /api/state, /api/leads, /api/top10, /api/activity (Basic Auth); /api/sync (Bearer SYNC_TOKEN); /healthz.
