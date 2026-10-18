@@ -76,6 +76,188 @@
       "lead_id": null,
       "action": "info",
       "detail": "Panel oficina desplegado"
+    },
+    {
+      "ts": "2026-10-18T17:57:23.772308+02:00",
+      "agent": "SEARCH",
+      "lead_id": null,
+      "action": "info",
+      "detail": "Migración SRCH 2026-10-17: 20 migrados, 10 saltados (7 aprobados RISK→stage aprobado/approval pendiente; 13 rechazados→stage escaneado/approval RECHAZADO). Discrepancias numeración: 0; colisiones ID: 10."
+    },
+    {
+      "ts": "2026-10-18T17:57:57.749248+02:00",
+      "agent": "SEARCH",
+      "lead_id": null,
+      "action": "info",
+      "detail": "Completada migración SRCH 001-010: 10 añadidos (1 aprobados, 9 rechazados). Seed GeckoTerminal renumerado L-20261017-001..010 → L-20261017-101..110 para respetar IDs únicos y NNN de SRCH. Saltados: 0."
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-001",
+      "action": "escaneado",
+      "detail": "CATSZN 3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump | DexScreener pumpswap: liquidez $85,033, vol 24h $3,367,760, 82887 compras/59325 ventas (ticket medio $24), edad 13.5 h; vol/liq 40x alto | https://dexscreener.com/solana/g3na7nutwffaek7mmgp9zusar3brqqdv4eqanwnptswc"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-002",
+      "action": "escaneado",
+      "detail": "mucron 3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump | DexScreener pumpswap: liquidez $63,065, vol 24h $3,291,748, 31585 compras/24845 ventas (ticket medio $58), edad 6.7 h; vol/liq 52x: posible wash trading | https://dexscreener.com/solana/af7w724kw2a7z5pbacas6rnq8ubikewqisa715bxgbfa"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-003",
+      "action": "escaneado",
+      "detail": "SUPERCORE 3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump | DexScreener pumpswap: liquidez $54,023, vol 24h $3,089,582, 26216 compras/22004 ventas (ticket medio $64), edad 14.0 h; vol/liq 57x: posible wash trading | https://dexscreener.com/solana/6axb1e6utmsz77zhncryfe7augzbxxcunhcodhd3odag"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-004",
+      "action": "escaneado",
+      "detail": "Gold GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd | DexScreener pumpswap: liquidez $32,491, vol 24h $575,197, 8173 compras/5504 ventas (ticket medio $42), edad 2.4 h; sin señales claras de wash trading | https://dexscreener.com/solana/djbrnsdafbdsmxu5mjlvx73pzbyccweuzfwcug9dnezx"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-005",
+      "action": "escaneado",
+      "detail": "bwigitte 4bLHGwcRd4GCVsSP8uRMcrWMh1nBCVcNM2CC9AWPpump | DexScreener pumpswap: liquidez $22,206, vol 24h $168,349, 2018 compras/2011 ventas (ticket medio $42), edad 4.0 h; compras/ventas casi 1:1 (patrón bot) | https://dexscreener.com/solana/6rzhmjuqp2xzsaj1fnc8u1uezmfdqjf4sc7tcevvh2dp"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-006",
+      "action": "escaneado",
+      "detail": "trenchcat 4hCVKZKpuRdFtnRXC9fqEdrrQwEYuw4Rbxipwbwdpump | DexScreener pumpswap: liquidez $18,119, vol 24h $89,030, 1023 compras/761 ventas (ticket medio $50), edad 0.8 h; sin señales claras de wash trading | https://dexscreener.com/solana/6eblwchrnvkzks9q8xytzeelu9bavta13pyphwrjhr94"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-007",
+      "action": "escaneado",
+      "detail": "LARPSCAN 2qfUSuUfKuxHyYEMYreiYdK3YyapFzbgq2c6hhfPpump | DexScreener pumpswap: liquidez $14,972, vol 24h $76,305, 1065 compras/729 ventas (ticket medio $43), edad 4.6 h; sin señales claras de wash trading | https://dexscreener.com/solana/2alatuc5rmitb9cobteg48deedgem1kdcuhq6vorxhmu"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-008",
+      "action": "escaneado",
+      "detail": "iMolest  7iYM9cjpKKNyLvJfq4pYyjubk83dnqxtPDrRdf77pump | DexScreener pumpswap: liquidez $13,960, vol 24h $1,182,953, 16738 compras/12097 ventas (ticket medio $41), edad 17.4 h; vol/liq 85x: posible wash trading | https://dexscreener.com/solana/do8mgcnen6ydyeauytntt9q7xdxmsjksvbzx2ehhgrzk"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-009",
+      "action": "escaneado",
+      "detail": "RIOT Fd61znB4XAdwqrFexC91aoxKcz1iheqx5j4VZCG4pump | DexScreener pumpswap: liquidez $11,642, vol 24h $43,703, 451 compras/534 ventas (ticket medio $44), edad 0.1 h; más ventas que compras | https://dexscreener.com/solana/9nuxbp7bgwjoxx3cdz1hrku1vrfcmvy1j3v6jtxwzjox"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-010",
+      "action": "escaneado",
+      "detail": "RiotMap 2B7RXYwzSjDubnvqz8GSi1MKSoCsPeLmahyM92k9pump | GeckoTerminal pumpswap: liquidez $10,303, vol 24h $18,529, 250 compras/226 ventas (ticket medio $39), edad 0.1 h; sin señales claras de wash trading | https://www.geckoterminal.com/solana/pools/8mLErp5Q6vdB1JKbYF6GzJtsr6tVzHt79eYLxS2H82Bt"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-011",
+      "action": "escaneado",
+      "detail": "SBC KVjKrtzwFKmocPVoYVswKUbxTkNuuCKeJ4r8688pump | DexScreener pumpswap: liquidez $9,096, vol 24h $9,803, 79 compras/130 ventas (ticket medio $47), edad 19.4 h; más ventas que compras | https://dexscreener.com/solana/qghce8p7b15pvx83pnbybjwddtw6cfw64sqax5jy36x"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-012",
+      "action": "escaneado",
+      "detail": "Pluto 6jijW4Ne924kqj8XYLKXFrhpeHy5y2qxoKgGzJHQpump | DexScreener pumpswap: liquidez $8,953, vol 24h $70,735, 1100 compras/955 ventas (ticket medio $34), edad 17.2 h; sin señales claras de wash trading | https://dexscreener.com/solana/5frtjsz43ms1kz2zrha9qlhteehemn7hpk43ntrbpd4u"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-013",
+      "action": "escaneado",
+      "detail": "AFC 3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump | DexScreener pumpswap: liquidez $8,340, vol 24h $1,851,238, 21883 compras/19713 ventas (ticket medio $45), edad 13.3 h; vol/liq 222x: posible wash trading | https://dexscreener.com/solana/89jpenunodkjogzj8nzvxddarigipgymsmjf2muoxmxx"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-014",
+      "action": "escaneado",
+      "detail": "FTR 7kxTnPr4cnboiiCmE3RKgj65jcDf36QKiYyXE2igpump | DexScreener pumpswap: liquidez $8,126, vol 24h $579,733, 8158 compras/6598 ventas (ticket medio $39), edad 1.2 h; vol/liq 71x: posible wash trading; ticker FTR duplicado en el escaneo (posible copycat) | https://dexscreener.com/solana/hfxqmnichu4uncnqgpbojosghogp8bex6bfpjbce1tzo"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-015",
+      "action": "escaneado",
+      "detail": "rema 61DMLhgVgiKuTNPhnxcureAWw5htb4wLRhBgYPukpump | DexScreener pumpswap: liquidez $5,049, vol 24h $238,954, 4875 compras/3240 ventas (ticket medio $29), edad 4.1 h; vol/liq 47x alto | https://dexscreener.com/solana/dvx2cavas5xyxv86dx1e32tryt8pcchmntifixw6qpfh"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-016",
+      "action": "escaneado",
+      "detail": "Bien CXmRHXFzgKggtFVLGGqR7LuPwzgRXENJEnA1nR9q7CdA | DexScreener pumpswap: liquidez $4,007, vol 24h $96,918, 1695 compras/1772 ventas (ticket medio $28), edad 0.5 h; vol/liq 24x alto; compras/ventas casi 1:1 (patrón bot) | https://dexscreener.com/solana/2nxxns63vbcjpejdpuvf5nf8rmhkc7seyd9dcjzcgkfq"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-017",
+      "action": "escaneado",
+      "detail": "PIPS 4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump | DexScreener pumpswap: liquidez $3,555, vol 24h $468,365, 4872 compras/4266 ventas (ticket medio $51), edad 9.2 h; vol/liq 132x: posible wash trading | https://dexscreener.com/solana/bpfj6kjbqmvid6fumbnzxpyswzkuejhg1tce4i49kj7e"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-018",
+      "action": "escaneado",
+      "detail": "Midas 9hY7ko6b1XRkoNJ1JgAER4grVJqx1cxvHWD3KiTLpump | DexScreener pumpswap: liquidez $2,458, vol 24h $98,022, 1369 compras/1224 ventas (ticket medio $38), edad 1.2 h; vol/liq 40x alto | https://dexscreener.com/solana/2bafbvuruzgthp3px4z7m5hnb5y5ejxzphdhpco95ieh"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-019",
+      "action": "escaneado",
+      "detail": "DOGSHIT AnWDYstQBFDjM4KVghwozpd28WVbiADzZHGzANUuUBoB | GeckoTerminal pump-fun: liquidez $2,442, vol 24h $2,217, 5 compras/4 ventas (ticket medio $246), edad 0.1 h; ticker DOGSHIT duplicado en el escaneo (posible copycat); aún en bonding curve de pump.fun | https://www.geckoterminal.com/solana/pools/D25qPUEgZfzMZabFR2G9SKrK9q83LvyjjYoA4pvuCsfG"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-020",
+      "action": "escaneado",
+      "detail": "EV GKaQ5Xp22z4TeZqiSqoLhmn84xcgkp8HYp3atsCjpump | GeckoTerminal pump-fun: liquidez $2,419, vol 24h $2,608, 11 compras/9 ventas (ticket medio $130), edad 0.1 h; aún en bonding curve de pump.fun | https://www.geckoterminal.com/solana/pools/8XrDcbqTcvXZ2v66ShNsSq9tsLNiFLCYtMgx5jQ8vxqY"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-021",
+      "action": "escaneado",
+      "detail": "DOGSHIT FWqkH6CosAgJRF4WW3cgkP4X4P82RmqRie9wHENBqj2J | GeckoTerminal pump-fun: liquidez $2,271, vol 24h $2,651, 14 compras/13 ventas (ticket medio $98), edad 0.1 h; ticker DOGSHIT duplicado en el escaneo (posible copycat); aún en bonding curve de pump.fun | https://www.geckoterminal.com/solana/pools/5STbrk1Ch2cj9PWRSbpb2yjxLp5YNBiRjj7DYv8dPmxK"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-022",
+      "action": "escaneado",
+      "detail": "KRAWD 5gYtAc9xjJxUqFbgEAM2JMuyEDGaaYivupcU5Y1Qpump | DexScreener pumpswap: liquidez $2,167, vol 24h $63,216, 945 compras/857 ventas (ticket medio $35), edad 1.3 h; vol/liq 29x alto; compras/ventas casi 1:1 (patrón bot) | https://dexscreener.com/solana/arne2u63hupp9eo74epe7kmzsbwrg6jeqezdczsxu39n"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": "L-20261018-023",
+      "action": "escaneado",
+      "detail": "DON 8qBq4WwYvdsBEdrwJjF2EXCtg2AQuxjU8rmHoQVTpump | DexScreener pumpswap: liquidez $2,041, vol 24h $204,836, 561 compras/663 ventas (ticket medio $167), edad 1.0 h; vol/liq 100x: posible wash trading; más ventas que compras | https://dexscreener.com/solana/fais2mrdi43uwpmmtfuvuhf3xypkrrasdkav9scoalgw"
+    },
+    {
+      "ts": "2026-10-18T18:01:13.251037+02:00",
+      "agent": "SEARCH",
+      "lead_id": null,
+      "action": "info",
+      "detail": "Escaneo horario: 37 tokens <24h con liq>$1k (GeckoTerminal new_pools p1-3 + DexScreener perfiles/boosts/CTO, 55 tokens Solana). 23 leads nuevos (L-20261018-001..L-20261018-023); 0 ya existentes; 14 descartados por vol 24h <$1k (sin actividad real). Fuentes fallidas: ninguna. pump.fun y gmgn no consultados (bloquean)."
     }
   ]
 }

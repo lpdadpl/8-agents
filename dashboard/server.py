@@ -87,8 +87,34 @@ table{border-collapse:collapse;width:100%;font-size:12px}td,th{border:1px solid 
 .xx{position:absolute;right:16px;top:14px;font-size:22px;cursor:pointer;opacity:.7}
 .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#5a6cff;padding:8px 16px;border-radius:20px;z-index:60;font-size:13px}
 #modal .box{background:#1b1d2ef0;backdrop-filter:blur(14px);border:1px solid #fff2}
+
+#sb{position:fixed;top:0;left:0;height:100%;width:260px;background:#14151fe8;backdrop-filter:blur(14px);border-right:1px solid #fff2;z-index:35;overflow:auto;transition:transform .3s cubic-bezier(.2,.8,.2,1);padding:10px 12px 20px}
+body.sbc #sb{transform:translateX(-100%)}body:not(.sbc) #floor{margin-left:max(280px,calc((100vw - 1150px)/2))}#floor{transition:margin .3s}
+#sbt{position:fixed;top:10px;left:10px;z-index:36;border:1px solid #fff3;background:#1f2133e0;color:#fff;border-radius:10px;width:38px;height:38px;font-size:18px;cursor:pointer;transition:left .3s}
+body:not(.sbc) #sbt{left:214px}
+.sbh{padding:6px 0 14px;font-size:15px;padding-right:46px}.sbs{margin-bottom:16px}.sbt{font-size:11px;text-transform:uppercase;letter-spacing:1px;opacity:.55;margin:4px 0 6px}
+#sb .pill{display:block;text-align:center;font-weight:700;padding:6px}.fn{display:grid;grid-template-columns:1fr auto;gap:3px 8px;font-size:12px;margin:8px 0}.fn .dotc{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.ql a,.nav{display:flex;align-items:center;gap:8px;color:#dde;text-decoration:none;padding:7px 9px;border-radius:10px;font-size:13px;transition:.2s}.ql a:hover,.nav:hover{background:#ffffff14}
+.ql{display:flex;gap:4px;flex-wrap:wrap}.nav .mini{width:28px;height:28px;border-radius:8px;overflow:hidden;background:#0004;flex:none}.nav .mini svg{width:46px;margin:-4px 0 0 -9px}
+.nav .sd{margin-left:auto;width:8px;height:8px;border-radius:50%}
+#sbshade{display:none}
+@media(max-width:800px){body:not(.sbc) #floor{margin-left:auto}#sb{box-shadow:20px 0 40px #0009}body:not(.sbc) #sbshade{display:block;position:fixed;inset:0;background:#0007;z-index:34}}
+#floor{margin-top:56px}
+.doc h2{margin:0 0 6px}.doc h3{margin:18px 0 6px;font-size:15px;color:#9fb0ff}.doc p,.doc li{font-size:14px;line-height:1.55;opacity:.92}
+.doc code{background:#0006;padding:1px 6px;border-radius:6px}.fl2{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.fl2 span{padding:4px 10px;border-radius:10px;color:#111;font-weight:700;font-size:12px}
+.rt2{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13px}.rule{background:#8b1e1e33;border:1px solid #ff6b6b55;border-radius:10px;padding:8px 12px;margin:5px 0;font-size:13px}
+.bh{display:flex;gap:14px;align-items:center}.bh .mini{width:90px;height:90px;border-radius:18px;background:#0005;overflow:hidden;flex:none}.bh .mini svg{width:130px;margin:-6px 0 0 -20px}
+.btn{border:0;border-radius:10px;padding:8px 14px;font-weight:700;cursor:pointer;color:#fff}.bstop{background:#8b1e1e}.bgo{background:#1f6d3a}
+#modal{z-index:45!important}#dshade{z-index:48!important}#drawer{z-index:50!important}#upd{font-size:12px;opacity:.7}
 </style></head><body>
-<header><h1>🏢 Mesa de memecoins</h1><span id="fl" class="pill">…</span><span class="pill funnel" id="fn"></span><span class="pill" id="upd"></span></header>
+<button id="sbt" onclick="toggleSB()" title="Menú">☰</button>
+<aside id="sb"><div class="sbh">🏢 <b>Mesa de memecoins</b></div>
+<div class="sbs"><div id="fl" class="pill">…</div><div class="fn" id="fn"></div><div class="m" id="upd"></div>
+<div class="ql"><a href="#" onclick="history_();return false">📜 Histórico</a><a href="/clasico">🗂 Vista clásica</a></div></div>
+<div class="sbs"><div class="sbt">Información</div><a class="nav" href="#" onclick="proj();return false">📘 El proyecto</a></div>
+<div class="sbs"><div class="sbt">Agentes</div><div id="navb"></div></div>
+<div class="m" style="opacity:.5;padding:10px">Sin wallet · sin claves · sin firma</div></aside>
+<div id="sbshade" onclick="toggleSB(false)"></div>
 <div id="floor"><div class="grid" id="grid"></div></div>
 <div id="modal"><div class="box"><span class="x" onclick="closeM()">✕</span><div id="mc"></div></div></div>
 <div id="dshade" onclick="closeD()"></div><div id="drawer"></div>
@@ -201,7 +227,9 @@ function detail(id){const l=LD.find(x=>x.lead_id===id);if(!l)return;const si=STA
  const tl=STAGES.map((s,k)=>{const h=hist[s],ag=h?.by||SAG[s],c=(AGC[ag]||AGC["BOT DESK"])[1],notes=ac.filter(a=>a.action===s||a.agent===ag&&k<=si);
   return `<div class="ti ${k>si?"pend":""}" style="--c:${c};animation-delay:${k*60}ms"><div class="dot">${mini(ag)}</div><b style="color:${SC[s]}">${s}</b> <span class="m">· ${esc(ag)}</span>
   <div class="m">${h?new Date(h.at).toLocaleString("es-ES")+" · "+rel(h.at):"pendiente"}</div>${notes.filter(a=>a.action===s).map(a=>`<div class="n">${esc(a.detail)}</div>`).join("")}</div>`}).join("");
- const checks=[["Mint authority revocada",rc.mint_revoked],["Freeze authority revocada",rc.freeze_revoked],["Liquidez bloqueada",rc.lp_locked],["Top holders < 20%",rc.top_holders_ok],["Honeypot test",rc.honeypot_ok]];
+ const RL={mint_revoked:"Mint authority revocada",freeze_revoked:"Freeze authority revocada",lp_locked:"Liquidez bloqueada",top_holders_ok:"Top holders < 20%",honeypot_ok:"Honeypot test"};
+ const rv=v=>v&&typeof v==="object"?(v.ok??v.pass??v.value):v,rd=v=>v&&typeof v==="object"?(v.detail||v.note||""):"";
+ const checks=Array.isArray(rc)?rc.map(x=>[x.name||x.check||"check",rv(x),rd(x)]):Object.keys(rc).length?Object.entries(rc).map(([k,v])=>[RL[k]||k,rv(v),rd(v)]):Object.entries(RL).map(([k,t])=>[t,undefined,""]);
  const pnl=l.pnl_sol??l.pnl;
  document.getElementById("drawer").innerHTML=`<span class="xx" onclick="closeD()">✕</span><div class="dh"><div class="av" style="background:${hue(l.symbol)}">${esc((l.symbol||"?")[0])}</div><div><div class="big">${esc(l.symbol)}</div><div class="lid">${esc(l.lead_id)}</div></div></div>
  <div class="row" style="margin-top:10px"><span class="pillS" style="margin:0;background:${SC[l.stage]}">${esc(l.stage)}</span><span class="bd b-${esc(l.approval)}">aprobación: ${esc(l.approval)}</span>${pnl!=null?`<span class="pnl ${pnl>=0?"pos":"neg"}">PnL ${pnl>=0?"+":""}${pnl} SOL</span>`:'<span class="m" style="opacity:.6">sin PnL</span>'}</div>
@@ -210,16 +238,46 @@ function detail(id){const l=LD.find(x=>x.lead_id===id);if(!l)return;const si=STA
  <div class="sec"><h4>Contrato</h4><div class="full"><span style="flex:1">${esc(l.contract)}</span><button class="cp" onclick="copy('${esc(l.contract)}',event)">⧉ copiar</button></div>
  <div class="links"><a target="_blank" rel="noopener" href="https://solscan.io/token/${esc(l.contract)}">Solscan ↗</a><a target="_blank" rel="noopener" href="https://dexscreener.com/solana/${esc(l.contract)}">DexScreener ↗</a><a target="_blank" rel="noopener" href="https://www.geckoterminal.com/solana/tokens/${esc(l.contract)}">GeckoTerminal ↗</a></div></div>
  <div class="sec"><h4>Línea de tiempo</h4><div class="tl">${tl}</div></div>
- <div class="sec"><h4>Checks de riesgo (RISK)</h4>${checks.map(([t,v])=>`<div class="chk">${v===true?"✅":v===false?"❌":"⏳"} ${t}</div>`).join("")}</div>
- <div class="sec"><h4>Detalles</h4><div class="chk">Responsable: <b>${esc(l.owner)}</b></div><div class="chk">Creado: ${new Date(l.created_at).toLocaleString("es-ES")}</div><div class="chk">Actualizado: ${new Date(l.updated_at).toLocaleString("es-ES")} (${rel(l.updated_at)})</div></div>
+ <div class="sec"><h4>Checks de riesgo (RISK)</h4>${checks.map(([t,v,d])=>`<div class="chk">${v===true||v==="ok"||v==="pass"?"✅":v===false||v==="fail"?"❌":"⏳"} ${esc(t)}${d?` <span class="m" style="opacity:.6">— ${esc(d)}</span>`:typeof v==="string"&&!["ok","pass","fail"].includes(v)?` <span class="m">${esc(v)}</span>`:""}</div>`).join("")}</div>
+ ${l.reason?`<div class="sec"><h4>Motivo (SEARCH)</h4><div class="chk">${esc(l.reason)}</div></div>`:""}${l.source?`<div class="links"><a target="_blank" rel="noopener" href="${esc(l.source)}">Fuente ↗</a></div>`:""}<div class="sec"><h4>Detalles</h4><div class="chk">Responsable: <b>${esc(l.owner)}</b></div><div class="chk">Creado: ${new Date(l.created_at).toLocaleString("es-ES")}</div><div class="chk">Actualizado: ${new Date(l.updated_at).toLocaleString("es-ES")} (${rel(l.updated_at)})</div></div>
  <p class="m" style="opacity:.5;font-size:11px;margin-top:20px">Solo lectura. Ninguna firma ni wallet desde el panel.</p>`;
  document.getElementById("drawer").classList.add("open");document.getElementById("dshade").classList.add("open")}
 function closeD(){document.getElementById("drawer").classList.remove("open");document.getElementById("dshade").classList.remove("open")}
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeD();closeM()}});
 const _load=load;load=async function(){try{TOP=await j("/api/top10")}catch(e){}await _load();if(CUR&&document.activeElement?.className!=="srch")rerender()};
-async function boot(){await load();const hs=decodeURIComponent(location.hash.slice(1));if(hs==="hist")history_();else if(hs.startsWith("ops="))ops(hs.slice(4));else if(hs.startsWith("lead=")){history_();detail(hs.slice(5))}}
+async function boot(){await load();const hs=decodeURIComponent(location.hash.slice(1));if(hs.startsWith("bot="))botP(hs.slice(4));else if(hs==="proj")proj();else if(hs==="hist")history_();else if(hs.startsWith("ops="))ops(hs.slice(4));else if(hs.startsWith("lead=")){history_();detail(hs.slice(5))}}
 
-build();boot();setInterval(load,12000);
+const INFO={
+"BOT DESK":{t:"Jefe de Mesa",obs:"El funnel completo, state.json, leads.json y activity.json de toda la planta.",how:"Coordina el grupo Trading Floor, reparte trabajo, hace cumplir el protocolo y prepara el informe de las 21:00. Escribe en state.json (vía panel) y activity.json.",cad:"Continuo; informe diario a las 21:00.",does:"Enruta leads entre agentes, detecta fuentes caídas, eleva a Alberto la única decisión que necesita firma.",lim:"Nunca opera, nunca guarda claves, nunca firma. No cambia límites de riesgo sin Alberto."},
+SEARCH:{t:"Descubrimiento",obs:"Pools nuevos y volumen en Solana (DexScreener, GeckoTerminal).",how:"Escanea, filtra por edad/liquidez/volumen/txs y crea leads con ID L-AAAAMMDD-NNN. Escribe leads.json (etapa escaneado) y activity.json.",cad:"Cada hora.",does:"Llena la parte alta del funnel con contrato completo, fuente y motivo.",lim:"No aprueba ni ejecuta nada. Nunca abrevia contratos."},
+RISK:{t:"Auditoría de contratos",obs:"Mint/freeze authority, liquidez bloqueada, concentración de holders, honeypot.",how:"Revisa cada lead escaneado y escribe risk_checks en leads.json; mueve a aprobado o marca RECHAZADO. Registra en activity.json.",cad:"Cada 30 min.",does:"Filtra los rugs antes de que cuesten dinero.",lim:"No ejecuta ni firma. Un check dudoso = rechazo."},
+WHALE:{t:"Flujo de ballenas",obs:"Movimientos de wallets grandes y smart money sobre los leads aprobados.",how:"Confirma (junto a SHILL) los aprobados y los mueve a confirmado. Escribe activity.json.",cad:"Cada hora.",does:"Aporta convicción on-chain.",lim:"Solo lectura on-chain. No opera."},
+SHILL:{t:"Sentimiento social",obs:"X/Telegram: menciones, calidad de la comunidad, bots y shill pagado.",how:"Confirma con WHALE; anota señales en activity.json.",cad:"Cada hora.",does:"Distingue hype orgánico de humo.",lim:"No publica nada ni contacta a nadie. No opera."},
+SNIPER:{t:"Ejecución",obs:"Solo leads confirmados con APPROVE de Alberto.",how:"Prepara la orden; la firma la hace Alberto en su wallet. Marca ejecutado en leads.json.",cad:"Solo cuando llega el APPROVE #id literal.",does:"Ejecuta con precisión lo aprobado.",lim:"Nunca firma sin el APPROVE literal de Alberto (no resúmenes, no paráfrasis). Nunca guarda claves."},
+EXIT:{t:"Salidas",obs:"Posiciones abiertas: precio, objetivo y stop.",how:"Propone salidas y cierres; marca cerrado y PnL. Escribe activity.json solo si algo cambia.",cad:"Cada 15 min.",does:"Protege beneficios y limita pérdidas.",lim:"No abre posiciones. Cualquier firma pasa por Alberto."},
+RUG:{t:"Vigilancia de rugs",obs:"Retiradas de liquidez, ventas del dev, cambios de autoridad en posiciones abiertas.",how:"Alerta al grupo y a Alberto; registra en activity.json.",cad:"Cada 15 min (silencio = todo igual).",does:"Salida rápida ante rug: la única acción pre-aprobada.",lim:"Nunca cierra una posición a solas fuera de la salida de emergencia pre-aprobada."}};
+function miniNav(n){return `<span class="mini">${mini(n)}</span>`}
+function buildNav(){document.getElementById("navb").innerHTML=["BOT DESK",...AG.map(a=>a[0])].map(n=>`<a class="nav" href="#" onclick="botP('${n}');return false">${miniNav(n)}<span>${n}<br><span class="m" style="opacity:.6;font-size:11px">${INFO[n].t}</span></span><span class="sd" id="sd-${n.replace(' ','_')}"></span></a>`).join("")}
+function toggleSB(v){const c=v===undefined?!document.body.classList.contains("sbc"):!v;document.body.classList.toggle("sbc",c);localStorage.setItem("sbc",c?"1":"0")}
+function proj(){openM(`<div class="doc"><h2>📘 El proyecto</h2><p>Mesa de trading de memecoins en Solana con 8 agentes especializados. Alberto fija el objetivo; BOT DESK (Jefe de Mesa) coordina; cada agente tiene un único rol. Este panel solo observa y pausa: <b>no tiene wallet, claves ni firma</b>.</p>
+<h3>El funnel</h3><div class="fl2">${STAGES.map((s,i)=>`<span style="background:${SC[s]}">${s}</span>${i<4?"→":""}`).join("")}</div><p>SEARCH escanea → RISK aprueba → WHALE+SHILL confirman → SNIPER ejecuta (con APPROVE) → EXIT/RUG cierran.</p>
+<h3>Protocolo de lead ID</h3><p><code>[L-AAAAMMDD-NNN] AGENTE → ETAPA | SÍMBOLO | CONTRATO COMPLETO | nota</code></p><p>ID único que nunca se reutiliza; el contrato siempre completo, nunca abreviado.</p>
+<h3>Reglas de seguridad</h3><div class="rule">🔑 Nadie guarda ni pide claves privadas o frases semilla. Nunca.</div><div class="rule">✍️ Nada se firma sin el <b>APPROVE #id</b> literal de Alberto.</div><div class="rule">📉 Una pérdida diaria del 5% para la planta (HALT) automáticamente.</div>
+<h3>Rutinas</h3><div class="rt2"><b>SEARCH</b><span>cada hora</span><b>RISK</b><span>cada 30 min</span><b>WHALE · SHILL</b><span>cada hora</span><b>EXIT · RUG</b><span>cada 15 min</span><b>BOT DESK</b><span>informe a las 21:00</span><b>SNIPER</b><span>solo con APPROVE</span></div>
+<h3>Pausar y reanudar</h3><p>El estado vive en <code>state.json</code>. Antes de cada ejecución, cada agente lo lee y solo actúa si la planta está EN MARCHA y su estado es RUNNING. Desde aquí puedes pausar un bot (clic en él o en su ficha) o parar toda la planta (clic en el jefe → Parar todo). Los cambios en la web pública llegan al box en ≤30–60 s.</p></div>`)}
+function botP(n){const a=(S.agents||{})[n]||{},I=INFO[n],p=a.status==="PAUSED",halt=S.floor!=="RUNNING";const ls=LD.filter(l=>l.owner===n||(l.history||[]).some(h=>h.by===n)).length,ac=ACT.filter(x=>x.agent===n).length;
+ const c=(AGC[n]||AGC["BOT DESK"])[1];
+ openM(`<div class="doc"><div class="bh"><span class="mini">${mini(n)}</span><div><h2 style="color:${c}">${n}</h2><div>${I.t}</div>
+ <div class="row" style="margin-top:8px"><span class="bd" style="background:${p||halt?"#8b1e1e":"#1f6d3a"}">${p?"PAUSADO":halt?"PLANTA PARADA":"EN MARCHA"}</span><span class="m">${ls} leads · ${ac} actividades</span>
+ ${n==="BOT DESK"?"":`<button class="btn ${p?"bgo":"bstop"}" onclick="agT('${n}',${p});closeM()">${p?"▶️ Reanudar":"⏸️ Parar"}</button>`}</div></div></div>
+ <h3>👁 Qué observa</h3><p>${I.obs}</p><h3>⚙️ Cómo opera</h3><p>${I.how}</p><h3>⏱ Cadencia</h3><p>${I.cad}</p><h3>✅ Qué hace</h3><p>${I.does}</p><h3>⛔ Límites</h3><div class="rule">${I.lim}</div>
+ ${n==="BOT DESK"?"":`<p><a href="#" style="color:#9fb0ff" onclick="ops('${n}');return false">Ver últimas operaciones →</a></p>`}</div>`)}
+const _render=render;render=function(){_render();const halted=S.floor!=="RUNNING";
+ document.getElementById("fn").innerHTML=STAGES.map(s=>`<span><i class="dotc" style="background:${SC[s]}"></i>${s}</span><b>${LD.filter(l=>l.stage===s).length}</b>`).join("");
+ ["BOT DESK",...AG.map(a=>a[0])].forEach(n=>{const e=document.getElementById("sd-"+n.replace(" ","_"));if(e)e.style.background=((S.agents||{})[n]?.status==="RUNNING"&&!halted)?"#4ee08a":"#ff5b5b"})};
+if(localStorage.getItem("sbc")==="1"||(localStorage.getItem("sbc")===null&&innerWidth<=800))document.body.classList.add("sbc");
+
+build();buildNav();boot();setInterval(load,12000);
 </script></body></html>
 '''
 def page_old():

@@ -2,173 +2,1390 @@
   "leads": [
     {
       "lead_id": "L-20261017-001",
+      "symbol": "wibet",
+      "contract": "wiben7BURMAbyWyHrSD7bsBV1Svr7cQaJ9rPmu9SPu4",
+      "stage": "aprobado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "source": "https://dexscreener.com/solana/dtl4stvt6u8wott2do5uv9isgyv4nduoe12nlzu5ibsr",
+      "reason": "Pool pumpswap con 0.0h de edad; liq $21,529; vol 1h $34,522 (24h $34,522); txs 1h 514B/413S; FDV $72,985",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-002",
+      "symbol": "SLOPTV",
+      "contract": "2yxjYSyAY3sYgBWy9HbgFgfASvWByfDKpSjK94Wbpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/f61bjwvrn8xr358nhlphyuaxgc5ytcnashcerpxcarfb",
+      "reason": "Pool pumpswap con 0.1h de edad; liq $9,255; vol 1h $20,066 (24h $20,066); txs 1h 251B/233S; FDV $16,630",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-003",
+      "symbol": "UTOPIA",
+      "contract": "CoT33Da5knLB4iCWW6mLsjzTL3m9sgpz3ay9tUj4pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/hwgzagwemzdetaa3kv2s2vxjhwdyyt1xb3ahkx6fj7bl",
+      "reason": "Pool pumpswap con 0.3h de edad; liq $2,610; vol 1h $60,226 (24h $60,226); txs 1h 1157B/1140S; FDV $2,678 ⚠ liquidez muy baja frente al volumen (posible wash/bot)",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-004",
+      "symbol": "gilet",
+      "contract": "HMXnAyeRnh5DE2QVpTwssDz3H8aHqnoLeTBqsLehpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/cvkv1zj4y1ypfyplrdvb9dstr3rnvkdhn5tznzw6d939",
+      "reason": "Pool pumpswap con 0.6h de edad; liq $17,150; vol 1h $264,833 (24h $264,833); txs 1h 4027B/3618S; FDV $47,457",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-005",
+      "symbol": "MONKAI",
+      "contract": "88qaZtNmM6qP9VJTmFQW3Ac39ZJ5YxjzF8Bc7Psqpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/cfs36q4ohbuuqsq2dvydkrfr4qauvavurbrkydpkr6ek",
+      "reason": "Pool pumpswap con 0.8h de edad; liq $2,067; vol 1h $497,539 (24h $497,539); txs 1h 5738B/5097S; FDV $1,947 ⚠ liquidez muy baja frente al volumen (posible wash/bot)",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-006",
+      "symbol": "CYCLE",
+      "contract": "F86USDMMpR9A2Jqddpn83ZZZ3VT3ZddZ7R9YhDQ6pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/ejvolebclb5kxebet5kjzeiynubevq6jxgntm3y2wguy",
+      "reason": "Pool pumpswap con 0.9h de edad; liq $2,143; vol 1h $802,966 (24h $802,966); txs 1h 6457B/6267S; FDV $2,002 ⚠ liquidez muy baja frente al volumen (posible wash/bot)",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-007",
+      "symbol": "Pingus",
+      "contract": "EYLjBuEd7NUF5ZwjcpawqCKnzbaZMDsyHkeA72P2pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/gywhnqoabfbuwlkmggeikfbqisviean6sy7z72vnomtw",
+      "reason": "Pool pumpswap con 1.0h de edad; liq $33,007; vol 1h $743,370 (24h $743,370); txs 1h 7505B/6414S; FDV $144,940",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-008",
+      "symbol": "blocus",
+      "contract": "6TAFBuNtJ7p4ciVkXSGXFhzNvk1DVkudSySJ2Ti8pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/fnsnwlgwx135jjnrhu2rzra4epbvsqzgykcpuzvbzesu",
+      "reason": "Pool pumpswap con 1.2h de edad; liq $30,120; vol 1h $338,121 (24h $381,119); txs 1h 3036B/1453S; FDV $126,276",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-009",
+      "symbol": "Ventrion",
+      "contract": "BG35ZgNeSoSw36cQv58kMahU82wfYwzeNYoRNiwMVent",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/9cnx8716x6sjvlw8baw4tpd3jcchjzyhlpbqnfwqs5aq",
+      "reason": "Pool pumpswap con 1.2h de edad; liq $24,727; vol 1h $129,629 (24h $275,948); txs 1h 1201B/975S; FDV $89,415",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-010",
+      "symbol": "omg",
+      "contract": "BXAC8VDBmjGrn7RskXqQ27RTWg7auTznWDzf3QC4pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/avnobqwa6pfmadvznfnzaqnxqv1l4dvdu3prwnvcjb37",
+      "reason": "Pool pumpswap con 1.5h de edad; liq $2,020; vol 1h $159,701 (24h $366,762); txs 1h 2181B/3105S; FDV $1,925 ⚠ liquidez muy baja frente al volumen (posible wash/bot)",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-011",
+      "symbol": "Nillionaire",
+      "contract": "H7pY44STqWhwjaSAc7dYyVjiX5tJFwp1BDTwpR6Apump",
+      "stage": "aprobado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "source": "https://dexscreener.com/solana/gqmzujudfatm1u3wstryrsrna5zafutvmcjvhfdnsxew",
+      "reason": "Pool pumpswap con 1.8h de edad; liq $17,571; vol 1h $22,725 (24h $83,935); txs 1h 206B/162S; FDV $43,409",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-012",
+      "symbol": "chipto",
+      "contract": "GgDt9qLFxumCfXGHq82Tx2onjepL5SS3xpXXiUshpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/bxri6fmcqeevt2rtoodi8ev8ntflpqng64mkkmaxqozy",
+      "reason": "Pool pumpswap con 2.1h de edad; liq $9,945; vol 1h $16,037 (24h $138,453); txs 1h 199B/189S; FDV $17,941",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-013",
+      "symbol": "HeyGrok",
+      "contract": "81a4zMdXnAPCkH3NkE5nYXms56E2qWcrRmxuB9TTpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/hehobxwtlhlqau1jd8gndzujhvevyiavmsvcr7lzrsom",
+      "reason": "Pool pumpswap con 2.5h de edad; liq $39,985; vol 1h $256,057 (24h $2,320,477); txs 1h 4021B/2522S; FDV $187,515",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-014",
+      "symbol": "hi",
+      "contract": "6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/bwws5paalisxviqxhaprus12fmnsrhawcwqacfdc2k8s",
+      "reason": "Pool meteora con 3.0h de edad; liq $37,697; vol 1h $31,994 (24h $268,717); txs 1h 89B/124S; FDV $637,519",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-015",
+      "symbol": "PROINU",
+      "contract": "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump",
+      "stage": "aprobado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "source": "https://dexscreener.com/solana/8kpjmnbnytsqlazj79utfyh5fquwwwwvajrdisbzqn4",
+      "reason": "Pool pumpswap con 4.6h de edad; liq $23,546; vol 1h $33,627 (24h $148,522); txs 1h 335B/262S; FDV $83,406",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-016",
+      "symbol": "Nought",
+      "contract": "EW9ezwtqvn3v8RpdKMEQai8n5bmajUiPnC4UBV7zpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/d33wvfvqkax4udrflf5zyrg2vmyajzdwkabyhrxhfy1u",
+      "reason": "Pool pumpswap con 6.4h de edad; liq $26,647; vol 1h $38,581 (24h $734,435); txs 1h 425B/335S; FDV $91,394",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-017",
+      "symbol": "ZeroFee",
+      "contract": "ErvkxE8gc7EwmaQfvoGfVfcDJbVG4EcHQr3yweTkpump",
+      "stage": "aprobado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "source": "https://dexscreener.com/solana/9tm5tkgs8d7rvs666avhqbyesxvqdeopq55ozjtrcjwe",
+      "reason": "Pool pumpswap con 9.1h de edad; liq $41,939; vol 1h $39,665 (24h $529,303); txs 1h 270B/254S; FDV $234,567",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-018",
+      "symbol": "Gigabite",
+      "contract": "6tsykNmR3WDqouj9uVUFZRgR2Kpai4F1Qm1gAcirpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/fek1drg7wzn5jysutuj8otazqasxkzn3hxowl9xhtnjv",
+      "reason": "Pool pumpswap con 9.3h de edad; liq $32,439; vol 1h $69,857 (24h $1,242,402); txs 1h 728B/547S; FDV $126,623",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-019",
+      "symbol": "vibe",
+      "contract": "S6CoPVUjfHW3Cdtrm4YDTz3HPParxwAqjzmXrqipump",
+      "stage": "aprobado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "source": "https://dexscreener.com/solana/bjshw3igx2beezqanavux5weetd5z73traecskvpguxa",
+      "reason": "Pool pumpswap con 12.2h de edad; liq $109,155; vol 1h $3,893 (24h $161,895); txs 1h 71B/34S; FDV $1,666,878",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-020",
+      "symbol": "MAKERS",
+      "contract": "3XEqNHe3jHTRWAZCTHbb1UwpSfNbJL9oU1ErsM86pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/d6g4brfhugystkpcbkmueqesnd7gjugzdczenicattmy",
+      "reason": "Pool pumpswap con 16.5h de edad; liq $35,931; vol 1h $20,211 (24h $2,700,395); txs 1h 1196B/517S; FDV $152,424",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-021",
+      "symbol": "Eternia",
+      "contract": "CY27QvCQBCmLBuz3V7c8snEeD4z67iyoSTkwo35Ypump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/abqxgs5c78p8nix49kqsbtnqjammahcbh2mvjq1zqqz2",
+      "reason": "Pool pumpswap con 17.0h de edad; liq $48,948; vol 1h $12,837 (24h $11,576,927); txs 1h 362B/312S; FDV $213,864",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-022",
+      "symbol": "MOMO",
+      "contract": "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump",
+      "stage": "aprobado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "source": "https://dexscreener.com/solana/psevxbyorpslz55vnjsbaw7a1yanpdsymyjijp1cujz",
+      "reason": "Pool pumpswap con 18.0h de edad; liq $30,389; vol 1h $33,697 (24h $666,293); txs 1h 495B/477S; FDV $126,833",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-023",
+      "symbol": "simulator",
+      "contract": "8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/gfkksyqkfs4ndlq46mt9mhbda2ihvy39fjeayu9ikafu",
+      "reason": "Pool meteora con 18.4h de edad; liq $86,445; vol 1h $11,719 (24h $1,160,668); txs 1h 36B/113S; FDV $910,867",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-024",
+      "symbol": "Aloooong",
+      "contract": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/f5ukfwgsinc54dsckrccqlnuocx9wnhkqb4elmenvggd",
+      "reason": "Pool meteora con 19.0h de edad; liq $12,620; vol 1h $9,074 (24h $504,301); txs 1h 64B/98S; FDV $118,739",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-025",
+      "symbol": "CAPE",
+      "contract": "4by8accPvdRcmDEvJy1svdSJMwfVcNGyWqgQw9EPpump",
+      "stage": "aprobado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "source": "https://dexscreener.com/solana/alnpabqbglaprefrdujobyjnvkephbl7lu6ru7ztel85",
+      "reason": "Pool pumpswap con 19.4h de edad; liq $30,043; vol 1h $4,742 (24h $180,423); txs 1h 997B/960S; FDV $109,948",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-026",
+      "symbol": "Gato",
+      "contract": "55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/h4wp14qgkt3yextgrqxdqf1c3epzvmxufggcuhxsrjn4",
+      "reason": "Pool pumpswap con 20.9h de edad; liq $67,144; vol 1h $524,225 (24h $1,866,965); txs 1h 6023B/4525S; FDV $512,156",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-027",
+      "symbol": "BOOM",
+      "contract": "CJCU1Yw4YA4FAPAuewdPPdoC5Mf1m4RGyZSNFXv5sYJF",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/hkdkyb1fmvzfmcowdvavacuotv7vvsggdjjak3xhqk2t",
+      "reason": "Pool meteora con 22.2h de edad; liq $29,666; vol 1h $9,232 (24h $185,682); txs 1h 81B/51S; FDV $119,610",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-028",
+      "symbol": "CARTEL",
+      "contract": "4VjdJXbacsnnRDGvbkMFrrWsRUoE5DCrQGU97hUkpump",
+      "stage": "aprobado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "source": "https://dexscreener.com/solana/9wwv6gaowgratxwm5uvs7jpygdiheuygom1bmeop4cw3",
+      "reason": "Pool pumpswap con 22.5h de edad; liq $25,671; vol 1h $5,115 (24h $248,281); txs 1h 62B/35S; FDV $95,945",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-029",
+      "symbol": "DEGEN",
+      "contract": "GetLnVcK3csLW6aTb5mBTHaw9V4vN3fx9oMWQrQxpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/fvwfaeanvt2vzcshusfrfnku3negblgaj8gky6tporne",
+      "reason": "Pool pumpswap con 22.9h de edad; liq $31,919; vol 1h $6,890 (24h $472,000); txs 1h 7798B/1201S; FDV $143,049",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-030",
+      "symbol": "onboard",
+      "contract": "5ubruMYpgKqw9ip5J1qrXbVGmMdn2VCsMg421B4bpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "RECHAZADO",
+      "source": "https://dexscreener.com/solana/dbzf8tq3mtlsdgmlcdj1ya7e8hqatq22jafqma92fi4",
+      "reason": "Pool pumpswap con 23.9h de edad; liq $35,484; vol 1h $70,353 (24h $4,821,929); txs 1h 563B/380S; FDV $123,728",
+      "created_at": "2026-10-17T21:50:00+02:00",
+      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-17T21:50:00+02:00",
+          "by": "RISK"
+        }
+      ]
+    },
+    {
+      "lead_id": "L-20261017-101",
       "symbol": "GHOSTI",
       "contract": "9JxPFZ68WQBQR8JwMStZfeqxhSm1X79i3rpyHHbbe8B9",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-001→L-20261017-101 para liberar ID a migración SRCH DexScreener"
         }
       ]
     },
     {
-      "lead_id": "L-20261017-002",
+      "lead_id": "L-20261017-102",
       "symbol": "HeyGrok",
       "contract": "A3SKFX3HMcQ9yprreoS6BuUcqpYDhnceTFNjTsZV1uMZ",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-002→L-20261017-102 para liberar ID a migración SRCH DexScreener"
         }
       ]
     },
     {
-      "lead_id": "L-20261017-003",
+      "lead_id": "L-20261017-103",
       "symbol": "RSGP",
       "contract": "EjPr9rQuavUaSMs2HHsbPdAi5KWfvwwF2r1AdW9kRkLR",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-003→L-20261017-103 para liberar ID a migración SRCH DexScreener"
         }
       ]
     },
     {
-      "lead_id": "L-20261017-004",
+      "lead_id": "L-20261017-104",
       "symbol": "FABLES",
       "contract": "H73g7ybHwtY4A4U4pxMS9xv9s3BQMPrtz82Ugd8VQskN",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-004→L-20261017-104 para liberar ID a migración SRCH DexScreener"
         }
       ]
     },
     {
-      "lead_id": "L-20261017-005",
+      "lead_id": "L-20261017-105",
       "symbol": "ALLOX",
       "contract": "DneSmn3NenxC8CMm4vTJUpTYfigZZKWWbyymq8MjFkw3",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-005→L-20261017-105 para liberar ID a migración SRCH DexScreener"
         }
       ]
     },
     {
-      "lead_id": "L-20261017-006",
+      "lead_id": "L-20261017-106",
       "symbol": "索拉纳",
       "contract": "CDKjFrKZSgmRGDa157P5YBaiJKS7mbWibP1VxWiRxvWC",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-006→L-20261017-106 para liberar ID a migración SRCH DexScreener"
         }
       ]
     },
     {
-      "lead_id": "L-20261017-007",
+      "lead_id": "L-20261017-107",
       "symbol": "TRUMP",
       "contract": "333KtCBGCYMoTgjbwVwVXAQSw6A5RyExg9tt1H3oesF7",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-007→L-20261017-107 para liberar ID a migración SRCH DexScreener"
         }
       ]
     },
     {
-      "lead_id": "L-20261017-008",
+      "lead_id": "L-20261017-108",
       "symbol": "PUMP",
       "contract": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-008→L-20261017-108 para liberar ID a migración SRCH DexScreener"
         }
       ]
     },
     {
-      "lead_id": "L-20261017-009",
+      "lead_id": "L-20261017-109",
       "symbol": "ZEC",
       "contract": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-009→L-20261017-109 para liberar ID a migración SRCH DexScreener"
         }
       ]
     },
     {
-      "lead_id": "L-20261017-010",
+      "lead_id": "L-20261017-110",
       "symbol": "WETH",
       "contract": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
       "stage": "escaneado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-17T21:46:10.806529+02:00",
+      "updated_at": "2026-10-18T17:57:57.749248+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-17T21:46:10.806529+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "info",
+          "at": "2026-10-18T17:57:57.749248+02:00",
+          "by": "SEARCH",
+          "note": "renumerado L-20261017-010→L-20261017-110 para liberar ID a migración SRCH DexScreener"
         }
       ]
+    },
+    {
+      "lead_id": "L-20261018-001",
+      "symbol": "CATSZN",
+      "contract": "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/g3na7nutwffaek7mmgp9zusar3brqqdv4eqanwnptswc",
+      "reason": "DexScreener pumpswap: liquidez $85,033, vol 24h $3,367,760, 82887 compras/59325 ventas (ticket medio $24), edad 13.5 h; vol/liq 40x alto"
+    },
+    {
+      "lead_id": "L-20261018-002",
+      "symbol": "mucron",
+      "contract": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/af7w724kw2a7z5pbacas6rnq8ubikewqisa715bxgbfa",
+      "reason": "DexScreener pumpswap: liquidez $63,065, vol 24h $3,291,748, 31585 compras/24845 ventas (ticket medio $58), edad 6.7 h; vol/liq 52x: posible wash trading"
+    },
+    {
+      "lead_id": "L-20261018-003",
+      "symbol": "SUPERCORE",
+      "contract": "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/6axb1e6utmsz77zhncryfe7augzbxxcunhcodhd3odag",
+      "reason": "DexScreener pumpswap: liquidez $54,023, vol 24h $3,089,582, 26216 compras/22004 ventas (ticket medio $64), edad 14.0 h; vol/liq 57x: posible wash trading"
+    },
+    {
+      "lead_id": "L-20261018-004",
+      "symbol": "Gold",
+      "contract": "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/djbrnsdafbdsmxu5mjlvx73pzbyccweuzfwcug9dnezx",
+      "reason": "DexScreener pumpswap: liquidez $32,491, vol 24h $575,197, 8173 compras/5504 ventas (ticket medio $42), edad 2.4 h; sin señales claras de wash trading"
+    },
+    {
+      "lead_id": "L-20261018-005",
+      "symbol": "bwigitte",
+      "contract": "4bLHGwcRd4GCVsSP8uRMcrWMh1nBCVcNM2CC9AWPpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/6rzhmjuqp2xzsaj1fnc8u1uezmfdqjf4sc7tcevvh2dp",
+      "reason": "DexScreener pumpswap: liquidez $22,206, vol 24h $168,349, 2018 compras/2011 ventas (ticket medio $42), edad 4.0 h; compras/ventas casi 1:1 (patrón bot)"
+    },
+    {
+      "lead_id": "L-20261018-006",
+      "symbol": "trenchcat",
+      "contract": "4hCVKZKpuRdFtnRXC9fqEdrrQwEYuw4Rbxipwbwdpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/6eblwchrnvkzks9q8xytzeelu9bavta13pyphwrjhr94",
+      "reason": "DexScreener pumpswap: liquidez $18,119, vol 24h $89,030, 1023 compras/761 ventas (ticket medio $50), edad 0.8 h; sin señales claras de wash trading"
+    },
+    {
+      "lead_id": "L-20261018-007",
+      "symbol": "LARPSCAN",
+      "contract": "2qfUSuUfKuxHyYEMYreiYdK3YyapFzbgq2c6hhfPpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/2alatuc5rmitb9cobteg48deedgem1kdcuhq6vorxhmu",
+      "reason": "DexScreener pumpswap: liquidez $14,972, vol 24h $76,305, 1065 compras/729 ventas (ticket medio $43), edad 4.6 h; sin señales claras de wash trading"
+    },
+    {
+      "lead_id": "L-20261018-008",
+      "symbol": "iMolest ",
+      "contract": "7iYM9cjpKKNyLvJfq4pYyjubk83dnqxtPDrRdf77pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/do8mgcnen6ydyeauytntt9q7xdxmsjksvbzx2ehhgrzk",
+      "reason": "DexScreener pumpswap: liquidez $13,960, vol 24h $1,182,953, 16738 compras/12097 ventas (ticket medio $41), edad 17.4 h; vol/liq 85x: posible wash trading"
+    },
+    {
+      "lead_id": "L-20261018-009",
+      "symbol": "RIOT",
+      "contract": "Fd61znB4XAdwqrFexC91aoxKcz1iheqx5j4VZCG4pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/9nuxbp7bgwjoxx3cdz1hrku1vrfcmvy1j3v6jtxwzjox",
+      "reason": "DexScreener pumpswap: liquidez $11,642, vol 24h $43,703, 451 compras/534 ventas (ticket medio $44), edad 0.1 h; más ventas que compras"
+    },
+    {
+      "lead_id": "L-20261018-010",
+      "symbol": "RiotMap",
+      "contract": "2B7RXYwzSjDubnvqz8GSi1MKSoCsPeLmahyM92k9pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://www.geckoterminal.com/solana/pools/8mLErp5Q6vdB1JKbYF6GzJtsr6tVzHt79eYLxS2H82Bt",
+      "reason": "GeckoTerminal pumpswap: liquidez $10,303, vol 24h $18,529, 250 compras/226 ventas (ticket medio $39), edad 0.1 h; sin señales claras de wash trading"
+    },
+    {
+      "lead_id": "L-20261018-011",
+      "symbol": "SBC",
+      "contract": "KVjKrtzwFKmocPVoYVswKUbxTkNuuCKeJ4r8688pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/qghce8p7b15pvx83pnbybjwddtw6cfw64sqax5jy36x",
+      "reason": "DexScreener pumpswap: liquidez $9,096, vol 24h $9,803, 79 compras/130 ventas (ticket medio $47), edad 19.4 h; más ventas que compras"
+    },
+    {
+      "lead_id": "L-20261018-012",
+      "symbol": "Pluto",
+      "contract": "6jijW4Ne924kqj8XYLKXFrhpeHy5y2qxoKgGzJHQpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/5frtjsz43ms1kz2zrha9qlhteehemn7hpk43ntrbpd4u",
+      "reason": "DexScreener pumpswap: liquidez $8,953, vol 24h $70,735, 1100 compras/955 ventas (ticket medio $34), edad 17.2 h; sin señales claras de wash trading"
+    },
+    {
+      "lead_id": "L-20261018-013",
+      "symbol": "AFC",
+      "contract": "3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/89jpenunodkjogzj8nzvxddarigipgymsmjf2muoxmxx",
+      "reason": "DexScreener pumpswap: liquidez $8,340, vol 24h $1,851,238, 21883 compras/19713 ventas (ticket medio $45), edad 13.3 h; vol/liq 222x: posible wash trading"
+    },
+    {
+      "lead_id": "L-20261018-014",
+      "symbol": "FTR",
+      "contract": "7kxTnPr4cnboiiCmE3RKgj65jcDf36QKiYyXE2igpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/hfxqmnichu4uncnqgpbojosghogp8bex6bfpjbce1tzo",
+      "reason": "DexScreener pumpswap: liquidez $8,126, vol 24h $579,733, 8158 compras/6598 ventas (ticket medio $39), edad 1.2 h; vol/liq 71x: posible wash trading; ticker FTR duplicado en el escaneo (posible copycat)"
+    },
+    {
+      "lead_id": "L-20261018-015",
+      "symbol": "rema",
+      "contract": "61DMLhgVgiKuTNPhnxcureAWw5htb4wLRhBgYPukpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/dvx2cavas5xyxv86dx1e32tryt8pcchmntifixw6qpfh",
+      "reason": "DexScreener pumpswap: liquidez $5,049, vol 24h $238,954, 4875 compras/3240 ventas (ticket medio $29), edad 4.1 h; vol/liq 47x alto"
+    },
+    {
+      "lead_id": "L-20261018-016",
+      "symbol": "Bien",
+      "contract": "CXmRHXFzgKggtFVLGGqR7LuPwzgRXENJEnA1nR9q7CdA",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/2nxxns63vbcjpejdpuvf5nf8rmhkc7seyd9dcjzcgkfq",
+      "reason": "DexScreener pumpswap: liquidez $4,007, vol 24h $96,918, 1695 compras/1772 ventas (ticket medio $28), edad 0.5 h; vol/liq 24x alto; compras/ventas casi 1:1 (patrón bot)"
+    },
+    {
+      "lead_id": "L-20261018-017",
+      "symbol": "PIPS",
+      "contract": "4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/bpfj6kjbqmvid6fumbnzxpyswzkuejhg1tce4i49kj7e",
+      "reason": "DexScreener pumpswap: liquidez $3,555, vol 24h $468,365, 4872 compras/4266 ventas (ticket medio $51), edad 9.2 h; vol/liq 132x: posible wash trading"
+    },
+    {
+      "lead_id": "L-20261018-018",
+      "symbol": "Midas",
+      "contract": "9hY7ko6b1XRkoNJ1JgAER4grVJqx1cxvHWD3KiTLpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/2bafbvuruzgthp3px4z7m5hnb5y5ejxzphdhpco95ieh",
+      "reason": "DexScreener pumpswap: liquidez $2,458, vol 24h $98,022, 1369 compras/1224 ventas (ticket medio $38), edad 1.2 h; vol/liq 40x alto"
+    },
+    {
+      "lead_id": "L-20261018-019",
+      "symbol": "DOGSHIT",
+      "contract": "AnWDYstQBFDjM4KVghwozpd28WVbiADzZHGzANUuUBoB",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://www.geckoterminal.com/solana/pools/D25qPUEgZfzMZabFR2G9SKrK9q83LvyjjYoA4pvuCsfG",
+      "reason": "GeckoTerminal pump-fun: liquidez $2,442, vol 24h $2,217, 5 compras/4 ventas (ticket medio $246), edad 0.1 h; ticker DOGSHIT duplicado en el escaneo (posible copycat); aún en bonding curve de pump.fun"
+    },
+    {
+      "lead_id": "L-20261018-020",
+      "symbol": "EV",
+      "contract": "GKaQ5Xp22z4TeZqiSqoLhmn84xcgkp8HYp3atsCjpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://www.geckoterminal.com/solana/pools/8XrDcbqTcvXZ2v66ShNsSq9tsLNiFLCYtMgx5jQ8vxqY",
+      "reason": "GeckoTerminal pump-fun: liquidez $2,419, vol 24h $2,608, 11 compras/9 ventas (ticket medio $130), edad 0.1 h; aún en bonding curve de pump.fun"
+    },
+    {
+      "lead_id": "L-20261018-021",
+      "symbol": "DOGSHIT",
+      "contract": "FWqkH6CosAgJRF4WW3cgkP4X4P82RmqRie9wHENBqj2J",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://www.geckoterminal.com/solana/pools/5STbrk1Ch2cj9PWRSbpb2yjxLp5YNBiRjj7DYv8dPmxK",
+      "reason": "GeckoTerminal pump-fun: liquidez $2,271, vol 24h $2,651, 14 compras/13 ventas (ticket medio $98), edad 0.1 h; ticker DOGSHIT duplicado en el escaneo (posible copycat); aún en bonding curve de pump.fun"
+    },
+    {
+      "lead_id": "L-20261018-022",
+      "symbol": "KRAWD",
+      "contract": "5gYtAc9xjJxUqFbgEAM2JMuyEDGaaYivupcU5Y1Qpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/arne2u63hupp9eo74epe7kmzsbwrg6jeqezdczsxu39n",
+      "reason": "DexScreener pumpswap: liquidez $2,167, vol 24h $63,216, 945 compras/857 ventas (ticket medio $35), edad 1.3 h; vol/liq 29x alto; compras/ventas casi 1:1 (patrón bot)"
+    },
+    {
+      "lead_id": "L-20261018-023",
+      "symbol": "DON",
+      "contract": "8qBq4WwYvdsBEdrwJjF2EXCtg2AQuxjU8rmHoQVTpump",
+      "stage": "escaneado",
+      "owner": "SEARCH",
+      "approval": "pendiente",
+      "created_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "history": [
+        {
+          "stage": "escaneado",
+          "at": "2026-10-18T18:01:13.251037+02:00",
+          "by": "SEARCH"
+        }
+      ],
+      "source": "https://dexscreener.com/solana/fais2mrdi43uwpmmtfuvuhf3xypkrrasdkav9scoalgw",
+      "reason": "DexScreener pumpswap: liquidez $2,041, vol 24h $204,836, 561 compras/663 ventas (ticket medio $167), edad 1.0 h; vol/liq 100x: posible wash trading; más ventas que compras"
     }
   ]
 }
