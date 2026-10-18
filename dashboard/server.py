@@ -23,7 +23,7 @@ def wr_state(fn):
 e=html.escape
 _u=os.environ.get("DASH_USERS") or open(f"{D}/dashboard/.auth").read()
 AUTHS=["Basic "+base64.b64encode(l.strip().encode()).decode() for l in _u.replace(",","\n").splitlines() if ":" in l]
-OFFICE_HTML=r'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mesa · Oficina</title>
+OFFICE_HTML=r'''<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>"><link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%231b1d2a'/><text y='.9em' x='5' font-size='80'>🤖</text></svg>"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mesa · Oficina</title>
 <style>
 :root{--bg:#1b1d2a;--floor:#2a2d40;--tile:#30344a;--txt:#eef}
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:var(--bg);color:var(--txt)}
@@ -282,7 +282,7 @@ build();buildNav();boot();setInterval(load,12000);
 '''
 def page_old():
     s,l,t=rd("state.json"),rd("leads.json"),rd("top10.json"); fl=s.get("floor","?")
-    r=[f"<html><head><meta charset=utf-8><meta http-equiv=refresh content=15><title>Mesa</title><style>body{{font-family:sans-serif;background:#111;color:#eee;margin:20px}}table{{border-collapse:collapse;margin-bottom:20px}}td,th{{border:1px solid #444;padding:4px 8px}}.RUNNING{{color:#4c4}}.PAUSED,.HALTED{{color:#f55}}button{{padding:4px 10px}}code{{font-size:12px}}</style></head><body>",
+    r=[f"<html><head><meta charset=utf-8><link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>\"><link rel=\"apple-touch-icon\" href=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%231b1d2a'/><text y='.9em' x='5' font-size='80'>🤖</text></svg>\"><meta http-equiv=refresh content=15><title>Mesa</title><style>body{{font-family:sans-serif;background:#111;color:#eee;margin:20px}}table{{border-collapse:collapse;margin-bottom:20px}}td,th{{border:1px solid #444;padding:4px 8px}}.RUNNING{{color:#4c4}}.PAUSED,.HALTED{{color:#f55}}button{{padding:4px 10px}}code{{font-size:12px}}</style></head><body>",
        f"<h1>Mesa de memecoins — Panel</h1><p>Planta: <b class={fl}>{fl}</b> · actualizado {e(s.get('updated_at',''))} · se refresca cada 15 s</p>",
        f"<form method=post action=/floor><button name=a value={'resume' if fl=='HALTED' else 'halt'}>{'REANUDAR PLANTA' if fl=='HALTED' else 'PARAR PLANTA (HALT)'}</button></form>",
        "<h2>Agentes</h2><table><tr><th>Agente</th><th>Rol</th><th>Estado</th><th>Efectivo</th><th></th></tr>"]

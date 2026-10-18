@@ -1,0 +1,185 @@
+{
+  "updated_at": "2026-10-18T18:05:24.707951+02:00",
+  "notes": "Baseline inicial. Concentración de holders no disponible: RPC público devuelve 429 en getTokenLargestAccounts.",
+  "tokens": {
+    "wiben7BURMAbyWyHrSD7bsBV1Svr7cQaJ9rPmu9SPu4": {
+      "lead_id": "L-20261017-001",
+      "symbol": "wibet",
+      "stage": "aprobado",
+      "checked_at": "2026-10-18T18:05:24.707951+02:00",
+      "liq_usd": 5026.29,
+      "price_usd": "0.000006150",
+      "fdv": 6008,
+      "pair": "DTL4stVt6U8wotT2Do5uv9iSGYv4ndUoe12nLZu5ibSR",
+      "dex": "pumpswap",
+      "price_change": {
+        "m5": 0.17,
+        "h1": 16.66,
+        "h6": -19.78,
+        "h24": -86.2
+      },
+      "mint_authority": null,
+      "freeze_authority": null,
+      "supply": "976741253377785",
+      "top_holders": null,
+      "alerts": [
+        "precio -86.2% en 24h, liquidez 5026.29 USD (pool DTL4stVt6U8wotT2Do5uv9iSGYv4ndUoe12nLZu5ibSR)"
+      ]
+    },
+    "H7pY44STqWhwjaSAc7dYyVjiX5tJFwp1BDTwpR6Apump": {
+      "lead_id": "L-20261017-011",
+      "symbol": "Nillionaire",
+      "stage": "aprobado",
+      "checked_at": "2026-10-18T18:05:24.707951+02:00",
+      "liq_usd": 4686.83,
+      "price_usd": "0.000005404",
+      "fdv": 4967,
+      "pair": "GqmzUJuDfAtm1u3wSTRyRsRNa5ZAFUTvmCjvhFDNSXeW",
+      "dex": "pumpswap",
+      "price_change": {
+        "h1": -5.31,
+        "h6": -16.21,
+        "h24": -88.34
+      },
+      "mint_authority": null,
+      "freeze_authority": null,
+      "supply": "918939324012021",
+      "top_holders": null,
+      "alerts": [
+        "precio -88.34% en 24h, liquidez 4686.83 USD (pool GqmzUJuDfAtm1u3wSTRyRsRNa5ZAFUTvmCjvhFDNSXeW)"
+      ]
+    },
+    "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump": {
+      "lead_id": "L-20261017-015",
+      "symbol": "PROINU",
+      "stage": "aprobado",
+      "checked_at": "2026-10-18T18:05:24.707951+02:00",
+      "liq_usd": 2430.06,
+      "price_usd": "0.000002312",
+      "fdv": 2249,
+      "pair": "8kPjMnBnYTsQLAZJ79UTfyh5fQUWWwwVAjRDisBzQn4",
+      "dex": "pumpswap",
+      "price_change": {
+        "h1": -0.35,
+        "h6": -96.59,
+        "h24": -96.83
+      },
+      "mint_authority": null,
+      "freeze_authority": null,
+      "supply": "972758362537697",
+      "top_holders": null,
+      "alerts": [
+        "precio -96.59% en 6h, liquidez 2430.06 USD (pool 8kPjMnBnYTsQLAZJ79UTfyh5fQUWWwwVAjRDisBzQn4)"
+      ]
+    },
+    "ErvkxE8gc7EwmaQfvoGfVfcDJbVG4EcHQr3yweTkpump": {
+      "lead_id": "L-20261017-017",
+      "symbol": "ZeroFee",
+      "stage": "aprobado",
+      "checked_at": "2026-10-18T18:05:24.707951+02:00",
+      "liq_usd": 39968.94,
+      "price_usd": "0.0002202",
+      "fdv": 211762,
+      "pair": "9TM5TKGS8D7RVS666AVhqBYeSxvQDEoPQ55ozJtRcJwE",
+      "dex": "pumpswap",
+      "price_change": {
+        "m5": 2.33,
+        "h1": 6.19,
+        "h6": 17.22,
+        "h24": 77.23
+      },
+      "mint_authority": null,
+      "freeze_authority": null,
+      "supply": "961641889366675",
+      "top_holders": null,
+      "alerts": []
+    },
+    "S6CoPVUjfHW3Cdtrm4YDTz3HPParxwAqjzmXrqipump": {
+      "lead_id": "L-20261017-019",
+      "symbol": "vibe",
+      "stage": "aprobado",
+      "checked_at": "2026-10-18T18:05:24.707951+02:00",
+      "liq_usd": 141239.88,
+      "price_usd": "0.002816",
+      "fdv": 2809302,
+      "pair": "BJsHw3igx2BeEZqaNaVUX5WEETD5z73trAEcSKvPGUxA",
+      "dex": "pumpswap",
+      "price_change": {
+        "m5": -1.1,
+        "h1": 0.53,
+        "h6": 18.16,
+        "h24": 74.71
+      },
+      "mint_authority": null,
+      "freeze_authority": null,
+      "supply": "997359185811448",
+      "top_holders": null,
+      "alerts": []
+    },
+    "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump": {
+      "lead_id": "L-20261017-022",
+      "symbol": "MOMO",
+      "stage": "aprobado",
+      "checked_at": "2026-10-18T18:05:24.707951+02:00",
+      "liq_usd": 23559.91,
+      "price_usd": "0.00007609",
+      "fdv": 74156,
+      "pair": "psEVxbyorPSLZ55VNJsbAW7A1YAnPDsymyJijp1CuJz",
+      "dex": "pumpswap",
+      "price_change": {
+        "m5": -1.09,
+        "h1": -11.61,
+        "h6": -34.72,
+        "h24": -27.75
+      },
+      "mint_authority": null,
+      "freeze_authority": null,
+      "supply": "974498213653998",
+      "top_holders": null,
+      "alerts": []
+    },
+    "4by8accPvdRcmDEvJy1svdSJMwfVcNGyWqgQw9EPpump": {
+      "lead_id": "L-20261017-025",
+      "symbol": "CAPE",
+      "stage": "aprobado",
+      "checked_at": "2026-10-18T18:05:24.707951+02:00",
+      "liq_usd": 58227.17,
+      "price_usd": "0.0003869",
+      "fdv": 371117,
+      "pair": "ALNPAbQbgLApREFRDuJoBYJNvKePHbL7Lu6ru7zTeL85",
+      "dex": "pumpswap",
+      "price_change": {
+        "m5": 2.25,
+        "h1": 25.05,
+        "h6": 41.93,
+        "h24": 392
+      },
+      "mint_authority": null,
+      "freeze_authority": null,
+      "supply": "959158602789917",
+      "top_holders": null,
+      "alerts": []
+    },
+    "4VjdJXbacsnnRDGvbkMFrrWsRUoE5DCrQGU97hUkpump": {
+      "lead_id": "L-20261017-028",
+      "symbol": "CARTEL",
+      "stage": "aprobado",
+      "checked_at": "2026-10-18T18:05:24.707951+02:00",
+      "liq_usd": 25456,
+      "price_usd": "0.0001008",
+      "fdv": 96077,
+      "pair": "9wwv6GaoWGraTXwM5uvs7JpYGDiHEuYGoM1bMeoP4Cw3",
+      "dex": "pumpswap",
+      "price_change": {
+        "h1": -10.02,
+        "h6": -5.13,
+        "h24": 7.12
+      },
+      "mint_authority": null,
+      "freeze_authority": null,
+      "supply": "953052433212874",
+      "top_holders": null,
+      "alerts": []
+    }
+  }
+}

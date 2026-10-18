@@ -10,7 +10,7 @@
       "source": "https://dexscreener.com/solana/dtl4stvt6u8wott2do5uv9isgyv4nduoe12nlzu5ibsr",
       "reason": "Pool pumpswap con 0.0h de edad; liq $21,529; vol 1h $34,522 (24h $34,522); txs 1h 514B/413S; FDV $72,985",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:05:24.707951+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -21,6 +21,13 @@
           "stage": "aprobado",
           "at": "2026-10-17T21:50:00+02:00",
           "by": "RISK"
+        }
+      ],
+      "rug_alerts": [
+        {
+          "at": "2026-10-18T18:05:24.707951+02:00",
+          "by": "RUG",
+          "signal": "precio -86.2% en 24h, liquidez 5026.29 USD (pool DTL4stVt6U8wotT2Do5uv9iSGYv4ndUoe12nLZu5ibSR)"
         }
       ]
     },
@@ -250,7 +257,7 @@
       "source": "https://dexscreener.com/solana/gqmzujudfatm1u3wstryrsrna5zafutvmcjvhfdnsxew",
       "reason": "Pool pumpswap con 1.8h de edad; liq $17,571; vol 1h $22,725 (24h $83,935); txs 1h 206B/162S; FDV $43,409",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "updated_at": "2026-10-18T18:05:24.707951+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -261,6 +268,13 @@
           "stage": "aprobado",
           "at": "2026-10-17T21:50:00+02:00",
           "by": "RISK"
+        }
+      ],
+      "rug_alerts": [
+        {
+          "at": "2026-10-18T18:05:24.707951+02:00",
+          "by": "RUG",
+          "signal": "precio -88.34% en 24h, liquidez 4686.83 USD (pool GqmzUJuDfAtm1u3wSTRyRsRNa5ZAFUTvmCjvhFDNSXeW)"
         }
       ]
     },
@@ -346,7 +360,7 @@
       "source": "https://dexscreener.com/solana/8kpjmnbnytsqlazj79utfyh5fquwwwwvajrdisbzqn4",
       "reason": "Pool pumpswap con 4.6h de edad; liq $23,546; vol 1h $33,627 (24h $148,522); txs 1h 335B/262S; FDV $83,406",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "updated_at": "2026-10-18T18:05:24.707951+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -357,6 +371,13 @@
           "stage": "aprobado",
           "at": "2026-10-17T21:50:00+02:00",
           "by": "RISK"
+        }
+      ],
+      "rug_alerts": [
+        {
+          "at": "2026-10-18T18:05:24.707951+02:00",
+          "by": "RUG",
+          "signal": "precio -96.59% en 6h, liquidez 2430.06 USD (pool 8kPjMnBnYTsQLAZJ79UTfyh5fQUWWwwVAjRDisBzQn4)"
         }
       ]
     },

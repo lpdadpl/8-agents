@@ -258,6 +258,34 @@
       "lead_id": null,
       "action": "info",
       "detail": "Escaneo horario: 37 tokens <24h con liq>$1k (GeckoTerminal new_pools p1-3 + DexScreener perfiles/boosts/CTO, 55 tokens Solana). 23 leads nuevos (L-20261018-001..L-20261018-023); 0 ya existentes; 14 descartados por vol 24h <$1k (sin actividad real). Fuentes fallidas: ninguna. pump.fun y gmgn no consultados (bloquean)."
+    },
+    {
+      "ts": "2026-10-18T18:05:24.707951+02:00",
+      "agent": "RUG",
+      "lead_id": "L-20261017-001",
+      "action": "alerta",
+      "detail": "wibet wiben7BURMAbyWyHrSD7bsBV1Svr7cQaJ9rPmu9SPu4: precio -86.2% en 24h, liquidez 5026.29 USD (pool DTL4stVt6U8wotT2Do5uv9iSGYv4ndUoe12nLZu5ibSR) (lead aprobado, sin posición abierta)"
+    },
+    {
+      "ts": "2026-10-18T18:05:24.707951+02:00",
+      "agent": "RUG",
+      "lead_id": "L-20261017-011",
+      "action": "alerta",
+      "detail": "Nillionaire H7pY44STqWhwjaSAc7dYyVjiX5tJFwp1BDTwpR6Apump: precio -88.34% en 24h, liquidez 4686.83 USD (pool GqmzUJuDfAtm1u3wSTRyRsRNa5ZAFUTvmCjvhFDNSXeW) (lead aprobado, sin posición abierta)"
+    },
+    {
+      "ts": "2026-10-18T18:05:24.707951+02:00",
+      "agent": "RUG",
+      "lead_id": "L-20261017-015",
+      "action": "alerta",
+      "detail": "PROINU 7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump: precio -96.59% en 6h, liquidez 2430.06 USD (pool 8kPjMnBnYTsQLAZJ79UTfyh5fQUWWwwVAjRDisBzQn4) (lead aprobado, sin posición abierta)"
+    },
+    {
+      "ts": "2026-10-18T18:05:24.707951+02:00",
+      "agent": "RUG",
+      "lead_id": null,
+      "action": "info",
+      "detail": "Baseline de vigilancia: 8 leads aprobados revisados, 0 posiciones ejecutadas. Mint/freeze authority revocadas en todos. Holders no comprobados (RPC 429)."
     }
   ]
 }
