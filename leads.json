@@ -10,7 +10,7 @@
       "source": "https://dexscreener.com/solana/dtl4stvt6u8wott2do5uv9isgyv4nduoe12nlzu5ibsr",
       "reason": "Pool pumpswap con 0.0h de edad; liq $21,529; vol 1h $34,522 (24h $34,522); txs 1h 514B/413S; FDV $72,985",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T18:05:24.707951+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -29,7 +29,21 @@
           "by": "RUG",
           "signal": "precio -86.2% en 24h, liquidez 5026.29 USD (pool DTL4stVt6U8wotT2Do5uv9iSGYv4ndUoe12nLZu5ibSR)"
         }
-      ]
+      ],
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: token hundido o sin actividad, no hay acumulación. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 0 operaciones del pool (GeckoTerminal) | liq $11,684, cambio precio {'h24': -5.3} | holders 1866, top10 sin pool 26.53%, insiders detectados por RugCheck 50 | sin operaciones recientes en el pool",
+          "wallets": [],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261017-002",
@@ -257,7 +271,7 @@
       "source": "https://dexscreener.com/solana/gqmzujudfatm1u3wstryrsrna5zafutvmcjvhfdnsxew",
       "reason": "Pool pumpswap con 1.8h de edad; liq $17,571; vol 1h $22,725 (24h $83,935); txs 1h 206B/162S; FDV $43,409",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T18:05:24.707951+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -276,7 +290,21 @@
           "by": "RUG",
           "signal": "precio -88.34% en 24h, liquidez 4686.83 USD (pool GqmzUJuDfAtm1u3wSTRyRsRNa5ZAFUTvmCjvhFDNSXeW)"
         }
-      ]
+      ],
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: token hundido o sin actividad, no hay acumulación. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 0 operaciones del pool (GeckoTerminal) | liq $4,687, cambio precio {'h1': -5.59, 'h6': -16.21, 'h24': -88.34} | holders 785, top10 sin pool 3.88%, insiders detectados por RugCheck 21 | sin operaciones recientes en el pool",
+          "wallets": [],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261017-012",
@@ -360,7 +388,7 @@
       "source": "https://dexscreener.com/solana/8kpjmnbnytsqlazj79utfyh5fquwwwwvajrdisbzqn4",
       "reason": "Pool pumpswap con 4.6h de edad; liq $23,546; vol 1h $33,627 (24h $148,522); txs 1h 335B/262S; FDV $83,406",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T18:05:24.707951+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -379,7 +407,21 @@
           "by": "RUG",
           "signal": "precio -96.59% en 6h, liquidez 2430.06 USD (pool 8kPjMnBnYTsQLAZJ79UTfyh5fQUWWwwVAjRDisBzQn4)"
         }
-      ]
+      ],
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: token hundido o sin actividad, no hay acumulación. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $2,435, cambio precio {'h1': -0.28, 'h6': -0.43, 'h24': -96.91} | holders 2732, top10 sin pool 4.42%, insiders detectados por RugCheck 43 | últimas 300 ops en 370.2 min: compras $2,567 / ventas $11,801; máx. 2 compradores distintos (≥$100) en 5 min",
+          "wallets": [],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261017-016",
@@ -415,7 +457,7 @@
       "source": "https://dexscreener.com/solana/9tm5tkgs8d7rvs666avhqbyesxvqdeopq55ozjtrcjwe",
       "reason": "Pool pumpswap con 9.1h de edad; liq $41,939; vol 1h $39,665 (24h $529,303); txs 1h 270B/254S; FDV $234,567",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -427,7 +469,27 @@
           "at": "2026-10-17T21:50:00+02:00",
           "by": "RISK"
         }
-      ]
+      ],
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $37,514, cambio precio {'m5': -5.19, 'h1': -2.96, 'h6': 2.47, 'h24': 62.73} | holders 2013, top10 sin pool 23.43%, insiders detectados por RugCheck 0 | últimas 300 ops en 219.4 min: compras $10,621 / ventas $11,845; máx. 4 compradores distintos (≥$100) en 5 min | acumuladores sin ventas (≥2 compras): FdJeXySowNeBsu6peaKie5JA9x3tqe1DZQUQnzx3TQZ7 (+$1,987, 9 compras), HocJ47g3C2b38swinsDzdEyE58CKEdFSiXh78aG2cvkk (+$369, 3 compras), GYeaeXfeRcMRAuMcGG6ZBvML35AUkdGFj3drK4C8TQs6 (+$227, 2 compras)",
+          "wallets": [
+            "FdJeXySowNeBsu6peaKie5JA9x3tqe1DZQUQnzx3TQZ7",
+            "HocJ47g3C2b38swinsDzdEyE58CKEdFSiXh78aG2cvkk",
+            "GYeaeXfeRcMRAuMcGG6ZBvML35AUkdGFj3drK4C8TQs6",
+            "5kSG8hLwZXXsyYNrEzfiMhV2PCAdN2UtNYxQmYTaH48X",
+            "F9hsFPoFKNne7KXD7rAPqefxqVJDtkfEmaWh84xZQqDg"
+          ],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261017-018",
@@ -463,7 +525,7 @@
       "source": "https://dexscreener.com/solana/bjshw3igx2beezqanavux5weetd5z73traecskvpguxa",
       "reason": "Pool pumpswap con 12.2h de edad; liq $109,155; vol 1h $3,893 (24h $161,895); txs 1h 71B/34S; FDV $1,666,878",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -475,7 +537,27 @@
           "at": "2026-10-17T21:50:00+02:00",
           "by": "RISK"
         }
-      ]
+      ],
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $142,334, cambio precio {'m5': 0.01, 'h1': 1.56, 'h6': 19.17, 'h24': 77.85} | holders 1065, top10 sin pool 28.13%, insiders detectados por RugCheck 130 | últimas 300 ops en 156.3 min: compras $5,927 / ventas $3,964; máx. 0 compradores distintos (≥$100) en 5 min | acumuladores sin ventas (≥2 compras): 9qJxKGHWewt93GUk5tWHgYvyChZWuHN2P7X5toDwh8Ef (+$182, 4 compras), 8g35jFzAT7NDVn5Zu9v767H4Fw1KxnJrFGBq1XUznqVi (+$173, 6 compras), 2JakfzjTdAF8Mu5aVNX2V7536xgTKwiwZR6zsy92wqdW (+$169, 4 compras)",
+          "wallets": [
+            "9qJxKGHWewt93GUk5tWHgYvyChZWuHN2P7X5toDwh8Ef",
+            "8g35jFzAT7NDVn5Zu9v767H4Fw1KxnJrFGBq1XUznqVi",
+            "2JakfzjTdAF8Mu5aVNX2V7536xgTKwiwZR6zsy92wqdW",
+            "8ouLhMYDdeyhJkj6QpfnNBSbniFzVpNn936YMCr6s4GZ",
+            "5hYr13MJfgBoAwXn25xaguk9Qsu16tSH3K3BqqbF6Cbw"
+          ],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261017-020",
@@ -535,7 +617,7 @@
       "source": "https://dexscreener.com/solana/psevxbyorpslz55vnjsbaw7a1yanpdsymyjijp1cujz",
       "reason": "Pool pumpswap con 18.0h de edad; liq $30,389; vol 1h $33,697 (24h $666,293); txs 1h 495B/477S; FDV $126,833",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -547,7 +629,25 @@
           "at": "2026-10-17T21:50:00+02:00",
           "by": "RISK"
         }
-      ]
+      ],
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $24,912, cambio precio {'m5': 2.02, 'h1': -2.32, 'h6': -25.28, 'h24': -19.91} | holders 1395, top10 sin pool 16.34%, insiders detectados por RugCheck 0 | últimas 300 ops en 21.5 min: compras $4,857 / ventas $4,448; máx. 2 compradores distintos (≥$100) en 5 min | acumuladores sin ventas (≥2 compras): 2J7wxpXRdNZdqWkaXQR8ZPWwSFJ8FxTigwMDEPQWEasC (+$393, 2 compras), 8qFgFJn9FbxbCKMebCfTvxToyhsdpsUmMDXoy6iT8KP (+$135, 2 compras), 3iQC2xCVC5i9pJkzDa9ZNLsC39jP5ZfNUX8Uu7Hj597C (+$111, 3 compras)",
+          "wallets": [
+            "2J7wxpXRdNZdqWkaXQR8ZPWwSFJ8FxTigwMDEPQWEasC",
+            "8qFgFJn9FbxbCKMebCfTvxToyhsdpsUmMDXoy6iT8KP",
+            "3iQC2xCVC5i9pJkzDa9ZNLsC39jP5ZfNUX8Uu7Hj597C"
+          ],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261017-023",
@@ -607,7 +707,7 @@
       "source": "https://dexscreener.com/solana/alnpabqbglaprefrdujobyjnvkephbl7lu6ru7ztel85",
       "reason": "Pool pumpswap con 19.4h de edad; liq $30,043; vol 1h $4,742 (24h $180,423); txs 1h 997B/960S; FDV $109,948",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -619,7 +719,23 @@
           "at": "2026-10-17T21:50:00+02:00",
           "by": "RISK"
         }
-      ]
+      ],
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $56,545, cambio precio {'m5': -3.77, 'h1': 20.76, 'h6': 48.91, 'h24': 384} | holders 2830, top10 sin pool 21.91%, insiders detectados por RugCheck 8 | últimas 300 ops en 8.3 min: compras $826 / ventas $475; máx. 0 compradores distintos (≥$100) en 5 min | acumuladores sin ventas (≥2 compras): 3rj3BoJtqVjUuvVp5EBjdV5qF7k8enfMQTvsTcqk3fZT (+$396, 4 compras)",
+          "wallets": [
+            "3rj3BoJtqVjUuvVp5EBjdV5qF7k8enfMQTvsTcqk3fZT"
+          ],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261017-026",
@@ -679,7 +795,7 @@
       "source": "https://dexscreener.com/solana/9wwv6gaowgratxwm5uvs7jpygdiheuygom1bmeop4cw3",
       "reason": "Pool pumpswap con 22.5h de edad; liq $25,671; vol 1h $5,115 (24h $248,281); txs 1h 62B/35S; FDV $95,945",
       "created_at": "2026-10-17T21:50:00+02:00",
-      "updated_at": "2026-10-18T17:57:23.772308+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -691,7 +807,25 @@
           "at": "2026-10-17T21:50:00+02:00",
           "by": "RISK"
         }
-      ]
+      ],
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $25,462, cambio precio {'m5': -0.04, 'h1': -4.56, 'h6': -6.69, 'h24': 11.53} | holders 522, top10 sin pool 19.19%, insiders detectados por RugCheck 0 | últimas 300 ops en 1332.0 min: compras $8,395 / ventas $6,365; máx. 3 compradores distintos (≥$100) en 5 min | acumuladores sin ventas (≥2 compras): BUnVwbBsAkPLVaDXck5NMgoYpy8bytbWkTqniAJiaBvX (+$982, 2 compras), AvhgHzomi4KKzp9Dwgfjxi8ZLZ8rFv6MWfkHyPXaPXvp (+$675, 2 compras), Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF (+$102, 4 compras)",
+          "wallets": [
+            "BUnVwbBsAkPLVaDXck5NMgoYpy8bytbWkTqniAJiaBvX",
+            "AvhgHzomi4KKzp9Dwgfjxi8ZLZ8rFv6MWfkHyPXaPXvp",
+            "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF"
+          ],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261017-029",
@@ -747,9 +881,9 @@
       "contract": "9JxPFZ68WQBQR8JwMStZfeqxhSm1X79i3rpyHHbbe8B9",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -761,8 +895,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-001→L-20261017-101 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 9JxPFZ68WQBQR8JwMStZfeqxhSm1X79i3rpyHHbbe8B9 | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap 2UF2WgMaqzXFuqRVZgCtzsXfi3qiEssLuRYiqY4hnRLm: liquidez $0 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 2UF2WgMaqzXFuqRVZgCtzsXfi3qiEssLuRYiqY4hnRLm: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 93.2% (0 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "SPL Token: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 0C/0V, 24h 23368C/14774V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 85DHua1XMFNr6qv9LGX2okTHisSR7wWTqWbrLCMv9kzy: sin flag de historial de rugs en RugCheck; RugCheck avisa: Top 10 holders high ownership, Single holder ownership, Low Liquidity, High ownership"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap 2UF2WgMaqzXFuqRVZgCtzsXfi3qiEssLuRYiqY4hnRLm: liquidez $0 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261017-102",
@@ -770,9 +954,9 @@
       "contract": "A3SKFX3HMcQ9yprreoS6BuUcqpYDhnceTFNjTsZV1uMZ",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -784,8 +968,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-002→L-20261017-102 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH A3SKFX3HMcQ9yprreoS6BuUcqpYDhnceTFNjTsZV1uMZ | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "sin liquidez reportada en DexScreener (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck meteora_damm_v2 9NgxDvVKcWx43gMrHHughhGHjbWAW4xRhfF6kSNC6CS3: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 100.0% (2 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 0C/0V, 24h 1C/0V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 7Ga4XfEFCb9yaetyLR6p4so8tK8vmhHc1icsMYJbpysx: sin flag de historial de rugs en RugCheck; RugCheck avisa: Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: sin liquidez reportada en DexScreener (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261017-103",
@@ -793,9 +1027,9 @@
       "contract": "EjPr9rQuavUaSMs2HHsbPdAi5KWfvwwF2r1AdW9kRkLR",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -807,8 +1041,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-003→L-20261017-103 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH EjPr9rQuavUaSMs2HHsbPdAi5KWfvwwF2r1AdW9kRkLR | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap 8dvFN9YTbWW3Lo6zV9Uxs6Mzkgg6fyuA6vAYDN94twvN: liquidez $0 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 8dvFN9YTbWW3Lo6zV9Uxs6Mzkgg6fyuA6vAYDN94twvN: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 99.0% (0 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "SPL Token: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 0C/0V, 24h 10064C/9212V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador None: sin flag de historial de rugs en RugCheck; RugCheck avisa: Low Liquidity, Low amount of LP Providers"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap 8dvFN9YTbWW3Lo6zV9Uxs6Mzkgg6fyuA6vAYDN94twvN: liquidez $0 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261017-104",
@@ -816,9 +1100,9 @@
       "contract": "H73g7ybHwtY4A4U4pxMS9xv9s3BQMPrtz82Ugd8VQskN",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -830,8 +1114,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-004→L-20261017-104 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH H73g7ybHwtY4A4U4pxMS9xv9s3BQMPrtz82Ugd8VQskN | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap AXxbAPUvZKcqi6LVTctq4qWRrhVYwosUDmVsgb4t7xgg: liquidez $0 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm AXxbAPUvZKcqi6LVTctq4qWRrhVYwosUDmVsgb4t7xgg: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 99.2% (0 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "SPL Token: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 0C/1V, 24h 10080C/9127V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador None: sin flag de historial de rugs en RugCheck; RugCheck avisa: Large Amount of LP Unlocked, Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap AXxbAPUvZKcqi6LVTctq4qWRrhVYwosUDmVsgb4t7xgg: liquidez $0 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261017-105",
@@ -839,9 +1173,9 @@
       "contract": "DneSmn3NenxC8CMm4vTJUpTYfigZZKWWbyymq8MjFkw3",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -853,8 +1187,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-005→L-20261017-105 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH DneSmn3NenxC8CMm4vTJUpTYfigZZKWWbyymq8MjFkw3 | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap Ds2fyB2fnz8F1KjZ8WycHMh2u6aRpjy81errtEtY5nEw: liquidez $0 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm Ds2fyB2fnz8F1KjZ8WycHMh2u6aRpjy81errtEtY5nEw: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 97.8% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "SPL Token: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 0C/0V, 24h 9595C/8859V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 79psJCiRbJ2MoLCsjRf37GQ4LeN3dYKmjBCdwEGz1wH2: sin flag de historial de rugs en RugCheck; RugCheck avisa: Large Amount of LP Unlocked, Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap Ds2fyB2fnz8F1KjZ8WycHMh2u6aRpjy81errtEtY5nEw: liquidez $0 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261017-106",
@@ -862,9 +1246,9 @@
       "contract": "CDKjFrKZSgmRGDa157P5YBaiJKS7mbWibP1VxWiRxvWC",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -876,8 +1260,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-006→L-20261017-106 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH CDKjFrKZSgmRGDa157P5YBaiJKS7mbWibP1VxWiRxvWC | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap 331mdGiFiTna85znH9ck2qF8uvxKXHjYLiQPbcqSt4Bu: liquidez $0 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 331mdGiFiTna85znH9ck2qF8uvxKXHjYLiQPbcqSt4Bu: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 100.0% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "SPL Token: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 0C/0V, 24h 11667C/8873V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador DhLFbexXAPwS9mytnXAdLdieRfxYJSvrpLK2ufSYouzS: sin flag de historial de rugs en RugCheck; RugCheck avisa: Top 10 holders high ownership, Single holder ownership, Low Liquidity, High ownership"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap 331mdGiFiTna85znH9ck2qF8uvxKXHjYLiQPbcqSt4Bu: liquidez $0 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261017-107",
@@ -885,9 +1319,9 @@
       "contract": "333KtCBGCYMoTgjbwVwVXAQSw6A5RyExg9tt1H3oesF7",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -899,8 +1333,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-007→L-20261017-107 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 333KtCBGCYMoTgjbwVwVXAQSw6A5RyExg9tt1H3oesF7 | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap hSUPSogTVotzEPdFphb2pV1Sxf6TGqd18YBKvCx3dSU: liquidez $0 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm hSUPSogTVotzEPdFphb2pV1Sxf6TGqd18YBKvCx3dSU: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 100.0% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "SPL Token: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 0C/0V, 24h 14577C/9212V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 5Bym4QffCMURhFLaosDTn2oF73ppa1radUiV8r5nyj6L: sin flag de historial de rugs en RugCheck; RugCheck avisa: Top 10 holders high ownership, Single holder ownership, Low Liquidity, High ownership"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap hSUPSogTVotzEPdFphb2pV1Sxf6TGqd18YBKvCx3dSU: liquidez $0 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261017-108",
@@ -908,9 +1392,9 @@
       "contract": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -922,8 +1406,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-008→L-20261017-108 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (43 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener orca BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW: liquidez $1,822,087 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": false,
+          "note": "RugCheck orca BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW: LP bloqueada/quemada 0.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 60.4% (0 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": false,
+          "note": "extensión transferHook activa (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $253,424, 24h $6,289,991, txs 1h 1142C/1248V"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador Doa8F9eugaAHpCBmfmShKV1BhKN9xyaEDg1mTsonW5p8: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "lp_locked: RugCheck orca BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW: LP bloqueada/quemada 0.0%"
     },
     {
       "lead_id": "L-20261017-109",
@@ -931,9 +1465,9 @@
       "contract": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -945,8 +1479,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-009→L-20261017-109 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": false,
+          "note": "RPC: mintAuthority=FvULawNPGBbuwYus74ECaQoV1oH9Tk6XPN7VPN51NYds"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener orca 2TAgfogn8JRwwTnsGKUa6WUT5Xdv1iMEzfEDMor68X9C: liquidez $3,817,892 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": false,
+          "note": "RugCheck orca 2TAgfogn8JRwwTnsGKUa6WUT5Xdv1iMEzfEDMor68X9C: LP bloqueada/quemada 0.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 34.8% (3 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "SPL Token: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 434C/365V, 24h 9508C/10802V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $409,291, 24h $7,443,415, txs 1h 434C/365V"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador FvULawNPGBbuwYus74ECaQoV1oH9Tk6XPN7VPN51NYds: sin flag de historial de rugs en RugCheck; RugCheck avisa: Mint Authority still enabled, Mutable metadata"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "mint_revoked: RPC: mintAuthority=FvULawNPGBbuwYus74ECaQoV1oH9Tk6XPN7VPN51NYds"
     },
     {
       "lead_id": "L-20261017-110",
@@ -954,9 +1538,9 @@
       "contract": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-17T21:46:10.806529+02:00",
-      "updated_at": "2026-10-18T17:57:57.749248+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
@@ -968,8 +1552,58 @@
           "at": "2026-10-18T17:57:57.749248+02:00",
           "by": "SEARCH",
           "note": "renumerado L-20261017-010→L-20261017-110 para liberar ID a migración SRCH DexScreener"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
-      ]
+      ],
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": false,
+          "note": "RPC: mintAuthority=BCD75RNBHrJJpW4dXVagL5mPjzRLnVZq4YirJdjEYMV7"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener orca HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF: liquidez $7,062,853 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": false,
+          "note": "RugCheck orca HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF: LP bloqueada/quemada 0.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 74.6% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "SPL Token: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 700C/742V, 24h 11403C/10646V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $265,949, 24h $7,686,050, txs 1h 700C/742V"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador None: sin flag de historial de rugs en RugCheck; RugCheck avisa: Mint Authority still enabled, Top 10 holders high ownership, Single holder ownership, Missing file metadata, Mutable metadata"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "mint_revoked: RPC: mintAuthority=BCD75RNBHrJJpW4dXVagL5mPjzRLnVZq4YirJdjEYMV7"
     },
     {
       "lead_id": "L-20261018-001",
@@ -977,18 +1611,68 @@
       "contract": "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/g3na7nutwffaek7mmgp9zusar3brqqdv4eqanwnptswc",
-      "reason": "DexScreener pumpswap: liquidez $85,033, vol 24h $3,367,760, 82887 compras/59325 ventas (ticket medio $24), edad 13.5 h; vol/liq 40x alto"
+      "reason": "DexScreener pumpswap: liquidez $85,033, vol 24h $3,367,760, 82887 compras/59325 ventas (ticket medio $24), edad 13.5 h; vol/liq 40x alto",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener pumpswap G3Na7nUtWFfaEk7mmGp9ZuSAR3brQqDV4eQaNWNptSwC: liquidez $80,084 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm G3Na7nUtWFfaEk7mmGp9ZuSAR3brQqDV4eQaNWNptSwC: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 1.1% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 4915C/3165V, 24h 83514C/59628V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 24h/liq 42.3x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador DgtYkXBUsgH1AatPJAAjAdeumyJvSp3Az4vUoZcMNihX: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "wash_ok: vol 24h/liq 42.3x (límites 5x / 25x / 4:1)"
     },
     {
       "lead_id": "L-20261018-002",
@@ -996,18 +1680,68 @@
       "contract": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/af7w724kw2a7z5pbacas6rnq8ubikewqisa715bxgbfa",
-      "reason": "DexScreener pumpswap: liquidez $63,065, vol 24h $3,291,748, 31585 compras/24845 ventas (ticket medio $58), edad 6.7 h; vol/liq 52x: posible wash trading"
+      "reason": "DexScreener pumpswap: liquidez $63,065, vol 24h $3,291,748, 31585 compras/24845 ventas (ticket medio $58), edad 6.7 h; vol/liq 52x: posible wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener pumpswap Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA: liquidez $67,817 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 16.5% (2 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 1778C/1406V, 24h 31738C/24953V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 24h/liq 48.8x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador Aiby3GTyV17PrBLHGYdUHvcb74VRtcoMuRew2aVj4Mh8: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "wash_ok: vol 24h/liq 48.8x (límites 5x / 25x / 4:1)"
     },
     {
       "lead_id": "L-20261018-003",
@@ -1015,56 +1749,239 @@
       "contract": "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/6axb1e6utmsz77zhncryfe7augzbxxcunhcodhd3odag",
-      "reason": "DexScreener pumpswap: liquidez $54,023, vol 24h $3,089,582, 26216 compras/22004 ventas (ticket medio $64), edad 14.0 h; vol/liq 57x: posible wash trading"
+      "reason": "DexScreener pumpswap: liquidez $54,023, vol 24h $3,089,582, 26216 compras/22004 ventas (ticket medio $64), edad 14.0 h; vol/liq 57x: posible wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener pumpswap 6aXb1e6uTMsz77zhncRYFe7AugzBxxcUnhCodhd3odag: liquidez $55,152 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 6aXb1e6uTMsz77zhncRYFe7AugzBxxcUnhCodhd3odag: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 13.2% (2 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 297C/303V, 24h 26250C/22034V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 24h/liq 56.1x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador E28CEfr3gnXiNvxxPiQZE5fuDV7w8dS5e8a5iH3JLs1V: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "wash_ok: vol 24h/liq 56.1x (límites 5x / 25x / 4:1)"
     },
     {
       "lead_id": "L-20261018-004",
       "symbol": "Gold",
       "contract": "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd",
-      "stage": "escaneado",
+      "stage": "aprobado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/djbrnsdafbdsmxu5mjlvx73pzbyccweuzfwcug9dnezx",
-      "reason": "DexScreener pumpswap: liquidez $32,491, vol 24h $575,197, 8173 compras/5504 ventas (ticket medio $42), edad 2.4 h; sin señales claras de wash trading"
+      "reason": "DexScreener pumpswap: liquidez $32,491, vol 24h $575,197, 8173 compras/5504 ventas (ticket medio $42), edad 2.4 h; sin señales claras de wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener pumpswap DJBrnSDAFbDsmXu5mJLvX73PZByCCWEuZFWCUG9DnEzX: liquidez $27,314 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm DJBrnSDAFbDsmXu5mJLvX73PZByCCWEuZFWCUG9DnEzX: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 16.5% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 1552C/922V, 24h 8403C/5619V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $114,791, 24h $595,919, txs 1h 1552C/922V"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador FVoERi3FXCHn8GdfoFmgMYPaz36eTMmzEdXDQQcTVCoV: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "APROBADO",
+      "risk_decisive": "todas las comprobaciones OK",
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: hay ráfaga de compras en 5 min, pero dentro de un volumen alto y visible en el gráfico, sin wallets de historial probado; no es acumulación sigilosa de smart money. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $28,039, cambio precio {'m5': -20.35, 'h1': -9.77, 'h6': 129, 'h24': 129} | holders 3024, top10 sin pool 15.87%, insiders detectados por RugCheck 4 | últimas 300 ops en 12.1 min: compras $7,094 / ventas $6,687; máx. 9 compradores distintos (≥$100) en 5 min | acumuladores sin ventas (≥2 compras): 9STp61cdBVUexQd4psqFug66DuA78PoGuAoouBGh9AM4 (+$131, 2 compras), DW7PsrTUvzczNq1Sx219ChXyxq7VXsPq5ErWTDgzR9mG (+$121, 5 compras)",
+          "wallets": [
+            "9STp61cdBVUexQd4psqFug66DuA78PoGuAoouBGh9AM4",
+            "DW7PsrTUvzczNq1Sx219ChXyxq7VXsPq5ErWTDgzR9mG"
+          ],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261018-005",
       "symbol": "bwigitte",
       "contract": "4bLHGwcRd4GCVsSP8uRMcrWMh1nBCVcNM2CC9AWPpump",
-      "stage": "escaneado",
+      "stage": "aprobado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:18:51.436011+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/6rzhmjuqp2xzsaj1fnc8u1uezmfdqjf4sc7tcevvh2dp",
-      "reason": "DexScreener pumpswap: liquidez $22,206, vol 24h $168,349, 2018 compras/2011 ventas (ticket medio $42), edad 4.0 h; compras/ventas casi 1:1 (patrón bot)"
+      "reason": "DexScreener pumpswap: liquidez $22,206, vol 24h $168,349, 2018 compras/2011 ventas (ticket medio $42), edad 4.0 h; compras/ventas casi 1:1 (patrón bot)",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 4bLHGwcRd4GCVsSP8uRMcrWMh1nBCVcNM2CC9AWPpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener pumpswap 6RzHmJUqP2XzsAJ1fnC8u1uezMfdqJF4SC7tceVvH2Dp: liquidez $23,117 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 6RzHmJUqP2XzsAJ1fnC8u1uezMfdqJF4SC7tceVvH2Dp: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 16.4% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 342C/240V, 24h 2057C/2032V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $17,613, 24h $169,461, txs 1h 342C/240V"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador ANM6GPFrzRXqrxqqL6bczFVj4w7Kj5AiRA8W28BnuEdZ: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "APROBADO",
+      "risk_decisive": "todas las comprobaciones OK",
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $23,525, cambio precio {'m5': -0.35, 'h1': -12.23, 'h6': 44.32, 'h24': 44.32} | holders 1600, top10 sin pool 16.37%, insiders detectados por RugCheck 538 | últimas 300 ops en 30.9 min: compras $4,032 / ventas $3,630; máx. 3 compradores distintos (≥$100) en 5 min | acumuladores sin ventas (≥2 compras): 2uqb9Aump3u8FEE6j4PtJtVXJBfLbmNWRwBK7PJgiujn (+$104, 15 compras)",
+          "wallets": [
+            "2uqb9Aump3u8FEE6j4PtJtVXJBfLbmNWRwBK7PJgiujn"
+          ],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      }
     },
     {
       "lead_id": "L-20261018-006",
@@ -1072,37 +1989,161 @@
       "contract": "4hCVKZKpuRdFtnRXC9fqEdrrQwEYuw4Rbxipwbwdpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/6eblwchrnvkzks9q8xytzeelu9bavta13pyphwrjhr94",
-      "reason": "DexScreener pumpswap: liquidez $18,119, vol 24h $89,030, 1023 compras/761 ventas (ticket medio $50), edad 0.8 h; sin señales claras de wash trading"
+      "reason": "DexScreener pumpswap: liquidez $18,119, vol 24h $89,030, 1023 compras/761 ventas (ticket medio $50), edad 0.8 h; sin señales claras de wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 4hCVKZKpuRdFtnRXC9fqEdrrQwEYuw4Rbxipwbwdpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener pumpswap 6EBLWcHrNvkzKs9Q8xYtzEeLU9bavtA13pYPHWRJhR94: liquidez $17,607 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 6EBLWcHrNvkzKs9Q8xYtzEeLU9bavtA13pYPHWRJhR94: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 30.2% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 1039C/785V, 24h 1039C/785V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 1h/liq 5.1x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador Cq2AiSYnat86XD12pfNhyqXEybHscaeB8BgYXVi8eF3: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "top_holders_ok: Top 10 sin pools/LP/lockers: 30.2% (1 cuentas excluidas; límite 30%)"
     },
     {
       "lead_id": "L-20261018-007",
       "symbol": "LARPSCAN",
       "contract": "2qfUSuUfKuxHyYEMYreiYdK3YyapFzbgq2c6hhfPpump",
-      "stage": "escaneado",
+      "stage": "aprobado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:21:06.700237+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/2alatuc5rmitb9cobteg48deedgem1kdcuhq6vorxhmu",
-      "reason": "DexScreener pumpswap: liquidez $14,972, vol 24h $76,305, 1065 compras/729 ventas (ticket medio $43), edad 4.6 h; sin señales claras de wash trading"
+      "reason": "DexScreener pumpswap: liquidez $14,972, vol 24h $76,305, 1065 compras/729 ventas (ticket medio $43), edad 4.6 h; sin señales claras de wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 2qfUSuUfKuxHyYEMYreiYdK3YyapFzbgq2c6hhfPpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener pumpswap 2ALATuC5rmitB9CoBtEg48DeeDGEM1kDcuHq6VoRxHMu: liquidez $15,000 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 2ALATuC5rmitB9CoBtEg48DeeDGEM1kDcuHq6VoRxHMu: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 26.6% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 42C/36V, 24h 1067C/732V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $3,359, 24h $76,509, txs 1h 42C/36V"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 7MngLhneWcqygjhpJcpsJXwfhQtZFSZB83B6dZpJRizn: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "APROBADO",
+      "risk_decisive": "todas las comprobaciones OK",
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $12,715, cambio precio {'m5': -11.75, 'h1': -37.42, 'h6': -33.16, 'h24': -33.16} | holders 787, top10 sin pool 26.58%, insiders detectados por RugCheck 4 | últimas 300 ops en 125.2 min: compras $5,873 / ventas $7,354; máx. 2 compradores distintos (≥$100) en 5 min | acumuladores sin ventas (≥2 compras): A6usuerTnZ8izmDfkrJaRB7MHfvZu4b483szjbTvtZyS (+$221, 5 compras), AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51 (+$160, 2 compras)",
+          "wallets": [
+            "A6usuerTnZ8izmDfkrJaRB7MHfvZu4b483szjbTvtZyS",
+            "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51"
+          ],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      },
+      "rug_alerts": [
+        {
+          "at": "2026-10-18T18:21:06.700237+02:00",
+          "by": "RUG",
+          "signal": "precio -30.82% en 1h (liquidez 12391.98 USD, pool 2ALATuC5rmitB9CoBtEg48DeeDGEM1kDcuHq6VoRxHMu)"
+        }
+      ]
     },
     {
       "lead_id": "L-20261018-008",
@@ -1110,37 +2151,161 @@
       "contract": "7iYM9cjpKKNyLvJfq4pYyjubk83dnqxtPDrRdf77pump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/do8mgcnen6ydyeauytntt9q7xdxmsjksvbzx2ehhgrzk",
-      "reason": "DexScreener pumpswap: liquidez $13,960, vol 24h $1,182,953, 16738 compras/12097 ventas (ticket medio $41), edad 17.4 h; vol/liq 85x: posible wash trading"
+      "reason": "DexScreener pumpswap: liquidez $13,960, vol 24h $1,182,953, 16738 compras/12097 ventas (ticket medio $41), edad 17.4 h; vol/liq 85x: posible wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 7iYM9cjpKKNyLvJfq4pYyjubk83dnqxtPDrRdf77pump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener pumpswap Do8MGcneN6YdYEauYtNtT9Q7XDxMsJKsVbzx2ehHgRzK: liquidez $14,326 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm Do8MGcneN6YdYEauYtNtT9Q7XDxMsJKsVbzx2ehHgRzK: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 24.5% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 90C/70V, 24h 16748C/12104V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 24h/liq 82.6x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador CS3EREmMkPMsCswoxjt2oYE41SYhg4t1L6A1TahRRBTy: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "wash_ok: vol 24h/liq 82.6x (límites 5x / 25x / 4:1)"
     },
     {
       "lead_id": "L-20261018-009",
       "symbol": "RIOT",
       "contract": "Fd61znB4XAdwqrFexC91aoxKcz1iheqx5j4VZCG4pump",
-      "stage": "escaneado",
+      "stage": "aprobado",
       "owner": "SEARCH",
       "approval": "pendiente",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:21:06.700237+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "aprobado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/9nuxbp7bgwjoxx3cdz1hrku1vrfcmvy1j3v6jtxwzjox",
-      "reason": "DexScreener pumpswap: liquidez $11,642, vol 24h $43,703, 451 compras/534 ventas (ticket medio $44), edad 0.1 h; más ventas que compras"
+      "reason": "DexScreener pumpswap: liquidez $11,642, vol 24h $43,703, 451 compras/534 ventas (ticket medio $44), edad 0.1 h; más ventas que compras",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH Fd61znB4XAdwqrFexC91aoxKcz1iheqx5j4VZCG4pump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": true,
+          "note": "DexScreener pumpswap 9NUXbp7BGWJoXx3CdZ1hrKU1vrfCmVy1j3V6jTxwZJox: liquidez $15,846 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 9NUXbp7BGWJoXx3CdZ1hrKU1vrfCmVy1j3V6jTxwZJox: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 17.4% (2 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 698C/725V, 24h 698C/725V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $68,049, 24h $68,049, txs 1h 698C/725V"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 6Fs9iShBY613p4zihAYFv55NYwPxvwr6byNiWwhmzwPD: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "APROBADO",
+      "risk_decisive": "todas las comprobaciones OK",
+      "confirms": {
+        "whale": {
+          "result": "no confirmado",
+          "at": "2026-10-18T18:18:51.436011+02:00",
+          "by": "WHALE",
+          "note": "No confirmado: hay ráfaga de compras en 5 min, pero dentro de un volumen alto y visible en el gráfico, sin wallets de historial probado; no es acumulación sigilosa de smart money. ninguna wallet de la lista de referencia (winrate30 ≥60% en /workspace/solana_copy/candidate_wallets.csv) en top holders (RugCheck) ni en las últimas 300 operaciones del pool (GeckoTerminal) | liq $19,423, cambio precio {'m5': 18.03, 'h1': 45.37, 'h6': 45.37, 'h24': 45.37} | holders 961, top10 sin pool 16.53%, insiders detectados por RugCheck 0 | últimas 300 ops en 3.5 min: compras $7,645 / ventas $6,997; máx. 16 compradores distintos (≥$100) en 5 min | acumuladores sin ventas (≥2 compras): 3UkRNB1dPHHPRctpVqWPKhrvmugizzWG9dt8jJZZQjBL (+$362, 2 compras), 4iGfqJLdMQdNg7byQBW2srRuuvML8PJfMsmnNaoQ1ayu (+$214, 2 compras)",
+          "wallets": [
+            "3UkRNB1dPHHPRctpVqWPKhrvmugizzWG9dt8jJZZQjBL",
+            "4iGfqJLdMQdNg7byQBW2srRuuvML8PJfMsmnNaoQ1ayu"
+          ],
+          "sources": [
+            "DexScreener",
+            "RugCheck",
+            "GeckoTerminal"
+          ]
+        }
+      },
+      "rug_alerts": [
+        {
+          "at": "2026-10-18T18:21:06.700237+02:00",
+          "by": "RUG",
+          "signal": "precio -33.6% en 5m (liquidez 15504.75 USD, pool 9NUXbp7BGWJoXx3CdZ1hrKU1vrfCmVy1j3V6jTxwZJox); LP 100% quemada, sin authorities, creador sin saldo"
+        }
+      ]
     },
     {
       "lead_id": "L-20261018-010",
@@ -1148,18 +2313,68 @@
       "contract": "2B7RXYwzSjDubnvqz8GSi1MKSoCsPeLmahyM92k9pump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://www.geckoterminal.com/solana/pools/8mLErp5Q6vdB1JKbYF6GzJtsr6tVzHt79eYLxS2H82Bt",
-      "reason": "GeckoTerminal pumpswap: liquidez $10,303, vol 24h $18,529, 250 compras/226 ventas (ticket medio $39), edad 0.1 h; sin señales claras de wash trading"
+      "reason": "GeckoTerminal pumpswap: liquidez $10,303, vol 24h $18,529, 250 compras/226 ventas (ticket medio $39), edad 0.1 h; sin señales claras de wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 2B7RXYwzSjDubnvqz8GSi1MKSoCsPeLmahyM92k9pump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap 8mLErp5Q6vdB1JKbYF6GzJtsr6tVzHt79eYLxS2H82Bt: liquidez $6,368 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 8mLErp5Q6vdB1JKbYF6GzJtsr6tVzHt79eYLxS2H82Bt: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 20.4% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 436C/502V, 24h 436C/502V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $29,766, 24h $29,766, txs 1h 436C/502V"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador H76G3mA14Emb4EcgNzgXkmCBQEQmYTMSWsgRjRz3zbq: sin flag de historial de rugs en RugCheck; RugCheck avisa: Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap 8mLErp5Q6vdB1JKbYF6GzJtsr6tVzHt79eYLxS2H82Bt: liquidez $6,368 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-011",
@@ -1167,18 +2382,68 @@
       "contract": "KVjKrtzwFKmocPVoYVswKUbxTkNuuCKeJ4r8688pump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/qghce8p7b15pvx83pnbybjwddtw6cfw64sqax5jy36x",
-      "reason": "DexScreener pumpswap: liquidez $9,096, vol 24h $9,803, 79 compras/130 ventas (ticket medio $47), edad 19.4 h; más ventas que compras"
+      "reason": "DexScreener pumpswap: liquidez $9,096, vol 24h $9,803, 79 compras/130 ventas (ticket medio $47), edad 19.4 h; más ventas que compras",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH KVjKrtzwFKmocPVoYVswKUbxTkNuuCKeJ4r8688pump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (43 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap qghCE8p7b15PVX83PNBYBjWDdtW6CFW64sqAX5Jy36x: liquidez $9,096 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm qghCE8p7b15PVX83PNBYBjWDdtW6CFW64sqAX5Jy36x: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 36.3% (3 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 0C/1V, 24h 79C/130V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $0, 24h $9,803, txs 1h 0C/1V"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador GCPDYocGX2hwBVQEEWF9BWBNsuSbScMpapdhtpF95dw5: sin flag de historial de rugs en RugCheck; RugCheck avisa: Copycat token"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap qghCE8p7b15PVX83PNBYBjWDdtW6CFW64sqAX5Jy36x: liquidez $9,096 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-012",
@@ -1186,18 +2451,68 @@
       "contract": "6jijW4Ne924kqj8XYLKXFrhpeHy5y2qxoKgGzJHQpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/5frtjsz43ms1kz2zrha9qlhteehemn7hpk43ntrbpd4u",
-      "reason": "DexScreener pumpswap: liquidez $8,953, vol 24h $70,735, 1100 compras/955 ventas (ticket medio $34), edad 17.2 h; sin señales claras de wash trading"
+      "reason": "DexScreener pumpswap: liquidez $8,953, vol 24h $70,735, 1100 compras/955 ventas (ticket medio $34), edad 17.2 h; sin señales claras de wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 6jijW4Ne924kqj8XYLKXFrhpeHy5y2qxoKgGzJHQpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap 5fRTjsz43MS1Kz2ZrHA9QLHTEEHemn7Hpk43NTRBpD4u: liquidez $8,942 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 5fRTjsz43MS1Kz2ZrHA9QLHTEEHemn7Hpk43NTRBpD4u: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": false,
+          "note": "Top 10 sin pools/LP/lockers: 33.2% (3 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 6C/10V, 24h 1100C/956V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": true,
+          "note": "vol 1h $885, 24h $70,738, txs 1h 6C/10V"
+        },
+        "dev_history_ok": {
+          "ok": false,
+          "note": "creador AFzqFnTqMZ1JYe2hn4szrJuDSMeMGCdux4KLCkHz3GCV: RugCheck marca historial de tokens rugueados; RugCheck avisa: Creator history of rugged tokens"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "dev_history_ok: creador AFzqFnTqMZ1JYe2hn4szrJuDSMeMGCdux4KLCkHz3GCV: RugCheck marca historial de tokens rugueados; RugCheck avisa: Creator history of rugged tokens"
     },
     {
       "lead_id": "L-20261018-013",
@@ -1205,18 +2520,68 @@
       "contract": "3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/89jpenunodkjogzj8nzvxddarigipgymsmjf2muoxmxx",
-      "reason": "DexScreener pumpswap: liquidez $8,340, vol 24h $1,851,238, 21883 compras/19713 ventas (ticket medio $45), edad 13.3 h; vol/liq 222x: posible wash trading"
+      "reason": "DexScreener pumpswap: liquidez $8,340, vol 24h $1,851,238, 21883 compras/19713 ventas (ticket medio $45), edad 13.3 h; vol/liq 222x: posible wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap 89JPenUnoDKjoGzJ8NzVxDdariGiPGyMsmjF2mUoxMXx: liquidez $8,601 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 89JPenUnoDKjoGzJ8NzVxDdariGiPGyMsmjF2mUoxMXx: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 13.8% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 41C/60V, 24h 21891C/19721V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 24h/liq 215.2x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador GcTGjWfRJNCK3cYhjKfATctB3aATUBXSMeNvBuNfoEMW: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap 89JPenUnoDKjoGzJ8NzVxDdariGiPGyMsmjF2mUoxMXx: liquidez $8,601 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-014",
@@ -1224,18 +2589,68 @@
       "contract": "7kxTnPr4cnboiiCmE3RKgj65jcDf36QKiYyXE2igpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/hfxqmnichu4uncnqgpbojosghogp8bex6bfpjbce1tzo",
-      "reason": "DexScreener pumpswap: liquidez $8,126, vol 24h $579,733, 8158 compras/6598 ventas (ticket medio $39), edad 1.2 h; vol/liq 71x: posible wash trading; ticker FTR duplicado en el escaneo (posible copycat)"
+      "reason": "DexScreener pumpswap: liquidez $8,126, vol 24h $579,733, 8158 compras/6598 ventas (ticket medio $39), edad 1.2 h; vol/liq 71x: posible wash trading; ticker FTR duplicado en el escaneo (posible copycat)",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 7kxTnPr4cnboiiCmE3RKgj65jcDf36QKiYyXE2igpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap HFXQMNiCHu4uncNQGPbojoSgHoGp8BEx6bFPjBce1tzo: liquidez $7,820 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm HFXQMNiCHu4uncNQGPbojoSgHoGp8BEx6bFPjBce1tzo: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 27.5% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 4175C/3541V, 24h 8187C/6637V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 1h/liq 39.9x; vol 24h/liq 74.3x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 7gvey9BExxk7M6rdgXj6JExuUWod1KKZz7wJdNBtjbQP: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap HFXQMNiCHu4uncNQGPbojoSgHoGp8BEx6bFPjBce1tzo: liquidez $7,820 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-015",
@@ -1243,18 +2658,68 @@
       "contract": "61DMLhgVgiKuTNPhnxcureAWw5htb4wLRhBgYPukpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/dvx2cavas5xyxv86dx1e32tryt8pcchmntifixw6qpfh",
-      "reason": "DexScreener pumpswap: liquidez $5,049, vol 24h $238,954, 4875 compras/3240 ventas (ticket medio $29), edad 4.1 h; vol/liq 47x alto"
+      "reason": "DexScreener pumpswap: liquidez $5,049, vol 24h $238,954, 4875 compras/3240 ventas (ticket medio $29), edad 4.1 h; vol/liq 47x alto",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 61DMLhgVgiKuTNPhnxcureAWw5htb4wLRhBgYPukpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap DVX2CavaS5XyXv86Dx1e32TRyt8PCchMnTiFiXW6qpfh: liquidez $4,821 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm DVX2CavaS5XyXv86Dx1e32TRyt8PCchMnTiFiXW6qpfh: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 22.0% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 27C/37V, 24h 4881C/3246V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 24h/liq 49.6x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador EWPWm4jHHCBWyuvGGBzRETahHvMsN6o36uGwSjY9mYcH: sin flag de historial de rugs en RugCheck; RugCheck avisa: Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap DVX2CavaS5XyXv86Dx1e32TRyt8PCchMnTiFiXW6qpfh: liquidez $4,821 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-016",
@@ -1262,18 +2727,68 @@
       "contract": "CXmRHXFzgKggtFVLGGqR7LuPwzgRXENJEnA1nR9q7CdA",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/2nxxns63vbcjpejdpuvf5nf8rmhkc7seyd9dcjzcgkfq",
-      "reason": "DexScreener pumpswap: liquidez $4,007, vol 24h $96,918, 1695 compras/1772 ventas (ticket medio $28), edad 0.5 h; vol/liq 24x alto; compras/ventas casi 1:1 (patrón bot)"
+      "reason": "DexScreener pumpswap: liquidez $4,007, vol 24h $96,918, 1695 compras/1772 ventas (ticket medio $28), edad 0.5 h; vol/liq 24x alto; compras/ventas casi 1:1 (patrón bot)",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH CXmRHXFzgKggtFVLGGqR7LuPwzgRXENJEnA1nR9q7CdA | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap 2nXxNs63VBCJPEJdpUVF5nf8RMhKc7SeyD9dcjzcgKFq: liquidez $3,739 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 2nXxNs63VBCJPEJdpUVF5nf8RMhKc7SeyD9dcjzcgKFq: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 17.3% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 1696C/1784V, 24h 1696C/1784V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 1h/liq 26.0x; vol 24h/liq 26.0x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 73itbjnAvdvWQ7yLygjMA3TbtCD2cXHz9yRDTQxRRpP9: sin flag de historial de rugs en RugCheck; RugCheck avisa: Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap 2nXxNs63VBCJPEJdpUVF5nf8RMhKc7SeyD9dcjzcgKFq: liquidez $3,739 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-017",
@@ -1281,18 +2796,68 @@
       "contract": "4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/bpfj6kjbqmvid6fumbnzxpyswzkuejhg1tce4i49kj7e",
-      "reason": "DexScreener pumpswap: liquidez $3,555, vol 24h $468,365, 4872 compras/4266 ventas (ticket medio $51), edad 9.2 h; vol/liq 132x: posible wash trading"
+      "reason": "DexScreener pumpswap: liquidez $3,555, vol 24h $468,365, 4872 compras/4266 ventas (ticket medio $51), edad 9.2 h; vol/liq 132x: posible wash trading",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap BPfJ6KJBqmvid6fuMbNZxpYSwzkUejhg1Tce4i49kJ7E: liquidez $3,504 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm BPfJ6KJBqmvid6fuMbNZxpYSwzkUejhg1Tce4i49kJ7E: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 7.3% (3 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 2C/8V, 24h 4872C/4267V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 24h/liq 133.7x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador HPjEhFwsXfy6o3tEbyg9gmg2PCKuopFNuBaTAzPwrpim: sin flag de historial de rugs en RugCheck; RugCheck avisa: Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap BPfJ6KJBqmvid6fuMbNZxpYSwzkUejhg1Tce4i49kJ7E: liquidez $3,504 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-018",
@@ -1300,18 +2865,68 @@
       "contract": "9hY7ko6b1XRkoNJ1JgAER4grVJqx1cxvHWD3KiTLpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/2bafbvuruzgthp3px4z7m5hnb5y5ejxzphdhpco95ieh",
-      "reason": "DexScreener pumpswap: liquidez $2,458, vol 24h $98,022, 1369 compras/1224 ventas (ticket medio $38), edad 1.2 h; vol/liq 40x alto"
+      "reason": "DexScreener pumpswap: liquidez $2,458, vol 24h $98,022, 1369 compras/1224 ventas (ticket medio $38), edad 1.2 h; vol/liq 40x alto",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 9hY7ko6b1XRkoNJ1JgAER4grVJqx1cxvHWD3KiTLpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap 2bafbvURUzgtHP3Px4z7m5HNB5y5EJXZphDhpCo95iEH: liquidez $2,429 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm 2bafbvURUzgtHP3Px4z7m5HNB5y5EJXZphDhpCo95iEH: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 7.4% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 19C/48V, 24h 1370C/1228V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 24h/liq 40.4x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador BhPrgnQ4eKeNyR27p1DU6WzfDq5KZPrkWg8zjaLRy8vR: sin flag de historial de rugs en RugCheck; RugCheck avisa: Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap 2bafbvURUzgtHP3Px4z7m5HNB5y5EJXZphDhpCo95iEH: liquidez $2,429 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-019",
@@ -1319,18 +2934,68 @@
       "contract": "AnWDYstQBFDjM4KVghwozpd28WVbiADzZHGzANUuUBoB",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://www.geckoterminal.com/solana/pools/D25qPUEgZfzMZabFR2G9SKrK9q83LvyjjYoA4pvuCsfG",
-      "reason": "GeckoTerminal pump-fun: liquidez $2,442, vol 24h $2,217, 5 compras/4 ventas (ticket medio $246), edad 0.1 h; ticker DOGSHIT duplicado en el escaneo (posible copycat); aún en bonding curve de pump.fun"
+      "reason": "GeckoTerminal pump-fun: liquidez $2,442, vol 24h $2,217, 5 compras/4 ventas (ticket medio $246), edad 0.1 h; ticker DOGSHIT duplicado en el escaneo (posible copycat); aún en bonding curve de pump.fun",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH AnWDYstQBFDjM4KVghwozpd28WVbiADzZHGzANUuUBoB | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "sin liquidez reportada en DexScreener (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun D25qPUEgZfzMZabFR2G9SKrK9q83LvyjjYoA4pvuCsfG: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 0% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 5C/5V, 24h 5C/5V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 8rdrB2XQp7PddSBhsnQHG7pnu4Hc5rKpC8RU9p3cc1Qn: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: sin liquidez reportada en DexScreener (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-020",
@@ -1338,18 +3003,68 @@
       "contract": "GKaQ5Xp22z4TeZqiSqoLhmn84xcgkp8HYp3atsCjpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://www.geckoterminal.com/solana/pools/8XrDcbqTcvXZ2v66ShNsSq9tsLNiFLCYtMgx5jQ8vxqY",
-      "reason": "GeckoTerminal pump-fun: liquidez $2,419, vol 24h $2,608, 11 compras/9 ventas (ticket medio $130), edad 0.1 h; aún en bonding curve de pump.fun"
+      "reason": "GeckoTerminal pump-fun: liquidez $2,419, vol 24h $2,608, 11 compras/9 ventas (ticket medio $130), edad 0.1 h; aún en bonding curve de pump.fun",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH GKaQ5Xp22z4TeZqiSqoLhmn84xcgkp8HYp3atsCjpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "sin liquidez reportada en DexScreener (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun 8XrDcbqTcvXZ2v66ShNsSq9tsLNiFLCYtMgx5jQ8vxqY: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 3.5% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 11C/9V, 24h 11C/9V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 354zHMonLVarpvVHXvPgtJwkNXriana7RdEsBq7bCxGN: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: sin liquidez reportada en DexScreener (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-021",
@@ -1357,18 +3072,68 @@
       "contract": "FWqkH6CosAgJRF4WW3cgkP4X4P82RmqRie9wHENBqj2J",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://www.geckoterminal.com/solana/pools/5STbrk1Ch2cj9PWRSbpb2yjxLp5YNBiRjj7DYv8dPmxK",
-      "reason": "GeckoTerminal pump-fun: liquidez $2,271, vol 24h $2,651, 14 compras/13 ventas (ticket medio $98), edad 0.1 h; ticker DOGSHIT duplicado en el escaneo (posible copycat); aún en bonding curve de pump.fun"
+      "reason": "GeckoTerminal pump-fun: liquidez $2,271, vol 24h $2,651, 14 compras/13 ventas (ticket medio $98), edad 0.1 h; ticker DOGSHIT duplicado en el escaneo (posible copycat); aún en bonding curve de pump.fun",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH FWqkH6CosAgJRF4WW3cgkP4X4P82RmqRie9wHENBqj2J | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "sin liquidez reportada en DexScreener (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun 5STbrk1Ch2cj9PWRSbpb2yjxLp5YNBiRjj7DYv8dPmxK: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 0.0% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 14C/13V, 24h 14C/13V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "sin liquidez para calcular"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador BoUqT9scEs1DsfJy8aUSMLdyyK9KDUKssLDGpmhd1Rdv: sin flag de historial de rugs en RugCheck"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: sin liquidez reportada en DexScreener (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-022",
@@ -1376,18 +3141,68 @@
       "contract": "5gYtAc9xjJxUqFbgEAM2JMuyEDGaaYivupcU5Y1Qpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/arne2u63hupp9eo74epe7kmzsbwrg6jeqezdczsxu39n",
-      "reason": "DexScreener pumpswap: liquidez $2,167, vol 24h $63,216, 945 compras/857 ventas (ticket medio $35), edad 1.3 h; vol/liq 29x alto; compras/ventas casi 1:1 (patrón bot)"
+      "reason": "DexScreener pumpswap: liquidez $2,167, vol 24h $63,216, 945 compras/857 ventas (ticket medio $35), edad 1.3 h; vol/liq 29x alto; compras/ventas casi 1:1 (patrón bot)",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 5gYtAc9xjJxUqFbgEAM2JMuyEDGaaYivupcU5Y1Qpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap ArnE2u63HuPP9eo74EPE7kMzSbWrg6jeqEzDczsxU39n: liquidez $2,156 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm ArnE2u63HuPP9eo74EPE7kMzSbWrg6jeqEzDczsxU39n: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 2.8% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 8C/37V, 24h 946C/860V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 24h/liq 29.3x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador 3doTWaRpGmT2zeFzEeaLo7maLAgvW9hBdng3ZkuiGpSQ: sin flag de historial de rugs en RugCheck; RugCheck avisa: Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap ArnE2u63HuPP9eo74EPE7kMzSbWrg6jeqEzDczsxU39n: liquidez $2,156 (mínimo $10.000)"
     },
     {
       "lead_id": "L-20261018-023",
@@ -1395,18 +3210,68 @@
       "contract": "8qBq4WwYvdsBEdrwJjF2EXCtg2AQuxjU8rmHoQVTpump",
       "stage": "escaneado",
       "owner": "SEARCH",
-      "approval": "pendiente",
+      "approval": "RECHAZADO",
       "created_at": "2026-10-18T18:01:13.251037+02:00",
-      "updated_at": "2026-10-18T18:01:13.251037+02:00",
+      "updated_at": "2026-10-18T18:10:18.454111+02:00",
       "history": [
         {
           "stage": "escaneado",
           "at": "2026-10-18T18:01:13.251037+02:00",
           "by": "SEARCH"
+        },
+        {
+          "stage": "rechazado",
+          "at": "2026-10-18T18:10:18.454111+02:00",
+          "by": "RISK"
         }
       ],
       "source": "https://dexscreener.com/solana/fais2mrdi43uwpmmtfuvuhf3xypkrrasdkav9scoalgw",
-      "reason": "DexScreener pumpswap: liquidez $2,041, vol 24h $204,836, 561 compras/663 ventas (ticket medio $167), edad 1.0 h; vol/liq 100x: posible wash trading; más ventas que compras"
+      "reason": "DexScreener pumpswap: liquidez $2,041, vol 24h $204,836, 561 compras/663 ventas (ticket medio $167), edad 1.0 h; vol/liq 100x: posible wash trading; más ventas que compras",
+      "risk_checks": {
+        "contract_match": {
+          "ok": true,
+          "note": "SEARCH 8qBq4WwYvdsBEdrwJjF2EXCtg2AQuxjU8rmHoQVTpump | RPC getAccountInfo: cuenta mint existe | RugCheck mint: idéntica carácter a carácter (44 caracteres) | DexScreener baseToken: coincide"
+        },
+        "mint_revoked": {
+          "ok": true,
+          "note": "RPC: mintAuthority=null"
+        },
+        "freeze_revoked": {
+          "ok": true,
+          "note": "RPC: freezeAuthority=null"
+        },
+        "liquidity_ok": {
+          "ok": false,
+          "note": "DexScreener pumpswap FAiS2MrDi43uWPmMTfuVuhF3xyPkRRasDKAv9SCoaLgw: liquidez $2,041 (mínimo $10.000)"
+        },
+        "lp_locked": {
+          "ok": true,
+          "note": "RugCheck pump_fun_amm FAiS2MrDi43uWPmMTfuVuhF3xyPkRRasDKAv9SCoaLgw: LP bloqueada/quemada 100.0%"
+        },
+        "top_holders_ok": {
+          "ok": true,
+          "note": "Top 10 sin pools/LP/lockers: 0.6% (1 cuentas excluidas; límite 30%)"
+        },
+        "taxes_ok": {
+          "ok": true,
+          "note": "Token-2022: transfer fee 0%; pools AMM sin impuesto de compra/venta propio"
+        },
+        "honeypot_ok": {
+          "ok": true,
+          "note": "ventas reales: 1h 156C/258V, 24h 561C/663V; sin transferHook/permanentDelegate/pausable (sin simulador público, proxy por ventas y extensiones)"
+        },
+        "wash_ok": {
+          "ok": false,
+          "note": "vol 1h/liq 21.6x; vol 24h/liq 100.4x (límites 5x / 25x / 4:1)"
+        },
+        "dev_history_ok": {
+          "ok": true,
+          "note": "creador BaqJbpA45tc8DLaxp1Yh4KbVYASa6xpfsfHDziW5BcXx: sin flag de historial de rugs en RugCheck; RugCheck avisa: Low Liquidity"
+        }
+      },
+      "risk_checked_at": "2026-10-18T18:10:18.454111+02:00",
+      "risk_verdict": "RECHAZADO",
+      "risk_decisive": "liquidity_ok: DexScreener pumpswap FAiS2MrDi43uWPmMTfuVuhF3xyPkRRasDKAv9SCoaLgw: liquidez $2,041 (mínimo $10.000)"
     }
   ]
 }

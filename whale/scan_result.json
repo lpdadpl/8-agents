@@ -1,0 +1,1425 @@
+{
+ "L-20261017-001": {
+  "lead_id": "L-20261017-001",
+  "symbol": "wibet",
+  "contract": "wiben7BURMAbyWyHrSD7bsBV1Svr7cQaJ9rPmu9SPu4",
+  "pair": "3y1GsAh8sgEyAMDvrJmwRhcbzyumkiQeY68x6Qs7Rphd",
+  "dex": "meteora",
+  "liq": 11683.67,
+  "fdv": 33760097,
+  "pc": {
+   "h24": -5.3
+  },
+  "txns": {
+   "m5": {
+    "buys": 0,
+    "sells": 0
+   },
+   "h1": {
+    "buys": 0,
+    "sells": 0
+   },
+   "h6": {
+    "buys": 0,
+    "sells": 0
+   },
+   "h24": {
+    "buys": 1,
+    "sells": 3
+   }
+  },
+  "vol": {
+   "h24": 2.03,
+   "h6": 0,
+   "h1": 0,
+   "m5": 0
+  },
+  "holders_total": 1866,
+  "insiders_detected": 50,
+  "top10_nonpool_pct": 26.53,
+  "top_nonpool": [
+   [
+    "21JWmuRiehX6hKnUJMFPHXx8eSnkPwv4TKhhwtUgrnm3",
+    3.55,
+    false
+   ],
+   [
+    "3gntdixKRwxfXmf15wG3nkqqppbsHTPS7n7c1QdDJ3bt",
+    3.48,
+    false
+   ],
+   [
+    "7s1By7J8EhVcRSaTWvk7o2VWQfijBvmx4vminUdGbfw4",
+    3.38,
+    false
+   ],
+   [
+    "7GaGQQvYyemGCtkdZeY41EHG9EfBqMazudNYvxvKYgB7",
+    3.2,
+    false
+   ],
+   [
+    "AHEAj6oiZDdGBkdYdE9W5sid2GNCXztsg8v6Rdkkt96Q",
+    2.96,
+    false
+   ],
+   [
+    "GKJD1cUYuAdas9JAiUsfwUyYN2ggLwQs5Q1duSmjMK4n",
+    2.85,
+    false
+   ],
+   [
+    "CKYZhGjbgHhPN1txqKPy7xYfT4f3sZ3qTz4AT94mMjcv",
+    2.54,
+    false
+   ],
+   [
+    "AgVmJAyePqXGyDSGR1M3BbCFpiPmHD6kBWRA9aZbfdHg",
+    1.89,
+    false
+   ],
+   [
+    "4o7JG8NqhaoUgXFe5CpqMXnk99Ytsg2DqRYFfbao3yu2",
+    1.38,
+    false
+   ],
+   [
+    "Dwp8BieEkexvMuKuiP5fM7PxgFuVb8YCkmT6md3JNJ3x",
+    1.29,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 0
+ },
+ "L-20261017-011": {
+  "lead_id": "L-20261017-011",
+  "symbol": "Nillionaire",
+  "contract": "H7pY44STqWhwjaSAc7dYyVjiX5tJFwp1BDTwpR6Apump",
+  "pair": "GqmzUJuDfAtm1u3wSTRyRsRNa5ZAFUTvmCjvhFDNSXeW",
+  "dex": "pumpswap",
+  "liq": 4686.83,
+  "fdv": 4967,
+  "pc": {
+   "h1": -5.59,
+   "h6": -16.21,
+   "h24": -88.34
+  },
+  "txns": {
+   "m5": {
+    "buys": 0,
+    "sells": 0
+   },
+   "h1": {
+    "buys": 0,
+    "sells": 2
+   },
+   "h6": {
+    "buys": 5,
+    "sells": 16
+   },
+   "h24": {
+    "buys": 1166,
+    "sells": 922
+   }
+  },
+  "vol": {
+   "h24": 105574.68,
+   "h6": 1039.29,
+   "h1": 81.24,
+   "m5": 0
+  },
+  "holders_total": 785,
+  "insiders_detected": 21,
+  "top10_nonpool_pct": 3.88,
+  "top_nonpool": [
+   [
+    "6prMLCvCKYUcpmuHRrRdz4qbyJD7CiDj4SiS2524WJd9",
+    1.26,
+    false
+   ],
+   [
+    "BMLWpLithjbgxMKRfjH4a1pPoUMafyWWvURrkuj9Uwa",
+    0.76,
+    false
+   ],
+   [
+    "12v3KmUYkPFwzyCwojZieBYyXm17rMjRoBqTfHrzEvMk",
+    0.37,
+    false
+   ],
+   [
+    "5BK5LbCEHkakVMd9acjimvdnj2EKkwEPm7mbxbKkUMJf",
+    0.36,
+    false
+   ],
+   [
+    "HBWhLRREycDwM44Vw3LvNfV6uquqNEbyihUmV7J65EpZ",
+    0.25,
+    false
+   ],
+   [
+    "2tiVtbHcjDjBLLKazXJvzcNcLRNQo4kLaHsmhLVT5H3q",
+    0.23,
+    false
+   ],
+   [
+    "DA7Kkr38imvAL8aAFVAmhEgqUj3FAeLC9SNPzJgs2yjC",
+    0.21,
+    false
+   ],
+   [
+    "J8n1ogcirGFMPb9WdjMqVb62ftujueEQqZyvCqCDk5jw",
+    0.16,
+    false
+   ],
+   [
+    "3QsqdoF9yjSd8ACs9fXNJ2G4Au4QeTTQbKvGxqswEooK",
+    0.14,
+    false
+   ],
+   [
+    "HGEjY9wsHV6YtAjFdmJVnSytowQQ6qSjh2bWedcWEwc2",
+    0.14,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 0
+ },
+ "L-20261017-015": {
+  "lead_id": "L-20261017-015",
+  "symbol": "PROINU",
+  "contract": "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump",
+  "pair": "8kPjMnBnYTsQLAZJ79UTfyh5fQUWWwwVAjRDisBzQn4",
+  "dex": "pumpswap",
+  "liq": 2434.93,
+  "fdv": 2254,
+  "pc": {
+   "h1": -0.28,
+   "h6": -0.43,
+   "h24": -96.91
+  },
+  "txns": {
+   "m5": {
+    "buys": 0,
+    "sells": 0
+   },
+   "h1": {
+    "buys": 1,
+    "sells": 3
+   },
+   "h6": {
+    "buys": 16,
+    "sells": 32
+   },
+   "h24": {
+    "buys": 7893,
+    "sells": 3611
+   }
+  },
+  "vol": {
+   "h24": 418100.12,
+   "h6": 169.73,
+   "h1": 0.48,
+   "m5": 0
+  },
+  "holders_total": 2732,
+  "insiders_detected": 43,
+  "top10_nonpool_pct": 4.42,
+  "top_nonpool": [
+   [
+    "MvspBKg2BfGoXXuJTvt8EFdRDJC2wW8osxh5DE77b2Q",
+    1.27,
+    false
+   ],
+   [
+    "CuQ4A1dZSxPX6pawcsXgMsP3N1u5Qw6gjTuSceeUWfFm",
+    0.95,
+    false
+   ],
+   [
+    "ANVVYVN255zJvXqjZ2RCCbbed8gqc4uybzJ4nSK6WMmt",
+    0.79,
+    false
+   ],
+   [
+    "CmhB4wnBdLurui5rw1PtstipyophuVArr49J9FmWba6n",
+    0.42,
+    false
+   ],
+   [
+    "5jFrR9ZyrgXgWGcmbWJMH4mZtrf5t2XcKh8pUT6pzpKH",
+    0.37,
+    false
+   ],
+   [
+    "E3Ds9UKxdsY12RWaVFHhFEUBrqNUKfdfC3KuYjCxCSFy",
+    0.24,
+    false
+   ],
+   [
+    "EsTY4SCkGo9Kr3HfCLLFF5iUKCVtUTKdFAdfSLqV8yMR",
+    0.15,
+    false
+   ],
+   [
+    "21EwrAzDTEh9R2czD6w6JjPo7Wue497f5HPreaKEko27",
+    0.13,
+    false
+   ],
+   [
+    "AVTAsCyLyKqsrZTyBd1TCDc6TgkJtgyd4BxdXbMMHAFJ",
+    0.1,
+    false
+   ],
+   [
+    "2SRNk2X3cGHwtKePU1auYNXW8CmMDgmrvCQnYZq9WkGQ",
+    0.01,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 370.2,
+  "stealth_accumulators": [],
+  "max_cluster_5m": 2,
+  "cluster_wallets": [
+   "3nER5ZNaL8f97tu5MCYsPDArUBypKqfvTusEFarawQyJ",
+   "FbfXMrRJT42YkPgpgC1PmebeXkTD9AKfSGEEMV82LezM"
+  ],
+  "cluster_start": "2026-10-18T12:05:22",
+  "buy_usd": 2567.0,
+  "sell_usd": 11801.0,
+  "ref_in_trades": []
+ },
+ "L-20261017-017": {
+  "lead_id": "L-20261017-017",
+  "symbol": "ZeroFee",
+  "contract": "ErvkxE8gc7EwmaQfvoGfVfcDJbVG4EcHQr3yweTkpump",
+  "pair": "9TM5TKGS8D7RVS666AVhqBYeSxvQDEoPQ55ozJtRcJwE",
+  "dex": "pumpswap",
+  "liq": 37514.42,
+  "fdv": 187747,
+  "pc": {
+   "m5": -5.19,
+   "h1": -2.96,
+   "h6": 2.47,
+   "h24": 62.73
+  },
+  "txns": {
+   "m5": {
+    "buys": 2,
+    "sells": 3
+   },
+   "h1": {
+    "buys": 33,
+    "sells": 36
+   },
+   "h6": {
+    "buys": 229,
+    "sells": 246
+   },
+   "h24": {
+    "buys": 2822,
+    "sells": 2642
+   }
+  },
+  "vol": {
+   "h24": 416104.4,
+   "h6": 34272.23,
+   "h1": 6533.41,
+   "m5": 580.83
+  },
+  "holders_total": 2013,
+  "insiders_detected": 0,
+  "top10_nonpool_pct": 23.43,
+  "top_nonpool": [
+   [
+    "5vpHkTyBwwGKUPCLAgTUVz6Uh4QDEru89UiJ5dbdMNQi",
+    3.49,
+    false
+   ],
+   [
+    "4RyxWgPdvxwyc2ibZSY1D1jUu3G8dEJfjmkDjQW85464",
+    3.13,
+    false
+   ],
+   [
+    "AcUJM6Aq6M2aojWiit7P2Ed48VN6k3XqJG9gT3datSss",
+    2.92,
+    false
+   ],
+   [
+    "ALrsrZuhfJkHwTdh2A23Su5ABXupV9kJSKUpp6AotRrA",
+    2.34,
+    false
+   ],
+   [
+    "Gw9TMEff9XHthqWjk1tNUj2ySph7fWiVHUhkGxSnbJqh",
+    2.33,
+    false
+   ],
+   [
+    "Hx2r7qGd2fDKG9HxQNfLj4ugLeAVmNuXYWGBQJ444dZw",
+    2.04,
+    false
+   ],
+   [
+    "UftXDHZjponSUTBdNgqFywQdTr4FFvk7d4NN36KdC59",
+    1.95,
+    false
+   ],
+   [
+    "9kjPgXnktNt1nDxShDhb9kDqPy6S9rKZUPZJGfkSvkdu",
+    1.93,
+    false
+   ],
+   [
+    "SAn1HUVr4oHMdLCsP8eUxzH4XzpZoFksETCwVeHcQ9G",
+    1.68,
+    false
+   ],
+   [
+    "9CGQhPAc4NsVLi4NGuFbokKTDNyH7drTuUvhvH1AgiEQ",
+    1.64,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 219.4,
+  "stealth_accumulators": [
+   [
+    "FdJeXySowNeBsu6peaKie5JA9x3tqe1DZQUQnzx3TQZ7",
+    1986.8,
+    9
+   ],
+   [
+    "HocJ47g3C2b38swinsDzdEyE58CKEdFSiXh78aG2cvkk",
+    368.6,
+    3
+   ],
+   [
+    "GYeaeXfeRcMRAuMcGG6ZBvML35AUkdGFj3drK4C8TQs6",
+    226.6,
+    2
+   ],
+   [
+    "5kSG8hLwZXXsyYNrEzfiMhV2PCAdN2UtNYxQmYTaH48X",
+    196.2,
+    2
+   ],
+   [
+    "F9hsFPoFKNne7KXD7rAPqefxqVJDtkfEmaWh84xZQqDg",
+    189.8,
+    2
+   ]
+  ],
+  "max_cluster_5m": 4,
+  "cluster_wallets": [
+   "4nBcGKe2grQF1mdCsdBifb5bkndhrBSCMArkNK9wRcGB",
+   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+   "DRP4SYn6dywiMkFDMirhm1AmfTDPBpX3dAmrecf5dU9v",
+   "HyQ9MpiSnDkCyFPpFhhfndQ4YTqQ5Ht8X6ZS7F9UeRzP"
+  ],
+  "cluster_start": "2026-10-18T18:01:04",
+  "buy_usd": 10621.0,
+  "sell_usd": 11845.0,
+  "ref_in_trades": []
+ },
+ "L-20261017-019": {
+  "lead_id": "L-20261017-019",
+  "symbol": "vibe",
+  "contract": "S6CoPVUjfHW3Cdtrm4YDTz3HPParxwAqjzmXrqipump",
+  "pair": "BJsHw3igx2BeEZqaNaVUX5WEETD5z73trAEcSKvPGUxA",
+  "dex": "pumpswap",
+  "liq": 142334.37,
+  "fdv": 2854877,
+  "pc": {
+   "m5": 0.01,
+   "h1": 1.56,
+   "h6": 19.17,
+   "h24": 77.85
+  },
+  "txns": {
+   "m5": {
+    "buys": 4,
+    "sells": 3
+   },
+   "h1": {
+    "buys": 63,
+    "sells": 44
+   },
+   "h6": {
+    "buys": 399,
+    "sells": 280
+   },
+   "h24": {
+    "buys": 5838,
+    "sells": 1504
+   }
+  },
+  "vol": {
+   "h24": 164465.35,
+   "h6": 26600.98,
+   "h1": 3331.36,
+   "m5": 205.53
+  },
+  "holders_total": 1065,
+  "insiders_detected": 130,
+  "top10_nonpool_pct": 28.13,
+  "top_nonpool": [
+   [
+    "Hdiup38UjHm1hiBhmpJN8parDUq4gycu4sU3oPBpvG8Q",
+    16.63,
+    false
+   ],
+   [
+    "9NnQeQhK6L1a7FkjtVQD8G8JuUWZAwGHTqrosZrjsqoU",
+    1.37,
+    false
+   ],
+   [
+    "3Wwj1acC5CZ7Kun985mtWRkUUGrdqGviiySx9hDY6xru",
+    1.32,
+    false
+   ],
+   [
+    "8SEShS3R7PqY9DvXmZtT1Afj5u9mxxtSCYf7mFgjhpSt",
+    1.32,
+    false
+   ],
+   [
+    "AtVnpUQv9kJxcRULgghdVvGPw4fkRWa3wiKBRkZ76e3W",
+    1.3,
+    false
+   ],
+   [
+    "3RaRSSY1dS3cQpmhxtazB7BbTekMUPvRpyeYckZDM8Yo",
+    1.3,
+    false
+   ],
+   [
+    "GciyQgJ7zJ6kSoGN4Xy1iuEBDN2yBsJ24woaCXRVVQ5T",
+    1.25,
+    false
+   ],
+   [
+    "3iFRqEANaJ7QDZjZchv4W1weu9kBCp6K1HpVZJKdr7tT",
+    1.21,
+    false
+   ],
+   [
+    "ALtnUJTPZPM3DCFAGKdzibiBXUEYBvERdgCKT9mRnKYb",
+    1.21,
+    false
+   ],
+   [
+    "HKv4nEJrECNN8AABdJ7rf3iAXBwXD9jhozaHCa8ArUGc",
+    1.21,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 156.3,
+  "stealth_accumulators": [
+   [
+    "9qJxKGHWewt93GUk5tWHgYvyChZWuHN2P7X5toDwh8Ef",
+    182.0,
+    4
+   ],
+   [
+    "8g35jFzAT7NDVn5Zu9v767H4Fw1KxnJrFGBq1XUznqVi",
+    172.8,
+    6
+   ],
+   [
+    "2JakfzjTdAF8Mu5aVNX2V7536xgTKwiwZR6zsy92wqdW",
+    168.8,
+    4
+   ],
+   [
+    "8ouLhMYDdeyhJkj6QpfnNBSbniFzVpNn936YMCr6s4GZ",
+    168.5,
+    4
+   ],
+   [
+    "5hYr13MJfgBoAwXn25xaguk9Qsu16tSH3K3BqqbF6Cbw",
+    116.2,
+    3
+   ],
+   [
+    "Hdiup38UjHm1hiBhmpJN8parDUq4gycu4sU3oPBpvG8Q",
+    107.4,
+    2
+   ],
+   [
+    "3H5NwsTiqkj8D2vMoPqxzr1t5eJt8JtAJgerKp2Vzikt",
+    102.4,
+    2
+   ]
+  ],
+  "max_cluster_5m": 0,
+  "cluster_wallets": [],
+  "cluster_start": null,
+  "buy_usd": 5927.0,
+  "sell_usd": 3964.0,
+  "ref_in_trades": []
+ },
+ "L-20261017-022": {
+  "lead_id": "L-20261017-022",
+  "symbol": "MOMO",
+  "contract": "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump",
+  "pair": "psEVxbyorPSLZ55VNJsbAW7A1YAnPDsymyJijp1CuJz",
+  "dex": "pumpswap",
+  "liq": 24912.47,
+  "fdv": 82298,
+  "pc": {
+   "m5": 2.02,
+   "h1": -2.32,
+   "h6": -25.28,
+   "h24": -19.91
+  },
+  "txns": {
+   "m5": {
+    "buys": 3,
+    "sells": 1
+   },
+   "h1": {
+    "buys": 595,
+    "sells": 616
+   },
+   "h6": {
+    "buys": 2389,
+    "sells": 2396
+   },
+   "h24": {
+    "buys": 9360,
+    "sells": 8708
+   }
+  },
+  "vol": {
+   "h24": 649155.28,
+   "h6": 169270.56,
+   "h1": 39588.94,
+   "m5": 364.38
+  },
+  "holders_total": 1395,
+  "insiders_detected": 0,
+  "top10_nonpool_pct": 16.34,
+  "top_nonpool": [
+   [
+    "FsNcxcnzQT45Kur3w8xFsh1kztKZ5ZP6vKHr2WJ9fihL",
+    2.53,
+    false
+   ],
+   [
+    "5NQkuW4cGkBpXEegdqdn6Fr6wSAWC4vt3H3wE5HBuBvc",
+    1.72,
+    false
+   ],
+   [
+    "34svYF39QEYZqJPxdx4KGeSK3yhzkKqjsKrhjj1F3iFP",
+    1.65,
+    false
+   ],
+   [
+    "Ends452wnoPpCbez1GbDFAxMRw6oAeEv5CjzpEtkSUzD",
+    1.64,
+    false
+   ],
+   [
+    "HVu9nxnkYYXQNjPzo4UjqDd6zzZRLgF1CyK6mFn4fmRf",
+    1.57,
+    false
+   ],
+   [
+    "7UCiqnvQEnEnDpyybeg94LxwwuqYkfTHn44qKgp4RjET",
+    1.53,
+    false
+   ],
+   [
+    "6btcCbEdYnCUyuzV3JEMDpw9YbbF1tPFzNSN2Sfwg5eT",
+    1.52,
+    false
+   ],
+   [
+    "Gj6QnESGj9iemqxJdXkMNxTjXSCoTtbxdo9dJpvdKrb",
+    1.43,
+    false
+   ],
+   [
+    "BdEAbb5QTUCptiN3942N6Je43mvcWsC56f8TRLdQenqD",
+    1.42,
+    false
+   ],
+   [
+    "8HVX44LW1aqqM8qYV98zeQFwV6QQXeHbdNfh2X35cBeX",
+    1.32,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 21.5,
+  "stealth_accumulators": [
+   [
+    "2J7wxpXRdNZdqWkaXQR8ZPWwSFJ8FxTigwMDEPQWEasC",
+    392.8,
+    2
+   ],
+   [
+    "8qFgFJn9FbxbCKMebCfTvxToyhsdpsUmMDXoy6iT8KP",
+    135.2,
+    2
+   ],
+   [
+    "3iQC2xCVC5i9pJkzDa9ZNLsC39jP5ZfNUX8Uu7Hj597C",
+    111.0,
+    3
+   ]
+  ],
+  "max_cluster_5m": 2,
+  "cluster_wallets": [
+   "2Q4hbxQfPTMWaSrv2K8JZ35yYsX4ZXH2w5jCrYFMhCV2",
+   "DPuYYbG1r8wZxgdTuwyThZudvg399LUPbZQ7BDaF7FYd"
+  ],
+  "cluster_start": "2026-10-18T17:55:28",
+  "buy_usd": 4857.0,
+  "sell_usd": 4448.0,
+  "ref_in_trades": []
+ },
+ "L-20261017-025": {
+  "lead_id": "L-20261017-025",
+  "symbol": "CAPE",
+  "contract": "4by8accPvdRcmDEvJy1svdSJMwfVcNGyWqgQw9EPpump",
+  "pair": "ALNPAbQbgLApREFRDuJoBYJNvKePHbL7Lu6ru7zTeL85",
+  "dex": "pumpswap",
+  "liq": 56544.53,
+  "fdv": 352696,
+  "pc": {
+   "m5": -3.77,
+   "h1": 20.76,
+   "h6": 48.91,
+   "h24": 384
+  },
+  "txns": {
+   "m5": {
+    "buys": 78,
+    "sells": 73
+   },
+   "h1": {
+    "buys": 1176,
+    "sells": 1089
+   },
+   "h6": {
+    "buys": 6521,
+    "sells": 6281
+   },
+   "h24": {
+    "buys": 27198,
+    "sells": 25433
+   }
+  },
+  "vol": {
+   "h24": 336305.53,
+   "h6": 72574.05,
+   "h1": 30540.82,
+   "m5": 328.13
+  },
+  "holders_total": 2830,
+  "insiders_detected": 8,
+  "top10_nonpool_pct": 21.91,
+  "top_nonpool": [
+   [
+    "EVqxB3F6iUBeWsTpBFQqWwxpqUS8s4NrzgxBvQ2VRbTq",
+    4.15,
+    false
+   ],
+   [
+    "GpquGYz2muTU42tZ7rCvSAbauQqWmXqQtP5myB4PdJyd",
+    2.52,
+    false
+   ],
+   [
+    "BGcbpw3RWfJqfpBGG9GSpxozKz5nYXHVuqTAopaCK2fN",
+    2.24,
+    false
+   ],
+   [
+    "WGNsnJMwj6XZMAzjZA9MZUdzdMer5T8gdFxdDLDUUSR",
+    2.12,
+    false
+   ],
+   [
+    "2DMEekxNypeyjo9s78kvFGoSKJbPxMdox2r5Ajph9F1r",
+    2.05,
+    false
+   ],
+   [
+    "5B5aCTNobK5rh3xVFYSGThmt65gESFeUtwGU9j2dUYmQ",
+    1.98,
+    false
+   ],
+   [
+    "BxScXNAGhGPnbwyqiArZhHtrVKMDbaijDJRS1DUoAQvJ",
+    1.86,
+    false
+   ],
+   [
+    "DjBeJv1d6Mw1BwP4C7RfAWcPNPt9pqdEd5ao2S3ggbN7",
+    1.83,
+    false
+   ],
+   [
+    "6EGKmR14iGXDGUj451CmPDrdm6qeU8NYNq6K2DLNrNCt",
+    1.6,
+    false
+   ],
+   [
+    "3mo5chCT28tnEfMTZ9FSx7uXRyCbKCkZL4mevLZd4xGT",
+    1.56,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 8.3,
+  "stealth_accumulators": [
+   [
+    "3rj3BoJtqVjUuvVp5EBjdV5qF7k8enfMQTvsTcqk3fZT",
+    396.3,
+    4
+   ]
+  ],
+  "max_cluster_5m": 0,
+  "cluster_wallets": [],
+  "cluster_start": null,
+  "buy_usd": 826.0,
+  "sell_usd": 475.0,
+  "ref_in_trades": []
+ },
+ "L-20261017-028": {
+  "lead_id": "L-20261017-028",
+  "symbol": "CARTEL",
+  "contract": "4VjdJXbacsnnRDGvbkMFrrWsRUoE5DCrQGU97hUkpump",
+  "pair": "9wwv6GaoWGraTXwM5uvs7JpYGDiHEuYGoM1bMeoP4Cw3",
+  "dex": "pumpswap",
+  "liq": 25462.36,
+  "fdv": 96043,
+  "pc": {
+   "m5": -0.04,
+   "h1": -4.56,
+   "h6": -6.69,
+   "h24": 11.53
+  },
+  "txns": {
+   "m5": {
+    "buys": 1,
+    "sells": 1
+   },
+   "h1": {
+    "buys": 5,
+    "sells": 4
+   },
+   "h6": {
+    "buys": 34,
+    "sells": 33
+   },
+   "h24": {
+    "buys": 232,
+    "sells": 244
+   }
+  },
+  "vol": {
+   "h24": 20147.79,
+   "h6": 3024.01,
+   "h1": 437.9,
+   "m5": 57.34
+  },
+  "holders_total": 522,
+  "insiders_detected": 0,
+  "top10_nonpool_pct": 19.19,
+  "top_nonpool": [
+   [
+    "BUnVwbBsAkPLVaDXck5NMgoYpy8bytbWkTqniAJiaBvX",
+    3.05,
+    false
+   ],
+   [
+    "5pTbgE5z5MJhK8gNNJkWR5WJMytEtmhKunoVmnRYTd1K",
+    1.85,
+    false
+   ],
+   [
+    "HiUqqkC9BBKcqNs5oVMZa1vd6vNy3hoAyYsiHjvnWUmh",
+    1.85,
+    false
+   ],
+   [
+    "5aPMbocVF2ZTj1UDZJiDEerDzsP7EFizXF6W7MtqFbJg",
+    1.83,
+    false
+   ],
+   [
+    "5pRYQqMzGLfFtgBSz8Zezn3F4mfcAGeUAGmzdGVSMMxA",
+    1.83,
+    false
+   ],
+   [
+    "CBnWj9Hcsk18iaoCMmFCQmqT3W1C8iuhVBKpGbCYWjwr",
+    1.82,
+    false
+   ],
+   [
+    "9kQ8nk4oTJ4WJmSedtoSHAyfuu2bjJ2vQLcfBpGtASA4",
+    1.77,
+    false
+   ],
+   [
+    "DknuP5zSCFvVGTkf6CatJK6mUDztLz4jXvyqqEYQw8qc",
+    1.77,
+    false
+   ],
+   [
+    "9yi4h3FVboTb5pHeMjpMsNM3vE1mpU95oi6VQCDixKnk",
+    1.76,
+    false
+   ],
+   [
+    "JD4f2VGZParPZyW4UMhJcVkbakovQT4Dm6UcEYbb9QAu",
+    1.67,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 1332.0,
+  "stealth_accumulators": [
+   [
+    "BUnVwbBsAkPLVaDXck5NMgoYpy8bytbWkTqniAJiaBvX",
+    981.9,
+    2
+   ],
+   [
+    "AvhgHzomi4KKzp9Dwgfjxi8ZLZ8rFv6MWfkHyPXaPXvp",
+    675.4,
+    2
+   ],
+   [
+    "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
+    102.5,
+    4
+   ]
+  ],
+  "max_cluster_5m": 3,
+  "cluster_wallets": [
+   "B9QUXnf1mkk39HfRb9tGyBPoWPAa6NUb4ny8BBtToa7C",
+   "BUnVwbBsAkPLVaDXck5NMgoYpy8bytbWkTqniAJiaBvX",
+   "zXGYAbcwZZ8QzQCikJRTPa3dSP1KALBPcHYH4uo82JK"
+  ],
+  "cluster_start": "2026-10-17T21:09:16",
+  "buy_usd": 8395.0,
+  "sell_usd": 6365.0,
+  "ref_in_trades": []
+ },
+ "L-20261018-004": {
+  "lead_id": "L-20261018-004",
+  "symbol": "Gold",
+  "contract": "GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd",
+  "pair": "DJBrnSDAFbDsmXu5mJLvX73PZByCCWEuZFWCUG9DnEzX",
+  "dex": "pumpswap",
+  "liq": 28039.38,
+  "fdv": 101799,
+  "pc": {
+   "m5": -20.35,
+   "h1": -9.77,
+   "h6": 129,
+   "h24": 129
+  },
+  "txns": {
+   "m5": {
+    "buys": 68,
+    "sells": 48
+   },
+   "h1": {
+    "buys": 1146,
+    "sells": 726
+   },
+   "h6": {
+    "buys": 8553,
+    "sells": 5702
+   },
+   "h24": {
+    "buys": 8553,
+    "sells": 5702
+   }
+  },
+  "vol": {
+   "h24": 607490.74,
+   "h6": 607490.74,
+   "h1": 90238.19,
+   "m5": 6655.28
+  },
+  "holders_total": 3024,
+  "insiders_detected": 4,
+  "top10_nonpool_pct": 15.87,
+  "top_nonpool": [
+   [
+    "Ejky4xChwDNJNf9TJK2PQKzhSUdkjrx6ThuhjxvWfBdH",
+    2.6,
+    false
+   ],
+   [
+    "4j92aBeMZPcu1LvPt3RrTPXMjX8MjEy6Pzysqb7o4755",
+    1.98,
+    false
+   ],
+   [
+    "6uSNRA4NvEFHA8AQX62aLFxy7d8aQFnJnXQJyQ272gZq",
+    1.64,
+    false
+   ],
+   [
+    "BXJ3514WoUErwaVc1PTLJ4aNkdvpuwpe1uz3tD5qJvKF",
+    1.58,
+    false
+   ],
+   [
+    "8ep5umSacj1EALD4Fi8nUG36ZpdEa89MzyQ2si5onRyw",
+    1.52,
+    false
+   ],
+   [
+    "rsx8zBSa3qveekiKLxcLHvFRQft2ChLGdeBqimJ4XrK",
+    1.46,
+    false
+   ],
+   [
+    "7d5AwbNNp54CivcYLcpEFNJo762c8Z6Bfnf9ut69uEWs",
+    1.4,
+    false
+   ],
+   [
+    "Dh6U5q2odnJVYcPWQbft7fV8zqiz66g4hHnBjm4eKscu",
+    1.39,
+    false
+   ],
+   [
+    "8ZsfYtZV2Ca79tFhGxxqK8LWz9mpsAWoSmsK1iKTcdUr",
+    1.18,
+    false
+   ],
+   [
+    "AyW9ihWwFBxQAkd2E4wtAeRsqSK29cqfhFpWkJ4ttBS9",
+    1.13,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 12.1,
+  "stealth_accumulators": [
+   [
+    "9STp61cdBVUexQd4psqFug66DuA78PoGuAoouBGh9AM4",
+    130.8,
+    2
+   ],
+   [
+    "DW7PsrTUvzczNq1Sx219ChXyxq7VXsPq5ErWTDgzR9mG",
+    120.6,
+    5
+   ]
+  ],
+  "max_cluster_5m": 9,
+  "cluster_wallets": [
+   "4uDSw6Nxvp8NYfzkQscQ8JBpPWoVhbQCgQZXFjnu8gkc",
+   "6AbR8RyUi2DRD3Qco6k6yoBFbgnkBBPbVqqXajF9CDq4",
+   "6E78qKfmqTBqqUXMkuXUGk9oM8gDafmo4AP2yo3jMFGJ",
+   "6XhAHcDLkpjogpgGVh75Vv6Rst1S32C5tmWR4kudqCQX",
+   "72kF8kHgSmWw3cqUaw4VfJRXiYPaAYhhUNrsGYsLSUXQ",
+   "7BNaxx6KdUYrjACNQZ9He26NBFoFxujQMAfNLnArLGH5",
+   "8VS8M7og1NEL4rDLzqMRfMeMbDti1XZ8AaF8uWNzb3Y1",
+   "BwAw7UkvT7TXxcyuNcuGQ6tmAspnmaTQvfTSxPfjcWxf",
+   "og7rsswMD5DqHssQB67QHSMwvPvZ3qcyhvyJWEGq3nP"
+  ],
+  "cluster_start": "2026-10-18T18:12:39",
+  "buy_usd": 7094.0,
+  "sell_usd": 6687.0,
+  "ref_in_trades": []
+ },
+ "L-20261018-005": {
+  "lead_id": "L-20261018-005",
+  "symbol": "bwigitte",
+  "contract": "4bLHGwcRd4GCVsSP8uRMcrWMh1nBCVcNM2CC9AWPpump",
+  "pair": "6RzHmJUqP2XzsAJ1fnC8u1uezMfdqJF4SC7tceVvH2Dp",
+  "dex": "pumpswap",
+  "liq": 23524.53,
+  "fdv": 84808,
+  "pc": {
+   "m5": -0.35,
+   "h1": -12.23,
+   "h6": 44.32,
+   "h24": 44.32
+  },
+  "txns": {
+   "m5": {
+    "buys": 28,
+    "sells": 19
+   },
+   "h1": {
+    "buys": 332,
+    "sells": 229
+   },
+   "h6": {
+    "buys": 2118,
+    "sells": 2074
+   },
+   "h24": {
+    "buys": 2118,
+    "sells": 2074
+   }
+  },
+  "vol": {
+   "h24": 171939.35,
+   "h6": 171939.35,
+   "h1": 15883.71,
+   "m5": 1025.99
+  },
+  "holders_total": 1600,
+  "insiders_detected": 538,
+  "top10_nonpool_pct": 16.37,
+  "top_nonpool": [
+   [
+    "2hjxiGVvstB63sXzqDLCF9ZojaDZCPHAfrvyZUivDi98",
+    2.25,
+    false
+   ],
+   [
+    "5G8L3yuzxBDoxqfqSV1nR4Z1XRMJcmYfWrRyWbACscck",
+    1.68,
+    false
+   ],
+   [
+    "wc9nCHZTJ4VGRsH48f2SxcWcsuBWtPqfbE9EgdAsuTa",
+    1.67,
+    false
+   ],
+   [
+    "8WRZvWRHMQazAXikZRoVrxaEGdaSXY5LnzcP85kgPn4H",
+    1.56,
+    false
+   ],
+   [
+    "5VE2FVdbHzwrWQQ9A3XywUA3iz42TUn9sejZqgR6VmMq",
+    1.54,
+    false
+   ],
+   [
+    "6TjBCgSyH8DDDoEMiDoHew1z3hXF1y5qswfxVuZWtLZK",
+    1.54,
+    false
+   ],
+   [
+    "7MtDcY1gQRdnSuSmAy3avcFGCZQsmrKsCxp6cXrX93D2",
+    1.54,
+    false
+   ],
+   [
+    "GRF5QmHFiwgxMEXNpEQwmhyeT4ocYXeX7vFrmkDHJEaA",
+    1.53,
+    false
+   ],
+   [
+    "DH9YzBMQP81okZp5NKjW2T56C2hEc52VGs3WanDnTp6s",
+    1.53,
+    false
+   ],
+   [
+    "C6FVp31zqZJyarhbjzPjdGGfz5NEr75NXVHJu4NwjXpD",
+    1.53,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 30.9,
+  "stealth_accumulators": [
+   [
+    "2uqb9Aump3u8FEE6j4PtJtVXJBfLbmNWRwBK7PJgiujn",
+    103.6,
+    15
+   ]
+  ],
+  "max_cluster_5m": 3,
+  "cluster_wallets": [
+   "7A1mRYMy6MSuaFvhx7QkmtHEE9fgj8uwws94Z6fU9aEV",
+   "8P2ixPa2TJujc6mA6BpyfXZQeCVeQBEQxgD1sR4ryhHn",
+   "CiDchLmokfmU1JwxGn6YKKtjGU53jPwBtB1UPhjj1bLz"
+  ],
+  "cluster_start": "2026-10-18T17:57:57",
+  "buy_usd": 4032.0,
+  "sell_usd": 3630.0,
+  "ref_in_trades": []
+ },
+ "L-20261018-007": {
+  "lead_id": "L-20261018-007",
+  "symbol": "LARPSCAN",
+  "contract": "2qfUSuUfKuxHyYEMYreiYdK3YyapFzbgq2c6hhfPpump",
+  "pair": "2ALATuC5rmitB9CoBtEg48DeeDGEM1kDcuHq6VoRxHMu",
+  "dex": "pumpswap",
+  "liq": 12714.92,
+  "fdv": 27918,
+  "pc": {
+   "m5": -11.75,
+   "h1": -37.42,
+   "h6": -33.16,
+   "h24": -33.16
+  },
+  "txns": {
+   "m5": {
+    "buys": 46,
+    "sells": 13
+   },
+   "h1": {
+    "buys": 70,
+    "sells": 52
+   },
+   "h6": {
+    "buys": 1113,
+    "sells": 755
+   },
+   "h24": {
+    "buys": 1113,
+    "sells": 755
+   }
+  },
+  "vol": {
+   "h24": 80032.32,
+   "h6": 80032.32,
+   "h1": 5595.89,
+   "m5": 2689.82
+  },
+  "holders_total": 787,
+  "insiders_detected": 4,
+  "top10_nonpool_pct": 26.58,
+  "top_nonpool": [
+   [
+    "2qW5LsgAGnCnyfVvzhwBQBfLsQ6hz3o2uaB29U3CSHBy",
+    3.75,
+    false
+   ],
+   [
+    "D19jibqDiPRjWuUyM9CWZriP95uuAe79vk8xawgRTMBY",
+    3.49,
+    false
+   ],
+   [
+    "71EaMBWXUY4VgS29cPi4SQ28GCX57yzqcwHQyENuguCi",
+    2.62,
+    false
+   ],
+   [
+    "8qnz3vi76N6KZB583QXeV55yeUruUaiqYXRJQJesrEpD",
+    2.6,
+    false
+   ],
+   [
+    "627oKQ7pEuhcN6LiVghqsYET8GpatpP4Jd6aUAh1iW2o",
+    2.54,
+    false
+   ],
+   [
+    "HvDyuSLBXyqgJzY3RdVykhTRoyX9e6U2dL1AcJtKD2Zd",
+    2.51,
+    false
+   ],
+   [
+    "11111111111111111111111111111111",
+    2.3,
+    false
+   ],
+   [
+    "BF7Jekoihm4vAp4e1s2q7tMSCMUTJFV2zFwixZEKrkxU",
+    2.3,
+    false
+   ],
+   [
+    "AdvEiMVwhE9YHtNa6jTuHXfgYoEEr8QG5veSascUWdvb",
+    2.3,
+    false
+   ],
+   [
+    "13cLF4ZHH7X977o5kdXJ3t6dCdetcijEcNm34s6d4r3W",
+    2.18,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 125.2,
+  "stealth_accumulators": [
+   [
+    "A6usuerTnZ8izmDfkrJaRB7MHfvZu4b483szjbTvtZyS",
+    221.4,
+    5
+   ],
+   [
+    "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+    160.2,
+    2
+   ]
+  ],
+  "max_cluster_5m": 2,
+  "cluster_wallets": [
+   "2vn4o6txUgaf4bvZ4U4kug5rC5rjzFSdB1Qbs7GKLACa",
+   "3JJzmDLp33hFG8KeNghcYM9Hyr8pJuWeTr3Rr8suP1tQ"
+  ],
+  "cluster_start": "2026-10-18T16:15:55",
+  "buy_usd": 5873.0,
+  "sell_usd": 7354.0,
+  "ref_in_trades": []
+ },
+ "L-20261018-009": {
+  "lead_id": "L-20261018-009",
+  "symbol": "RIOT",
+  "contract": "Fd61znB4XAdwqrFexC91aoxKcz1iheqx5j4VZCG4pump",
+  "pair": "9NUXbp7BGWJoXx3CdZ1hrKU1vrfCmVy1j3V6jTxwZJox",
+  "dex": "pumpswap",
+  "liq": 19422.75,
+  "fdv": 60766,
+  "pc": {
+   "m5": 18.03,
+   "h1": 45.37,
+   "h6": 45.37,
+   "h24": 45.37
+  },
+  "txns": {
+   "m5": {
+    "buys": 231,
+    "sells": 148
+   },
+   "h1": {
+    "buys": 1248,
+    "sells": 1055
+   },
+   "h6": {
+    "buys": 1248,
+    "sells": 1055
+   },
+   "h24": {
+    "buys": 1248,
+    "sells": 1055
+   }
+  },
+  "vol": {
+   "h24": 106411,
+   "h6": 106411,
+   "h1": 106411,
+   "m5": 16969.05
+  },
+  "holders_total": 961,
+  "insiders_detected": 0,
+  "top10_nonpool_pct": 16.53,
+  "top_nonpool": [
+   [
+    "4CRX74nxAdmFY4Eh1WhTrmYqHoxwxGzwXfgzTWvhUfFn",
+    3.46,
+    false
+   ],
+   [
+    "9phNJAWW7HehoSk4t6zPrbThhSiyUUeFta12aGsXz2kP",
+    1.93,
+    false
+   ],
+   [
+    "BLxPDprR4ukJ7dD4ZJLaAcE4LScwQ8fzxoFKF5RhrH2j",
+    1.84,
+    false
+   ],
+   [
+    "EKbcDKSD3fwPmi34auaZRTjupF9nKWVHa24et9hr8rLW",
+    1.69,
+    false
+   ],
+   [
+    "3UkRNB1dPHHPRctpVqWPKhrvmugizzWG9dt8jJZZQjBL",
+    1.33,
+    false
+   ],
+   [
+    "DftGGfCk2LKpdmpDiGVFak8YJDQXUgXQutsGDFZhgdJg",
+    1.32,
+    false
+   ],
+   [
+    "AoRT6Q9U1ihhbUV2VvXuRJ4AqpqGDuRn3fpvGeLC2PhS",
+    1.3,
+    false
+   ],
+   [
+    "9kQMPknt94SLgMLnyHoTt8ZM2YPFRSM6pN6dJrrpLsYF",
+    1.29,
+    false
+   ],
+   [
+    "A2DnUcmUcZEojz8zPAbDCXPuJML6uYMue7TWZsBZkqrp",
+    1.26,
+    false
+   ],
+   [
+    "ED6iezX2Fb9nXFPYtbP3vM9X8FXx1X6WEAJUnhfD71UF",
+    1.11,
+    false
+   ]
+  ],
+  "insider_count_top": 0,
+  "ref_in_holders": [],
+  "n_trades": 300,
+  "trades_span_min": 3.5,
+  "stealth_accumulators": [
+   [
+    "3UkRNB1dPHHPRctpVqWPKhrvmugizzWG9dt8jJZZQjBL",
+    362.1,
+    2
+   ],
+   [
+    "4iGfqJLdMQdNg7byQBW2srRuuvML8PJfMsmnNaoQ1ayu",
+    214.3,
+    2
+   ]
+  ],
+  "max_cluster_5m": 16,
+  "cluster_wallets": [
+   "2fmNMizfd3RAP9MgkzXshz6hDz1TSs35wjtUjw4aQY3B",
+   "3UkRNB1dPHHPRctpVqWPKhrvmugizzWG9dt8jJZZQjBL",
+   "3r3rasmf9LsUPJkGsAFgbTujJ6qftzGE1esxFLTJfR3M",
+   "4iGfqJLdMQdNg7byQBW2srRuuvML8PJfMsmnNaoQ1ayu",
+   "5d9qMq3Hc3ygeMfXqPoxgLXKjykt5TfxHNmrggYSVSqQ",
+   "6jiDqi9ojjSzti2cTHuFrSmmBJgNWKWtV7uAEVzkeN6A",
+   "7iVCXQn4u6tiTEfNVqbWSEsRdEi69E9oYsSMiepuECwi",
+   "8gkTWjZ89SvUsyos2UomgykGsgAcaCsSePKd7pu3qnaw",
+   "8qkQLJnTcLE7WQBKpzaXJW5zyS7hYFJJzBZtubsASufV",
+   "ANRvxpgrhydw2Bbk6aBeLRmSjZL8WggYBdojzehvad5W",
+   "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+   "Bd5qCSEsvDhMMQbbVB63fM6mCv6V5q7JGTQFafZx94n8"
+  ],
+  "cluster_start": "2026-10-18T18:13:47",
+  "buy_usd": 7645.0,
+  "sell_usd": 6997.0,
+  "ref_in_trades": []
+ }
+}

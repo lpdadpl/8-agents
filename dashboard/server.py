@@ -20,6 +20,48 @@ def wr_state(fn):
         fcntl.flock(lk,fcntl.LOCK_EX); s=rd("state.json"); fn(s)
         s["updated_at"]=datetime.datetime.now().astimezone().isoformat()
         tmp=f"{D}/state.json.tmp"; json.dump(s,open(tmp,"w"),indent=2,ensure_ascii=False); os.replace(tmp,f"{D}/state.json")
+
+# ---- Archivos (solo lectura, allowlist estricta) ----
+FROOTS={"desk":"/workspace/desk","leads":"/workspace/leads","risk":"/workspace/risk"}
+FEXT=(".json",".md",".csv"); FBAD=("auth","sync","render_url",".env","secret","token","password","credential")
+FMAX=3*1024*1024
+def f_ok(rel):
+    if not isinstance(rel,str) or "\x00" in rel or "\\" in rel: return None
+    parts=rel.split("/")
+    if len(parts)<2 or parts[0] not in FROOTS or any(p in("",".","..") or p.startswith(".") for p in parts): return None
+    low=rel.lower()
+    if not low.endswith(FEXT) or any(b in low for b in FBAD) or ".log" in low: return None
+    root=os.path.realpath(FROOTS[parts[0]]); full=os.path.realpath(os.path.join(root,*parts[1:]))
+    if not full.startswith(root+os.sep): return None
+    return full
+def f_list_disk():
+    out=[]
+    for k,root in FROOTS.items():
+        if not os.path.isdir(root): continue
+        for dp,dn,fn in os.walk(root):
+            dn[:]=[d for d in dn if not d.startswith(".") and d not in("__pycache__","node_modules")]
+            for f in fn:
+                rel=k+"/"+os.path.relpath(os.path.join(dp,f),root).replace(os.sep,"/")
+                full=f_ok(rel)
+                if full and os.path.isfile(full):
+                    st=os.stat(full)
+                    if st.st_size<=FMAX: out.append({"path":rel,"size":st.st_size,"mtime":datetime.datetime.fromtimestamp(st.st_mtime).astimezone().isoformat()})
+    return sorted(out,key=lambda x:x["path"])
+def f_list():
+    if MEM: return [{k:v for k,v in x.items() if k!="content"} for x in STORE.get("__files",{}).values()]
+    return f_list_disk()
+def f_get(rel):
+    if not f_ok(rel) and not (MEM and rel in STORE.get("__files",{}) and f_okname(rel)): return None
+    if MEM:
+        x=STORE.get("__files",{}).get(rel); return x
+    full=f_ok(rel)
+    if not os.path.isfile(full) or os.path.getsize(full)>FMAX: return None
+    st=os.stat(full)
+    return {"path":rel,"size":st.st_size,"mtime":datetime.datetime.fromtimestamp(st.st_mtime).astimezone().isoformat(),"content":open(full,encoding="utf-8",errors="replace").read()}
+def f_okname(rel):
+    parts=rel.split("/") if isinstance(rel,str) else []
+    low=rel.lower() if isinstance(rel,str) else ""
+    return len(parts)>=2 and parts[0] in FROOTS and not any(p in("",".","..") or p.startswith(".") for p in parts) and low.endswith(FEXT) and not any(b in low for b in FBAD) and ".log" not in low and "\\" not in rel and "\x00" not in rel
 e=html.escape
 _u=os.environ.get("DASH_USERS") or open(f"{D}/dashboard/.auth").read()
 AUTHS=["Basic "+base64.b64encode(l.strip().encode()).decode() for l in _u.replace(",","\n").splitlines() if ":" in l]
@@ -106,12 +148,27 @@ body:not(.sbc) #sbt{left:214px}
 .bh{display:flex;gap:14px;align-items:center}.bh .mini{width:90px;height:90px;border-radius:18px;background:#0005;overflow:hidden;flex:none}.bh .mini svg{width:130px;margin:-6px 0 0 -20px}
 .btn{border:0;border-radius:10px;padding:8px 14px;font-weight:700;cursor:pointer;color:#fff}.bstop{background:#8b1e1e}.bgo{background:#1f6d3a}
 #modal{z-index:45!important}#dshade{z-index:48!important}#drawer{z-index:50!important}#upd{font-size:12px;opacity:.7}
+
+.fv{display:grid;grid-template-columns:300px 1fr;gap:14px;min-height:60vh}@media(max-width:800px){.fv{grid-template-columns:1fr}}
+.flist{max-height:72vh;overflow-y:auto;overflow-x:hidden;word-break:break-all;border-right:1px solid #fff1;padding-right:8px}.fg{font-size:11px;text-transform:uppercase;opacity:.55;margin:10px 0 4px;letter-spacing:1px}
+.fi{padding:6px 8px;border-radius:8px;cursor:pointer;font-size:12px;display:flex;flex-direction:column}.fi:hover{background:#ffffff12}.fi.on{background:#5a6cff55}
+.fi .fm{font-size:10px;opacity:.55}.fbody{min-width:0}.ftool{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.ftool .chip{font-size:11px}.fview{background:#0006;border-radius:12px;padding:12px;max-height:66vh;overflow:auto;font-size:12.5px}
+.jt{font-family:ui-monospace,monospace;line-height:1.55}.jt details{margin-left:14px}.jt summary{cursor:pointer;list-style:none}.jt summary::before{content:"▸ ";opacity:.6}.jt details[open]>summary::before{content:"▾ "}
+.jk{color:#9fb0ff}.js{color:#7ee0a0}.jn{color:#ffb86b}.jb{color:#ff79c6}.jz{color:#999}.jc{opacity:.5;font-size:11px}
+mark{background:#ffd60066;color:inherit;border-radius:3px}.jl{margin-left:14px}
+.md h1,.md h2,.md h3{color:#cfd6ff;margin:14px 0 6px}.md h1{font-size:22px;border-bottom:1px solid #fff2;padding-bottom:4px}.md h2{font-size:18px}.md h3{font-size:15px}
+.md p,.md li{line-height:1.6;font-size:14px}.md code{background:#ffffff14;padding:1px 5px;border-radius:5px;font-family:ui-monospace,monospace}
+.md pre{background:#000a;padding:10px;border-radius:10px;overflow:auto}.md pre code{background:none;padding:0}.md blockquote{border-left:3px solid #5a6cff;margin:6px 0;padding:2px 12px;opacity:.85}
+.md table{margin:8px 0}.md th{background:#ffffff10}.md a{color:#9fb0ff}.md hr{border:0;border-top:1px solid #fff2}
+pre.raw{white-space:pre-wrap;word-break:break-word;margin:0;font-family:ui-monospace,monospace}
+.csvt th{cursor:pointer;position:sticky;top:-12px;background:#2a2d44}.csvt th:hover{background:#3a3e5c}
 </style></head><body>
 <button id="sbt" onclick="toggleSB()" title="Menú">☰</button>
 <aside id="sb"><div class="sbh">🏢 <b>Mesa de memecoins</b></div>
 <div class="sbs"><div id="fl" class="pill">…</div><div class="fn" id="fn"></div><div class="m" id="upd"></div>
 <div class="ql"><a href="#" onclick="history_();return false">📜 Histórico</a><a href="/clasico">🗂 Vista clásica</a></div></div>
-<div class="sbs"><div class="sbt">Información</div><a class="nav" href="#" onclick="proj();return false">📘 El proyecto</a></div>
+<div class="sbs"><div class="sbt">Información</div><a class="nav" href="#" onclick="proj();return false">📘 El proyecto</a><a class="nav" href="#" onclick="filesV();return false">📁 Archivos</a></div>
 <div class="sbs"><div class="sbt">Agentes</div><div id="navb"></div></div>
 <div class="m" style="opacity:.5;padding:10px">Sin wallet · sin claves · sin firma</div></aside>
 <div id="sbshade" onclick="toggleSB(false)"></div>
@@ -245,7 +302,7 @@ function detail(id){const l=LD.find(x=>x.lead_id===id);if(!l)return;const si=STA
 function closeD(){document.getElementById("drawer").classList.remove("open");document.getElementById("dshade").classList.remove("open")}
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeD();closeM()}});
 const _load=load;load=async function(){try{TOP=await j("/api/top10")}catch(e){}await _load();if(CUR&&document.activeElement?.className!=="srch")rerender()};
-async function boot(){await load();const hs=decodeURIComponent(location.hash.slice(1));if(hs.startsWith("bot="))botP(hs.slice(4));else if(hs==="proj")proj();else if(hs==="hist")history_();else if(hs.startsWith("ops="))ops(hs.slice(4));else if(hs.startsWith("lead=")){history_();detail(hs.slice(5))}}
+async function boot(){await load();const hs=decodeURIComponent(location.hash.slice(1));if(hs.startsWith("file=")){FV.path=hs.slice(5);filesV()}else if(hs==="files")filesV();else if(hs.startsWith("bot="))botP(hs.slice(4));else if(hs==="proj")proj();else if(hs==="hist")history_();else if(hs.startsWith("ops="))ops(hs.slice(4));else if(hs.startsWith("lead=")){history_();detail(hs.slice(5))}}
 
 const INFO={
 "BOT DESK":{t:"Jefe de Mesa",obs:"El funnel completo, state.json, leads.json y activity.json de toda la planta.",how:"Coordina el grupo Trading Floor, reparte trabajo, hace cumplir el protocolo y prepara el informe de las 21:00. Escribe en state.json (vía panel) y activity.json.",cad:"Continuo; informe diario a las 21:00.",does:"Enruta leads entre agentes, detecta fuentes caídas, eleva a Alberto la única decisión que necesita firma.",lim:"Nunca opera, nunca guarda claves, nunca firma. No cambia límites de riesgo sin Alberto."},
@@ -276,6 +333,64 @@ const _render=render;render=function(){_render();const halted=S.floor!=="RUNNING
  document.getElementById("fn").innerHTML=STAGES.map(s=>`<span><i class="dotc" style="background:${SC[s]}"></i>${s}</span><b>${LD.filter(l=>l.stage===s).length}</b>`).join("");
  ["BOT DESK",...AG.map(a=>a[0])].forEach(n=>{const e=document.getElementById("sd-"+n.replace(" ","_"));if(e)e.style.background=((S.agents||{})[n]?.status==="RUNNING"&&!halted)?"#4ee08a":"#ff5b5b"})};
 if(localStorage.getItem("sbc")==="1"||(localStorage.getItem("sbc")===null&&innerWidth<=800))document.body.classList.add("sbc");
+
+let FV={path:null,mode:null,q:"",mtime:null,data:null,sort:[-1,1]},FTIMER=null;
+const fsize=n=>n<1024?n+" B":n<1048576?(n/1024).toFixed(1)+" KB":(n/1048576).toFixed(1)+" MB";
+const fdate=s=>s?new Date(s).toLocaleString("es-ES",{timeZone:"Europe/Madrid"}):"";
+const rx=q=>new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");
+const hl=(t,q)=>{t=esc(t);return q?t.replace(rx(esc(q)),m=>`<mark>${m}</mark>`):t};
+async function filesV(){closeMenu();const r=await j("/api/files");const fs=r.files||[];const g={};fs.forEach(f=>{const d=f.path.split("/").slice(0,-1).join("/");(g[d]=g[d]||[]).push(f)});
+ openM(`<div class="ops"><h2>📁 Archivos <span class="m" style="font-size:12px;opacity:.6">solo lectura · ${fs.length} archivos (.json .md .csv)</span></h2>
+ <div class="fv"><div class="flist"><input class="srch" style="padding:7px 10px;font-size:12px" placeholder="Filtrar…" oninput="document.querySelectorAll('.fi').forEach(e=>e.style.display=e.dataset.p.toLowerCase().includes(this.value.toLowerCase())?'':'none')">
+ ${Object.keys(g).sort().map(d=>`<div class="fg">${esc(d)}</div>${g[d].map(f=>`<div class="fi" data-p="${esc(f.path)}" onclick="openFile('${esc(f.path)}')"><span>${esc(f.path.split("/").pop())}</span><span class="fm">${fsize(f.size)} · ${fdate(f.mtime)}</span></div>`).join("")}`).join("")}</div>
+ <div class="fbody" id="fbody"><div class="sub">Elige un archivo de la lista.</div></div></div></div>`);
+ CUR=null;clearInterval(FTIMER);FTIMER=setInterval(()=>{if(document.getElementById("fbody")&&FV.path)openFile(FV.path,true);else clearInterval(FTIMER)},15000);if(FV.path)openFile(FV.path)}
+async function openFile(p,refresh){const r=await fetch("/api/file?path="+encodeURIComponent(p),{cache:"no-store"});if(!r.ok){document.getElementById("fbody").innerHTML=`<div class="wbox">No permitido o no encontrado (${r.status})</div>`;return}
+ const x=await r.json();if(refresh&&x.mtime===FV.mtime&&p===FV.path)return;
+ if(p!==FV.path){FV.mode=null;FV.q="";FV.sort=[-1,1]}FV.path=p;FV.mtime=x.mtime;FV.content=x.content;FV.ext=p.split(".").pop().toLowerCase();
+ if(FV.ext==="json"){try{FV.data=JSON.parse(x.content)}catch(e){FV.data=undefined}}
+ FV.mode=FV.mode||(FV.ext==="json"?(FV.data===undefined?"raw":"tree"):FV.ext==="md"?"md":"table");
+ document.querySelectorAll(".fi").forEach(e=>e.classList.toggle("on",e.dataset.p===p));drawFile(x)}
+function drawFile(x){const modes=FV.ext==="json"?[["tree","Árbol"],["text","Texto"],["raw","Crudo"]]:FV.ext==="md"?[["md","Renderizado"],["raw","Crudo"]]:[["table","Tabla"],["raw","Crudo"]];
+ document.getElementById("fbody").innerHTML=`<div class="ftool"><b>${esc(FV.path)}</b><span class="m" style="opacity:.6">${fsize(x.size)} · ${fdate(x.mtime)} · auto 15 s</span></div>
+ <div class="ftool">${modes.map(([k,t])=>`<span class="chip ${FV.mode===k?"on":""}" onclick="FV.mode='${k}';drawFile({size:${x.size},mtime:'${x.mtime}'})">${t}</span>`).join("")}
+ <input class="srch" id="fq" style="flex:1;min-width:140px;padding:6px 10px;font-size:12px" placeholder="🔎 Buscar en el archivo…" value="${esc(FV.q)}" oninput="FV.q=this.value;drawView()"><span class="m" id="fcount"></span></div><div class="fview" id="fview"></div>`;drawView()}
+function drawView(){const v=document.getElementById("fview"),q=FV.q;let n=0,out="";
+ if(FV.mode==="tree"){out=`<div class="jt">${jnode(null,FV.data,q,0)}</div>`}
+ else if(FV.mode==="text"){out=`<pre class="raw jt">${jhl(JSON.stringify(FV.data,null,2),q)}</pre>`}
+ else if(FV.mode==="md"){out=`<div class="md">${md(FV.content)}</div>`;if(q)out=out.replace(/>([^<]+)</g,(m,t)=>">"+t.replace(rx(esc(q)),k=>`<mark>${k}</mark>`)+"<")}
+ else if(FV.mode==="table"){out=csvT(FV.content,q)}else out=`<pre class="raw">${hl(FV.content,q)}</pre>`;
+ v.innerHTML=out;n=v.querySelectorAll("mark").length;document.getElementById("fcount").textContent=q?n+" coincidencias":"";
+ if(q){v.querySelectorAll("mark").forEach(m=>{let e=m.parentElement;while(e&&e!==v){if(e.tagName==="DETAILS")e.open=true;e=e.parentElement}});v.querySelector("mark")?.scrollIntoView({block:"center"})}}
+function jv(v,q){if(v===null)return`<span class="jz">null</span>`;if(typeof v==="string")return`<span class="js">"${hl(v,q)}"</span>`;if(typeof v==="number")return`<span class="jn">${hl(String(v),q)}</span>`;if(typeof v==="boolean")return`<span class="jb">${v}</span>`;return""}
+function jnode(k,v,q,d){const key=k===null?"":`<span class="jk">${hl(String(k),q)}</span>: `;
+ if(v&&typeof v==="object"){const arr=Array.isArray(v),ks=Object.keys(v);const inner=ks.map(i=>jnode(arr?i:i,v[i],q,d+1)).join("");
+  return `<details ${d<2?"open":""}><summary>${key}${arr?"[":"{"} <span class="jc">${ks.length} ${arr?"elementos":"claves"}</span></summary>${inner}<div>${arr?"]":"}"}</div></details>`}
+ return `<div class="jl">${key}${jv(v,q)}</div>`}
+function jhl(s,q){return esc(s).replace(/(&quot;(?:[^&]|&(?!quot;))*?&quot;)(\s*:)?|\b(true|false)\b|\bnull\b|-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?/g,(m,str,colon,b)=>str?`<span class="${colon?"jk":"js"}">${str}</span>${colon||""}`:b?`<span class="jb">${m}</span>`:m==="null"?`<span class="jz">null</span>`:`<span class="jn">${m}</span>`)
+ .replace(q?rx(esc(q)):/$^/,m=>`<mark>${m}</mark>`)}
+function mdInline(t){t=esc(t);return t.replace(/`([^`]+)`/g,"<code>$1</code>").replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/(^|[^*])\*([^*\s][^*]*)\*/g,"$1<i>$2</i>")
+ .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/(^|\s)(https?:\/\/[^\s<]+)/g,'$1<a href="$2" target="_blank" rel="noopener">$2</a>')}
+function md(src){const L=src.replace(/\r/g,"").split("\n");let o="",i=0;
+ while(i<L.length){let l=L[i];
+  if(/^```/.test(l)){let c=[];i++;while(i<L.length&&!/^```/.test(L[i]))c.push(L[i++]);i++;o+=`<pre><code>${esc(c.join("\n"))}</code></pre>`;continue}
+  let m=l.match(/^(#{1,6})\s+(.*)/);if(m){o+=`<h${m[1].length}>${mdInline(m[2])}</h${m[1].length}>`;i++;continue}
+  if(/^\s*([-*_])\s*\1\s*\1[\s\-*_]*$/.test(l)){o+="<hr>";i++;continue}
+  if(/^\|.*\|\s*$/.test(l)){const row=s=>s.trim().replace(/^\||\|$/g,"").split("|").map(c=>c.trim());const hd=row(l);i++;if(i<L.length&&/^\|?[\s:|-]+\|?\s*$/.test(L[i]))i++;let b="";
+   while(i<L.length&&/^\|.*\|\s*$/.test(L[i])){b+="<tr>"+row(L[i]).map(c=>`<td>${mdInline(c)}</td>`).join("")+"</tr>";i++}
+   o+=`<table><tr>${hd.map(c=>`<th>${mdInline(c)}</th>`).join("")}</tr>${b}</table>`;continue}
+  if(/^>\s?/.test(l)){let c=[];while(i<L.length&&/^>\s?/.test(L[i]))c.push(L[i++].replace(/^>\s?/,""));o+=`<blockquote>${md(c.join("\n"))}</blockquote>`;continue}
+  if(/^\s*([-*+]|\d+\.)\s+/.test(l)){const ol=/^\s*\d+\./.test(l);let it=[];while(i<L.length&&/^\s*([-*+]|\d+\.)\s+/.test(L[i]))it.push(L[i++].replace(/^\s*([-*+]|\d+\.)\s+/,""));
+   o+=`<${ol?"ol":"ul"}>${it.map(x=>`<li>${mdInline(x.replace(/^\[ \]\s/,"☐ ").replace(/^\[x\]\s/i,"☑ "))}</li>`).join("")}</${ol?"ol":"ul"}>`;continue}
+  if(!l.trim()){i++;continue}
+  let p=[];while(i<L.length&&L[i].trim()&&!/^(#{1,6}\s|```|>|\s*([-*+]|\d+\.)\s|\|)/.test(L[i]))p.push(L[i++]);if(!p.length)p.push(L[i++]);o+=`<p>${p.map(mdInline).join("<br>")}</p>`}
+ return o}
+function csvParse(t){const rows=[];let r=[],f="",q=false;for(let i=0;i<t.length;i++){const c=t[i];
+ if(q){if(c=='"'){if(t[i+1]=='"'){f+='"';i++}else q=false}else f+=c}else if(c=='"')q=true;else if(c==","){r.push(f);f=""}else if(c=="\n"){r.push(f);rows.push(r);r=[];f=""}else if(c!="\r")f+=c}
+ if(f||r.length){r.push(f);rows.push(r)}return rows}
+function csvT(t,q){const rows=csvParse(t);if(!rows.length)return"<div class=sub>Vacío</div>";const hd=rows[0];let body=rows.slice(1).filter(r=>!q||r.join(" ").toLowerCase().includes(q.toLowerCase()));
+ const [c,dir]=FV.sort;if(c>=0)body.sort((a,b)=>{const x=a[c]??"",y=b[c]??"",nx=parseFloat(x.replace(/[$,%]/g,"")),ny=parseFloat(y.replace(/[$,%]/g,""));return(!isNaN(nx)&&!isNaN(ny)?nx-ny:x.localeCompare(y,"es"))*dir});
+ return `<div class="m" style="opacity:.6;margin-bottom:6px">${body.length} filas</div><table class="csvt"><tr>${hd.map((h,i)=>`<th onclick="FV.sort=[${i},FV.sort[0]===${i}?-FV.sort[1]:1];drawView()">${esc(h)} ${c===i?(dir>0?"▲":"▼"):""}</th>`).join("")}</tr>${body.map(r=>`<tr>${hd.map((_,i)=>`<td>${hl(r[i]??"",q)}</td>`).join("")}</tr>`).join("")}</table>`}
 
 build();buildNav();boot();setInterval(load,12000);
 </script></body></html>
@@ -312,16 +427,23 @@ class H(BaseHTTPRequestHandler):
                 if k in b and b[k]:
                     if k=="state.json" and MEM and _ts(STORE.get(k,{}))>_ts(b[k]): continue
                     STORE[k]=b[k]
+            if isinstance(b.get("files"),dict):
+                STORE["__files"]={p:{"path":p,"size":int(v.get("size",0)),"mtime":str(v.get("mtime","")),"content":str(v.get("content",""))} for p,v in b["files"].items() if f_okname(p) and len(str(v.get("content","")))<=FMAX}
+                STORE["__fdig"]=str(b.get("files_digest",""))
         self.snd(200,json.dumps({k:STORE.get(k) for k in ("state.json",)}),"application/json")
     def do_GET(self):
         if self.path=="/api/sync":
-            return self.snd(200,json.dumps({"state.json":rd("state.json")}),"application/json") if self.tok() else self.snd(401,"")
+            return self.snd(200,json.dumps({"state.json":rd("state.json"),"files_digest":STORE.get("__fdig","")}),"application/json") if self.tok() else self.snd(401,"")
         if self.path=="/healthz": return self.snd(200,"ok","text/plain")
         if not self.ok(): return
         p=urlparse(self.path).path
         if p=="/": self.snd(200,OFFICE_HTML)
         elif p=="/clasico": self.snd(200,page_old())
         elif p in("/api/state","/api/leads","/api/top10","/api/activity"): self.snd(200,json.dumps(rd(p[5:]+".json"),ensure_ascii=False),"application/json")
+        elif p=="/api/files": self.snd(200,json.dumps({"files":f_list()},ensure_ascii=False),"application/json")
+        elif p=="/api/file":
+            rel=parse_qs(urlparse(self.path).query).get("path",[""])[0]; x=f_get(rel)
+            self.snd(200,json.dumps(x,ensure_ascii=False),"application/json") if x else self.snd(403 if not f_okname(rel) else 404,json.dumps({"error":"no permitido" if not f_okname(rel) else "no encontrado"}),"application/json")
         else: self.snd(404,"no")
     def do_POST(self):
         if not self.ok(): return

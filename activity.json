@@ -286,6 +286,356 @@
       "lead_id": null,
       "action": "info",
       "detail": "Baseline de vigilancia: 8 leads aprobados revisados, 0 posiciones ejecutadas. Mint/freeze authority revocadas en todos. Holders no comprobados (RPC 429)."
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-101",
+      "action": "rechazado",
+      "detail": "RECHAZADO | GHOSTI | 9JxPFZ68WQBQR8JwMStZfeqxhSm1X79i3rpyHHbbe8B9 | decisiva liquidity_ok: DexScreener pumpswap 2UF2WgMaqzXFuqRVZgCtzsXfi3qiEssLuRYiqY4hnRLm: liquidez $0 (mínimo $10.000) | otros fallos: top_holders_ok, wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-102",
+      "action": "rechazado",
+      "detail": "RECHAZADO | HeyGrok | A3SKFX3HMcQ9yprreoS6BuUcqpYDhnceTFNjTsZV1uMZ | decisiva liquidity_ok: sin liquidez reportada en DexScreener (mínimo $10.000) | otros fallos: top_holders_ok, wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-103",
+      "action": "rechazado",
+      "detail": "RECHAZADO | RSGP | EjPr9rQuavUaSMs2HHsbPdAi5KWfvwwF2r1AdW9kRkLR | decisiva liquidity_ok: DexScreener pumpswap 8dvFN9YTbWW3Lo6zV9Uxs6Mzkgg6fyuA6vAYDN94twvN: liquidez $0 (mínimo $10.000) | otros fallos: top_holders_ok, wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-104",
+      "action": "rechazado",
+      "detail": "RECHAZADO | FABLES | H73g7ybHwtY4A4U4pxMS9xv9s3BQMPrtz82Ugd8VQskN | decisiva liquidity_ok: DexScreener pumpswap AXxbAPUvZKcqi6LVTctq4qWRrhVYwosUDmVsgb4t7xgg: liquidez $0 (mínimo $10.000) | otros fallos: top_holders_ok, wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-105",
+      "action": "rechazado",
+      "detail": "RECHAZADO | ALLOX | DneSmn3NenxC8CMm4vTJUpTYfigZZKWWbyymq8MjFkw3 | decisiva liquidity_ok: DexScreener pumpswap Ds2fyB2fnz8F1KjZ8WycHMh2u6aRpjy81errtEtY5nEw: liquidez $0 (mínimo $10.000) | otros fallos: top_holders_ok, wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-106",
+      "action": "rechazado",
+      "detail": "RECHAZADO | 索拉纳 | CDKjFrKZSgmRGDa157P5YBaiJKS7mbWibP1VxWiRxvWC | decisiva liquidity_ok: DexScreener pumpswap 331mdGiFiTna85znH9ck2qF8uvxKXHjYLiQPbcqSt4Bu: liquidez $0 (mínimo $10.000) | otros fallos: top_holders_ok, wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-107",
+      "action": "rechazado",
+      "detail": "RECHAZADO | TRUMP | 333KtCBGCYMoTgjbwVwVXAQSw6A5RyExg9tt1H3oesF7 | decisiva liquidity_ok: DexScreener pumpswap hSUPSogTVotzEPdFphb2pV1Sxf6TGqd18YBKvCx3dSU: liquidez $0 (mínimo $10.000) | otros fallos: top_holders_ok, wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-108",
+      "action": "rechazado",
+      "detail": "RECHAZADO | PUMP | pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn | decisiva lp_locked: RugCheck orca BofA2ViUSudPBTUms2KRuG6AHNeMawjNfwqTJDgx5BKW: LP bloqueada/quemada 0.0% | otros fallos: honeypot_ok, top_holders_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-109",
+      "action": "rechazado",
+      "detail": "RECHAZADO | ZEC | A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS | decisiva mint_revoked: RPC: mintAuthority=FvULawNPGBbuwYus74ECaQoV1oH9Tk6XPN7VPN51NYds | otros fallos: lp_locked, top_holders_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261017-110",
+      "action": "rechazado",
+      "detail": "RECHAZADO | WETH | 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs | decisiva mint_revoked: RPC: mintAuthority=BCD75RNBHrJJpW4dXVagL5mPjzRLnVZq4YirJdjEYMV7 | otros fallos: lp_locked, top_holders_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-001",
+      "action": "rechazado",
+      "detail": "RECHAZADO | CATSZN | 3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump | decisiva wash_ok: vol 24h/liq 42.3x (límites 5x / 25x / 4:1) | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-002",
+      "action": "rechazado",
+      "detail": "RECHAZADO | mucron | 3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump | decisiva wash_ok: vol 24h/liq 48.8x (límites 5x / 25x / 4:1) | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-003",
+      "action": "rechazado",
+      "detail": "RECHAZADO | SUPERCORE | 3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump | decisiva wash_ok: vol 24h/liq 56.1x (límites 5x / 25x / 4:1) | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-004",
+      "action": "aprobado",
+      "detail": "APROBADO | Gold | GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd | todas las comprobaciones OK (DexScreener pumpswap DJBrnSDAFbDsmXu5mJLvX73PZByCCWEuZFWCUG9DnEzX: liquidez $27,314 (mínimo $10.000); Top 10 sin pools/LP/lockers: 16.5% (1 cuentas excluidas; límite 30%); RugCheck pump_fun_amm DJBrnSDAFbDsmXu5mJLvX73PZByCCWEuZFWCUG9DnEzX: LP bloqueada/quemada 100.0%) | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-005",
+      "action": "aprobado",
+      "detail": "APROBADO | bwigitte | 4bLHGwcRd4GCVsSP8uRMcrWMh1nBCVcNM2CC9AWPpump | todas las comprobaciones OK (DexScreener pumpswap 6RzHmJUqP2XzsAJ1fnC8u1uezMfdqJF4SC7tceVvH2Dp: liquidez $23,117 (mínimo $10.000); Top 10 sin pools/LP/lockers: 16.4% (1 cuentas excluidas; límite 30%); RugCheck pump_fun_amm 6RzHmJUqP2XzsAJ1fnC8u1uezMfdqJF4SC7tceVvH2Dp: LP bloqueada/quemada 100.0%) | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-006",
+      "action": "rechazado",
+      "detail": "RECHAZADO | trenchcat | 4hCVKZKpuRdFtnRXC9fqEdrrQwEYuw4Rbxipwbwdpump | decisiva top_holders_ok: Top 10 sin pools/LP/lockers: 30.2% (1 cuentas excluidas; límite 30%) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-007",
+      "action": "aprobado",
+      "detail": "APROBADO | LARPSCAN | 2qfUSuUfKuxHyYEMYreiYdK3YyapFzbgq2c6hhfPpump | todas las comprobaciones OK (DexScreener pumpswap 2ALATuC5rmitB9CoBtEg48DeeDGEM1kDcuHq6VoRxHMu: liquidez $15,000 (mínimo $10.000); Top 10 sin pools/LP/lockers: 26.6% (1 cuentas excluidas; límite 30%); RugCheck pump_fun_amm 2ALATuC5rmitB9CoBtEg48DeeDGEM1kDcuHq6VoRxHMu: LP bloqueada/quemada 100.0%) | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-008",
+      "action": "rechazado",
+      "detail": "RECHAZADO | iMolest | 7iYM9cjpKKNyLvJfq4pYyjubk83dnqxtPDrRdf77pump | decisiva wash_ok: vol 24h/liq 82.6x (límites 5x / 25x / 4:1) | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-009",
+      "action": "aprobado",
+      "detail": "APROBADO | RIOT | Fd61znB4XAdwqrFexC91aoxKcz1iheqx5j4VZCG4pump | todas las comprobaciones OK (DexScreener pumpswap 9NUXbp7BGWJoXx3CdZ1hrKU1vrfCmVy1j3V6jTxwZJox: liquidez $15,846 (mínimo $10.000); Top 10 sin pools/LP/lockers: 17.4% (2 cuentas excluidas; límite 30%); RugCheck pump_fun_amm 9NUXbp7BGWJoXx3CdZ1hrKU1vrfCmVy1j3V6jTxwZJox: LP bloqueada/quemada 100.0%) | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-010",
+      "action": "rechazado",
+      "detail": "RECHAZADO | RiotMap | 2B7RXYwzSjDubnvqz8GSi1MKSoCsPeLmahyM92k9pump | decisiva liquidity_ok: DexScreener pumpswap 8mLErp5Q6vdB1JKbYF6GzJtsr6tVzHt79eYLxS2H82Bt: liquidez $6,368 (mínimo $10.000) | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-011",
+      "action": "rechazado",
+      "detail": "RECHAZADO | SBC | KVjKrtzwFKmocPVoYVswKUbxTkNuuCKeJ4r8688pump | decisiva liquidity_ok: DexScreener pumpswap qghCE8p7b15PVX83PNBYBjWDdtW6CFW64sqAX5Jy36x: liquidez $9,096 (mínimo $10.000) | otros fallos: top_holders_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-012",
+      "action": "rechazado",
+      "detail": "RECHAZADO | Pluto | 6jijW4Ne924kqj8XYLKXFrhpeHy5y2qxoKgGzJHQpump | decisiva dev_history_ok: creador AFzqFnTqMZ1JYe2hn4szrJuDSMeMGCdux4KLCkHz3GCV: RugCheck marca historial de tokens rugueados; RugCheck avisa: Creator history of rugged tokens | otros fallos: liquidity_ok, top_holders_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-013",
+      "action": "rechazado",
+      "detail": "RECHAZADO | AFC | 3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump | decisiva liquidity_ok: DexScreener pumpswap 89JPenUnoDKjoGzJ8NzVxDdariGiPGyMsmjF2mUoxMXx: liquidez $8,601 (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-014",
+      "action": "rechazado",
+      "detail": "RECHAZADO | FTR | 7kxTnPr4cnboiiCmE3RKgj65jcDf36QKiYyXE2igpump | decisiva liquidity_ok: DexScreener pumpswap HFXQMNiCHu4uncNQGPbojoSgHoGp8BEx6bFPjBce1tzo: liquidez $7,820 (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-015",
+      "action": "rechazado",
+      "detail": "RECHAZADO | rema | 61DMLhgVgiKuTNPhnxcureAWw5htb4wLRhBgYPukpump | decisiva liquidity_ok: DexScreener pumpswap DVX2CavaS5XyXv86Dx1e32TRyt8PCchMnTiFiXW6qpfh: liquidez $4,821 (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-016",
+      "action": "rechazado",
+      "detail": "RECHAZADO | Bien | CXmRHXFzgKggtFVLGGqR7LuPwzgRXENJEnA1nR9q7CdA | decisiva liquidity_ok: DexScreener pumpswap 2nXxNs63VBCJPEJdpUVF5nf8RMhKc7SeyD9dcjzcgKFq: liquidez $3,739 (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-017",
+      "action": "rechazado",
+      "detail": "RECHAZADO | PIPS | 4RFbdndphrM31jipKxopRmE7DCsLBEscf3kMEoBYpump | decisiva liquidity_ok: DexScreener pumpswap BPfJ6KJBqmvid6fuMbNZxpYSwzkUejhg1Tce4i49kJ7E: liquidez $3,504 (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-018",
+      "action": "rechazado",
+      "detail": "RECHAZADO | Midas | 9hY7ko6b1XRkoNJ1JgAER4grVJqx1cxvHWD3KiTLpump | decisiva liquidity_ok: DexScreener pumpswap 2bafbvURUzgtHP3Px4z7m5HNB5y5EJXZphDhpCo95iEH: liquidez $2,429 (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-019",
+      "action": "rechazado",
+      "detail": "RECHAZADO | DOGSHIT | AnWDYstQBFDjM4KVghwozpd28WVbiADzZHGzANUuUBoB | decisiva liquidity_ok: sin liquidez reportada en DexScreener (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-020",
+      "action": "rechazado",
+      "detail": "RECHAZADO | EV | GKaQ5Xp22z4TeZqiSqoLhmn84xcgkp8HYp3atsCjpump | decisiva liquidity_ok: sin liquidez reportada en DexScreener (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-021",
+      "action": "rechazado",
+      "detail": "RECHAZADO | DOGSHIT | FWqkH6CosAgJRF4WW3cgkP4X4P82RmqRie9wHENBqj2J | decisiva liquidity_ok: sin liquidez reportada en DexScreener (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-022",
+      "action": "rechazado",
+      "detail": "RECHAZADO | KRAWD | 5gYtAc9xjJxUqFbgEAM2JMuyEDGaaYivupcU5Y1Qpump | decisiva liquidity_ok: DexScreener pumpswap ArnE2u63HuPP9eo74EPE7kMzSbWrg6jeqEzDczsxU39n: liquidez $2,156 (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": "L-20261018-023",
+      "action": "rechazado",
+      "detail": "RECHAZADO | DON | 8qBq4WwYvdsBEdrwJjF2EXCtg2AQuxjU8rmHoQVTpump | decisiva liquidity_ok: DexScreener pumpswap FAiS2MrDi43uWPmMTfuVuhF3xyPkRRasDKAv9SCoaLgw: liquidez $2,041 (mínimo $10.000) | otros fallos: wash_ok | contrato coincide con SEARCH: sí"
+    },
+    {
+      "ts": "2026-10-18T18:10:18.454111+02:00",
+      "agent": "RISK",
+      "lead_id": null,
+      "action": "info",
+      "detail": "Revisión RISK: 33 leads escaneados revisados, 4 aprobados, 29 rechazados. Fuentes: RugCheck, DexScreener, RPC Solana mainnet (getAccountInfo). Honeypot sin simulador público: proxy por ventas reales y extensiones Token-2022."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261017-001",
+      "action": "info",
+      "detail": "NO CONFIRMADO | wibet | wiben7BURMAbyWyHrSD7bsBV1Svr7cQaJ9rPmu9SPu4 | No confirmado: token hundido o sin actividad, no hay acumulación."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261017-011",
+      "action": "info",
+      "detail": "NO CONFIRMADO | Nillionaire | H7pY44STqWhwjaSAc7dYyVjiX5tJFwp1BDTwpR6Apump | No confirmado: token hundido o sin actividad, no hay acumulación."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261017-015",
+      "action": "info",
+      "detail": "NO CONFIRMADO | PROINU | 7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump | No confirmado: token hundido o sin actividad, no hay acumulación."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261017-017",
+      "action": "info",
+      "detail": "NO CONFIRMADO | ZeroFee | ErvkxE8gc7EwmaQfvoGfVfcDJbVG4EcHQr3yweTkpump | No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261017-019",
+      "action": "info",
+      "detail": "NO CONFIRMADO | vibe | S6CoPVUjfHW3Cdtrm4YDTz3HPParxwAqjzmXrqipump | No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261017-022",
+      "action": "info",
+      "detail": "NO CONFIRMADO | MOMO | FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump | No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261017-025",
+      "action": "info",
+      "detail": "NO CONFIRMADO | CAPE | 4by8accPvdRcmDEvJy1svdSJMwfVcNGyWqgQw9EPpump | No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261017-028",
+      "action": "info",
+      "detail": "NO CONFIRMADO | CARTEL | 4VjdJXbacsnnRDGvbkMFrrWsRUoE5DCrQGU97hUkpump | No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261018-004",
+      "action": "info",
+      "detail": "NO CONFIRMADO | Gold | GoLdZWYNg9jg4z5SGCLJx69xag2vMjLaSQK5S7TUGoLd | No confirmado: hay ráfaga de compras en 5 min, pero dentro de un volumen alto y visible en el gráfico, sin wallets de historial probado; no es acumulación sigilosa de smart money."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261018-005",
+      "action": "info",
+      "detail": "NO CONFIRMADO | bwigitte | 4bLHGwcRd4GCVsSP8uRMcrWMh1nBCVcNM2CC9AWPpump | No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261018-007",
+      "action": "info",
+      "detail": "NO CONFIRMADO | LARPSCAN | 2qfUSuUfKuxHyYEMYreiYdK3YyapFzbgq2c6hhfPpump | No confirmado: sin evidencia de smart money ni acumulación sigilosa relevante."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": "L-20261018-009",
+      "action": "info",
+      "detail": "NO CONFIRMADO | RIOT | Fd61znB4XAdwqrFexC91aoxKcz1iheqx5j4VZCG4pump | No confirmado: hay ráfaga de compras en 5 min, pero dentro de un volumen alto y visible en el gráfico, sin wallets de historial probado; no es acumulación sigilosa de smart money."
+    },
+    {
+      "ts": "2026-10-18T18:18:51.436011+02:00",
+      "agent": "WHALE",
+      "lead_id": null,
+      "action": "info",
+      "detail": "Revisión WHALE horaria: 12 leads aprobados revisados, 0 confirmados. Fuentes: DexScreener, RugCheck (top holders/insiders), GeckoTerminal (últimas 300 ops por pool). Lista de referencia: kolscan winrate30 ≥60% (no hay lista propia de Alberto en la carpeta de la mesa)."
+    },
+    {
+      "ts": "2026-10-18T18:21:06.700237+02:00",
+      "agent": "RUG",
+      "lead_id": "L-20261018-007",
+      "action": "alerta",
+      "detail": "LARPSCAN | 2qfUSuUfKuxHyYEMYreiYdK3YyapFzbgq2c6hhfPpump | precio -30.82% en 1h (liquidez 12391.98 USD, pool 2ALATuC5rmitB9CoBtEg48DeeDGEM1kDcuHq6VoRxHMu) | lead sin posición abierta (aprobado, approval pendiente)"
+    },
+    {
+      "ts": "2026-10-18T18:21:06.700237+02:00",
+      "agent": "RUG",
+      "lead_id": "L-20261018-009",
+      "action": "alerta",
+      "detail": "RIOT | Fd61znB4XAdwqrFexC91aoxKcz1iheqx5j4VZCG4pump | precio -33.6% en 5m (liquidez 15504.75 USD, pool 9NUXbp7BGWJoXx3CdZ1hrKU1vrfCmVy1j3V6jTxwZJox); LP 100% quemada, sin authorities, creador sin saldo | lead sin posición abierta (aprobado, approval pendiente)"
+    },
+    {
+      "ts": "2026-10-18T18:21:06.700237+02:00",
+      "agent": "RUG",
+      "lead_id": null,
+      "action": "info",
+      "detail": "Vigilancia RUG: 12 leads aprobados revisados, 0 posiciones abiertas (paper.json sin posiciones). Mint/freeze revocadas en todos, supply sin cambios, LP 100% quemada, top10 ≤30% en todos. 2 alertas de precio nuevas (RIOT, LARPSCAN), sin señal on-chain de rug."
     }
   ]
 }
