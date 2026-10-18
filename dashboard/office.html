@@ -33,10 +33,40 @@ header h1{font-size:18px;margin:0 12px 0 0}.pill{padding:3px 10px;border-radius:
 #modal .box{background:#1f2133;max-width:95vw;width:1000px;max-height:85vh;overflow:auto;border-radius:14px;padding:16px}
 table{border-collapse:collapse;width:100%;font-size:12px}td,th{border:1px solid #444;padding:4px 6px;text-align:left}code{font-size:11px}
 .x{float:right;cursor:pointer;font-size:20px}footer{text-align:center;font-size:11px;opacity:.6;padding:10px}
+
+.ops h2{margin:0 0 4px;font-size:22px}.sub{opacity:.7;font-size:13px;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.chip{border:1px solid #fff3;background:#ffffff10;color:#eef;padding:5px 12px;border-radius:20px;cursor:pointer;font-size:12px;transition:.2s}
+.chip.on{background:#5a6cff;border-color:#5a6cff}.srch{width:100%;padding:10px 14px;border-radius:12px;border:1px solid #fff2;background:#0006;color:#fff;font-size:14px;outline:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.card{background:linear-gradient(145deg,#ffffff14,#ffffff06);border:1px solid #ffffff1c;border-radius:16px;padding:12px 14px;cursor:pointer;backdrop-filter:blur(8px);transition:transform .2s,box-shadow .2s;animation:pop .35s both}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 30px #0008;border-color:#5a6cff88}
+@keyframes pop{from{opacity:0;transform:translateY(8px)}}
+.ch{display:flex;align-items:center;gap:10px}.av{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;color:#fff;flex:none;box-shadow:inset 0 -3px 0 #0003}
+.sym{font-size:22px;font-weight:800;letter-spacing:.5px;line-height:1}.lid{font-size:11px;opacity:.6;font-family:ui-monospace,monospace}
+.pillS{margin-left:auto;font-size:11px;font-weight:700;padding:3px 9px;border-radius:10px;color:#111}
+.fbar{display:flex;gap:3px;margin:10px 0 8px}.fbar i{flex:1;height:5px;border-radius:3px;background:#ffffff1a}.fbar i.f{background:var(--c)}
+.row{display:flex;align-items:center;gap:8px;font-size:12px;flex-wrap:wrap}.ca{font-family:ui-monospace,monospace;background:#0005;padding:2px 7px;border-radius:6px}
+.cp{border:0;background:#ffffff18;color:#fff;border-radius:6px;padding:2px 7px;cursor:pointer;font-size:11px}.cp:hover{background:#5a6cff}
+.bd{font-size:10px;font-weight:700;padding:2px 7px;border-radius:8px;text-transform:uppercase}.b-pendiente{background:#8a6d00}.b-APPROVE{background:#1f6d3a}.b-RECHAZADO{background:#8b1e1e}
+.pnl{font-weight:700}.pos{color:#4ee08a}.neg{color:#ff6b6b}.rt{margin-left:auto;opacity:.6}.warn{color:#ffb02e}
+#drawer{position:fixed;top:0;right:0;height:100%;width:min(520px,100vw);background:#181a2bee;backdrop-filter:blur(16px);border-left:1px solid #fff2;z-index:40;transform:translateX(105%);transition:transform .35s cubic-bezier(.2,.8,.2,1);overflow:auto;padding:20px;box-shadow:-20px 0 50px #0009}
+#drawer.open{transform:none}#dshade{position:fixed;inset:0;background:#0007;z-index:39;opacity:0;pointer-events:none;transition:.3s}#dshade.open{opacity:1;pointer-events:auto}
+.dh{display:flex;align-items:center;gap:12px}.dh .av{width:56px;height:56px;font-size:24px}.big{font-size:30px;font-weight:800}
+.sec{margin-top:18px}.sec h4{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:1px;opacity:.6}
+.full{font-family:ui-monospace,monospace;font-size:12px;word-break:break-all;background:#0006;padding:8px 10px;border-radius:10px;display:flex;gap:8px;align-items:center}
+.links a{display:inline-block;margin:4px 6px 0 0;padding:6px 12px;border-radius:10px;background:#ffffff12;color:#cfe;text-decoration:none;font-size:12px;border:1px solid #fff2}.links a:hover{background:#5a6cff}
+.tl{position:relative;margin-left:18px;border-left:2px solid #ffffff22;padding-left:20px}
+.ti{position:relative;margin-bottom:14px;animation:pop .4s both}.ti .dot{position:absolute;left:-39px;top:-2px;width:34px;height:34px;border-radius:50%;overflow:hidden;background:#222;border:2px solid var(--c)}
+.ti .dot svg{width:56px;margin:-6px 0 0 -11px}.ti.pend{opacity:.4}.ti b{font-size:14px}.ti .m{font-size:11px;opacity:.7}.ti .n{font-size:12px;margin-top:3px;background:#ffffff0c;padding:5px 8px;border-radius:8px}
+.chk{display:flex;gap:8px;font-size:13px;margin:4px 0}.wbox{background:#ffb02e22;border:1px solid #ffb02e66;color:#ffd38a;padding:10px;border-radius:10px;font-size:13px;margin-top:6px}
+.xx{position:absolute;right:16px;top:14px;font-size:22px;cursor:pointer;opacity:.7}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#5a6cff;padding:8px 16px;border-radius:20px;z-index:60;font-size:13px}
+#modal .box{background:#1b1d2ef0;backdrop-filter:blur(14px);border:1px solid #fff2}
 </style></head><body>
 <header><h1>🏢 Mesa de memecoins</h1><span id="fl" class="pill">…</span><span class="pill funnel" id="fn"></span><span class="pill" id="upd"></span></header>
 <div id="floor"><div class="grid" id="grid"></div></div>
 <div id="modal"><div class="box"><span class="x" onclick="closeM()">✕</span><div id="mc"></div></div></div>
+<div id="dshade" onclick="closeD()"></div><div id="drawer"></div>
 <footer>Panel de control sin wallet, sin claves y sin firma · se actualiza cada 12 s · clic en un bot para opciones</footer>
 <script>
 const AG=[["SEARCH","#3fa7ff","search"],["RISK","#ffb02e","shield"],["WHALE","#2fd3c6","whale"],["SHILL","#ff5fa2","mega"],
@@ -112,5 +142,57 @@ function ops(n){closeMenu();const st=STAGE[n];
  <h3>Actividad (${ac.length})</h3><table><tr><th>Hora</th><th>Lead</th><th>Acción</th><th>Detalle</th></tr>${ac.map(a=>`<tr><td>${dt(a.ts)}</td><td>${esc(a.lead_id||"")}</td><td>${esc(a.action)}</td><td>${esc(a.detail)}</td></tr>`).join("")||"<tr><td colspan=4>Sin actividad registrada</td></tr>"}</table>`)}
 function history_(){closeMenu();
  openM(`<h2>Histórico de operaciones</h2><p>${STAGES.map(s=>`${s}: <b>${LD.filter(l=>l.stage===s).length}</b>`).join(" → ")}</p><table><tr><th>Lead</th><th>Símbolo</th><th>Contrato</th><th>Etapa</th><th>Aprobación</th><th>Creado</th><th>Historial</th></tr>${LD.map(l=>`<tr><td>${esc(l.lead_id)}</td><td>${esc(l.symbol)}</td><td><code>${esc(l.contract)}</code></td><td>${esc(l.stage)}</td><td>${esc(l.approval)}</td><td>${dt(l.created_at)}</td><td>${(l.history||[]).map(h=>`${esc(h.stage)} (${esc(h.by)}, ${dt(h.at)})`).join("<br>")}</td></tr>`).join("")}</table>`)}
-build();load();setInterval(load,12000);
+
+const SC={escaneado:"#3fa7ff",aprobado:"#ffb02e",confirmado:"#2fd3c6",ejecutado:"#7bd148",cerrado:"#b48cff"};
+const SAG={escaneado:"SEARCH",aprobado:"RISK",confirmado:"WHALE",ejecutado:"SNIPER",cerrado:"EXIT"};
+const AGC=Object.fromEntries(AG.map(a=>[a[0],a]));AGC["BOT DESK"]=["BOT DESK","#5a6cff","search"];
+let TOP={},FIL="todos",Q="";
+const short=c=>c?c.slice(0,4)+"…"+c.slice(-4):"";
+function hue(s){let h=0;for(const ch of String(s))h=(h*31+ch.charCodeAt(0))%360;return `hsl(${h} 65% 48%)`}
+function rel(s){if(!s)return"";const d=(Date.now()-new Date(s))/1000;if(d<60)return"hace unos s";if(d<3600)return`hace ${d/60|0} min`;if(d<86400)return`hace ${d/3600|0} h`;return`hace ${d/86400|0} d`}
+function copy(t,ev){ev&&ev.stopPropagation();(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).catch(()=>{const a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();document.execCommand("copy");a.remove()});
+ const d=document.createElement("div");d.className="toast";d.textContent="Contrato copiado";document.body.appendChild(d);setTimeout(()=>d.remove(),1400)}
+const warnsFor=l=>(TOP.warnings||[]).filter(w=>w.includes(short(l.contract).slice(0,4))||w.includes(l.contract)||(l.symbol&&w.includes(l.symbol+" "+l.contract.slice(0,5))));
+function card(l,i){const si=STAGES.indexOf(l.stage),c=SC[l.stage]||"#888",w=warnsFor(l);const pnl=l.pnl_sol??l.pnl;
+ return `<div class="card" style="animation-delay:${i*25}ms" onclick="detail('${esc(l.lead_id)}')"><div class="ch"><div class="av" style="background:${hue(l.symbol)}">${esc((l.symbol||"?")[0])}</div>
+ <div><div class="sym">${esc(l.symbol)}${w.length?' <span class="warn" title="Aviso">⚠</span>':''}</div><div class="lid">${esc(l.lead_id)}</div></div><span class="pillS" style="background:${c}">${esc(l.stage)}</span></div>
+ <div class="fbar" style="--c:${c}">${STAGES.map((s,k)=>`<i class="${k<=si?"f":""}" title="${s}"></i>`).join("")}</div>
+ <div class="row"><span class="ca">${short(l.contract)}</span><button class="cp" onclick="copy('${esc(l.contract)}',event)">⧉ copiar</button><span class="bd b-${esc(l.approval)}">${esc(l.approval)}</span>
+ ${pnl!=null?`<span class="pnl ${pnl>=0?"pos":"neg"}">${pnl>=0?"+":""}${pnl} SOL</span>`:""}<span class="rt">${rel(l.updated_at)}</span></div></div>`}
+function listView(title,sub,leads,withFilters){const f=leads.filter(l=>(FIL==="todos"||l.stage===FIL)&&(!Q||(l.symbol+" "+l.lead_id+" "+l.contract).toLowerCase().includes(Q.toLowerCase())));
+ return `<div class="ops"><h2>${title}</h2><div class="sub">${sub}</div>${withFilters?`<input class="srch" placeholder="🔎 Buscar símbolo, lead o contrato…" value="${esc(Q)}" oninput="Q=this.value;rerender()">
+ <div class="chips">${["todos",...STAGES].map(s=>`<span class="chip ${FIL===s?"on":""}" onclick="FIL='${s}';rerender()">${s} · ${s==="todos"?leads.length:leads.filter(l=>l.stage===s).length}</span>`).join("")}</div>`:""}
+ <div class="cards">${f.map(card).join("")||'<div class="sub">Sin operaciones</div>'}</div></div>`}
+let CUR=null;function rerender(){if(!CUR)return;const pos=document.querySelector(".srch")?.selectionStart;CUR();const s=document.querySelector(".srch");if(s&&pos!=null){s.focus();s.setSelectionRange(pos,pos)}}
+ops=function(n){closeMenu();FIL="todos";Q="";CUR=()=>{const st=STAGE[n];const ls=LD.filter(l=>l.owner===n||l.stage===st||(l.history||[]).some(h=>h.by===n)).slice().reverse();
+ const ac=ACT.filter(a=>a.agent===n).slice(-8).reverse();const [_,c]=AGC[n];
+ openM(listView(`<span style="color:${c}">${n}</span> · últimas operaciones`,`${AGC[n]&&(S.agents||{})[n]?.role||""} · ${ls.length} leads`,ls,true)+
+ `<div class="sec"><h4>Actividad reciente</h4>${ac.map(a=>`<div class="chk">• <span class="m" style="opacity:.6">${rel(a.ts)}</span> ${esc(a.lead_id||"")} ${esc(a.detail)}</div>`).join("")||'<div class="sub">Sin actividad</div>'}</div>`)};CUR()}
+history_=function(){closeMenu();FIL="todos";Q="";CUR=()=>openM(listView("📜 Histórico de operaciones",STAGES.map(s=>`${s} ${LD.filter(l=>l.stage===s).length}`).join(" → "),LD.slice().reverse(),true));CUR()}
+const _closeM=closeM;closeM=function(){CUR=null;_closeM()}
+function mini(n){const a=AGC[n]||AGC["BOT DESK"];return n==="BOT DESK"?`<svg viewBox="0 0 120 120"><rect x="40" y="20" width="40" height="30" rx="10" fill="#5a6cff"/><path d="M42 20 l6-10 6 7 6-9 6 9 6-7 6 10z" fill="#ffd700"/><circle cx="53" cy="35" r="3" fill="#7ff"/><circle cx="67" cy="35" r="3" fill="#7ff"/></svg>`:bot(a[1],a[2]).replace('<svg viewBox="0 0 120 120">','<svg viewBox="20 0 80 90">')}
+function detail(id){const l=LD.find(x=>x.lead_id===id);if(!l)return;const si=STAGES.indexOf(l.stage),w=warnsFor(l),ac=ACT.filter(a=>a.lead_id===id);
+ const hist=Object.fromEntries((l.history||[]).map(h=>[h.stage,h]));const rc=l.risk_checks||{};
+ const tl=STAGES.map((s,k)=>{const h=hist[s],ag=h?.by||SAG[s],c=(AGC[ag]||AGC["BOT DESK"])[1],notes=ac.filter(a=>a.action===s||a.agent===ag&&k<=si);
+  return `<div class="ti ${k>si?"pend":""}" style="--c:${c};animation-delay:${k*60}ms"><div class="dot">${mini(ag)}</div><b style="color:${SC[s]}">${s}</b> <span class="m">· ${esc(ag)}</span>
+  <div class="m">${h?new Date(h.at).toLocaleString("es-ES")+" · "+rel(h.at):"pendiente"}</div>${notes.filter(a=>a.action===s).map(a=>`<div class="n">${esc(a.detail)}</div>`).join("")}</div>`}).join("");
+ const checks=[["Mint authority revocada",rc.mint_revoked],["Freeze authority revocada",rc.freeze_revoked],["Liquidez bloqueada",rc.lp_locked],["Top holders < 20%",rc.top_holders_ok],["Honeypot test",rc.honeypot_ok]];
+ const pnl=l.pnl_sol??l.pnl;
+ document.getElementById("drawer").innerHTML=`<span class="xx" onclick="closeD()">✕</span><div class="dh"><div class="av" style="background:${hue(l.symbol)}">${esc((l.symbol||"?")[0])}</div><div><div class="big">${esc(l.symbol)}</div><div class="lid">${esc(l.lead_id)}</div></div></div>
+ <div class="row" style="margin-top:10px"><span class="pillS" style="margin:0;background:${SC[l.stage]}">${esc(l.stage)}</span><span class="bd b-${esc(l.approval)}">aprobación: ${esc(l.approval)}</span>${pnl!=null?`<span class="pnl ${pnl>=0?"pos":"neg"}">PnL ${pnl>=0?"+":""}${pnl} SOL</span>`:'<span class="m" style="opacity:.6">sin PnL</span>'}</div>
+ <div class="fbar" style="--c:${SC[l.stage]}">${STAGES.map((s,k)=>`<i class="${k<=si?"f":""}"></i>`).join("")}</div>
+ ${w.length?`<div class="sec"><h4>⚠ Avisos</h4>${w.map(x=>`<div class="wbox">${esc(x)}</div>`).join("")}</div>`:""}
+ <div class="sec"><h4>Contrato</h4><div class="full"><span style="flex:1">${esc(l.contract)}</span><button class="cp" onclick="copy('${esc(l.contract)}',event)">⧉ copiar</button></div>
+ <div class="links"><a target="_blank" rel="noopener" href="https://solscan.io/token/${esc(l.contract)}">Solscan ↗</a><a target="_blank" rel="noopener" href="https://dexscreener.com/solana/${esc(l.contract)}">DexScreener ↗</a><a target="_blank" rel="noopener" href="https://www.geckoterminal.com/solana/tokens/${esc(l.contract)}">GeckoTerminal ↗</a></div></div>
+ <div class="sec"><h4>Línea de tiempo</h4><div class="tl">${tl}</div></div>
+ <div class="sec"><h4>Checks de riesgo (RISK)</h4>${checks.map(([t,v])=>`<div class="chk">${v===true?"✅":v===false?"❌":"⏳"} ${t}</div>`).join("")}</div>
+ <div class="sec"><h4>Detalles</h4><div class="chk">Responsable: <b>${esc(l.owner)}</b></div><div class="chk">Creado: ${new Date(l.created_at).toLocaleString("es-ES")}</div><div class="chk">Actualizado: ${new Date(l.updated_at).toLocaleString("es-ES")} (${rel(l.updated_at)})</div></div>
+ <p class="m" style="opacity:.5;font-size:11px;margin-top:20px">Solo lectura. Ninguna firma ni wallet desde el panel.</p>`;
+ document.getElementById("drawer").classList.add("open");document.getElementById("dshade").classList.add("open")}
+function closeD(){document.getElementById("drawer").classList.remove("open");document.getElementById("dshade").classList.remove("open")}
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeD();closeM()}});
+const _load=load;load=async function(){try{TOP=await j("/api/top10")}catch(e){}await _load();if(CUR&&document.activeElement?.className!=="srch")rerender()};
+async function boot(){await load();const hs=decodeURIComponent(location.hash.slice(1));if(hs==="hist")history_();else if(hs.startsWith("ops="))ops(hs.slice(4));else if(hs.startsWith("lead=")){history_();detail(hs.slice(5))}}
+
+build();boot();setInterval(load,12000);
 </script></body></html>
